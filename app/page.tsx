@@ -1,7 +1,9 @@
+import ServiceCard from "@/components/ServiceCard";
+
 export default function Home() {
   return (
     <>
-      <head>
+      <main>
         <h1>HI, I AM AUSTIN</h1>
         <h2>
           Professional
@@ -16,8 +18,8 @@ export default function Home() {
         </h3>
         <button>My Work</button>
         <div>austin@fcvt.dev</div>
-      </head>
-      <main>
+      </main>
+      <body>
         {/* Top Image */}
         <div></div>
         {/* Skills */}
@@ -27,10 +29,26 @@ export default function Home() {
         </div>
         {/* Services */}
         <h1>What service do I provide</h1>
-        <div></div>
+        <div>
+          <ServiceCard />
+        </div>
         {/* Exp */}
+        <div>
+          <div></div>
+          <div></div>
+        </div>
+        {/* Projects */}
+        <div>
+          <h1>Featured Projects</h1>
+          <div></div>
+        </div>
+        {/* About */}
+        <div>
+          <h1>What they say about me</h1>
+        </div>
+        {/* Contact */}
         <div></div>
-      </main>
+      </body>
     </>
   );
 }
