@@ -16,7 +16,7 @@ const Navbar = (props: Props) => {
       <div className="mr-[1.5rem] flex md:mr-[5.31rem] md:hidden">
         <Image src="/Nav.svg" alt="Nav" width={24} height={24} />
       </div>
-      <div className="mr-[1.5rem] flex items-center md:mr-[5.31rem]">
+      <div className="mr-[1.5rem]  flex items-center md:mr-[5.31rem]">
         <ul className="flex gap-[2.25rem]">
           <li>
             <button>
