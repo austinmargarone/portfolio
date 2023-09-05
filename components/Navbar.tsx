@@ -34,7 +34,14 @@ const Navbar = (props: Props) => {
             </button>
           </li>
           <li>
-            <button>
+            <button className="flex content-center gap-[.1875rem]">
+              <Image
+                src="/Download.svg"
+                width={20}
+                height={20}
+                alt="Download"
+              />
+
               <Link href="/resume">Resume</Link>
             </button>
           </li>
