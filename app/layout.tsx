@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
@@ -9,7 +10,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "My Portfolio",
-  description: "Austin Margarone development portfolio",
+  description: "Austin Margarone Web Development Portfolio",
 };
 
 export default function RootLayout({
@@ -19,7 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
