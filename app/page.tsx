@@ -19,7 +19,7 @@ export default function Home() {
         <button>My Work</button>
         <div>austin@fcvt.dev</div>
       </main>
-      <body>
+      <section>
         {/* Top Image */}
         <div></div>
         {/* Skills */}
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
         {/* Contact */}
         <div></div>
-      </body>
+      </section>
     </>
   );
 }
