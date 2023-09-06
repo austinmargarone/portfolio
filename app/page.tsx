@@ -1,4 +1,5 @@
 import ServiceCard from "@/components/ServiceCard";
+import ServiceCardWhite from "@/components/ServiceCardWhite";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         <h1>What service do I provide</h1>
         <div>
           <ServiceCard />
+          <ServiceCardWhite />
         </div>
         {/* Exp */}
         <div>
