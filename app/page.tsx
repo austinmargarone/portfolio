@@ -1,4 +1,5 @@
 import ServiceCard from "@/components/ServiceCard";
+import ServiceCardWhite from "@/components/ServiceCardWhite";
 import SkillTile from "@/components/SkillTile";
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
         <h1>What service do I provide</h1>
         <div>
           <ServiceCard />
+          <ServiceCardWhite />
         </div>
         {/* Exp */}
         <div>
