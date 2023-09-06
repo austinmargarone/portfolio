@@ -1,8 +1,11 @@
 import Navbar from "@/components/Navbar";
 import "./globals.css";
+import React from "react";
+
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Footer from "@/components/Footer";
+import ThemeProvider from "@/providers/ThemeProvider";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -22,9 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <Navbar />
-        {children}
-        <Footer />
+        <ThemeProvider>
+          <div className={`bg-white dark:bg-black`}>
+            <Navbar />
+            {children}
+            <Footer />
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );
