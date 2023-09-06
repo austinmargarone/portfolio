@@ -2,10 +2,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import useThemeState from "@/store/themeStore";
 
-type Props = {};
+const Navbar = () => {
+  const { theme, toggleTheme } = useThemeState();
 
-const Navbar = (props: Props) => {
   return (
     <main className="my-[1.31rem] flex justify-between md:mb-[4.75rem] md:mt-[2.25rem] ">
       <div className="ml-[1.5rem] flex h-[1.875rem] w-[1.875rem] shrink-0 gap-[0.52081rem] rounded-[468.75rem] bg-gradient-to-r from-[#0252cd54] from-20% to-blue p-[0.52rem] md:ml-[5rem] md:h-[2.8125rem] md:w-[2.8125rem] md:gap-[0.78125rem] md:p-[0.78125rem]">
@@ -49,8 +50,23 @@ const Navbar = (props: Props) => {
             <Image src="/Line.svg" width={2} height={0} alt="Divider" />
           </li>
           <li>
-            <button>
+            <button onClick={toggleTheme}>
               <Image src="/Union.svg" width={20} height={20} alt="Dark Mode" />
+              {theme === "dark" ? (
+                <Image
+                  src="/Union.svg"
+                  width={20}
+                  height={20}
+                  alt="Dark Mode"
+                />
+              ) : (
+                <Image
+                  src="/Union.svg"
+                  width={20}
+                  height={20}
+                  alt="Dark Mode"
+                />
+              )}
             </button>
           </li>
         </ul>
