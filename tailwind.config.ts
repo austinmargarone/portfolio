@@ -14,7 +14,7 @@ const config: Config = {
       'yellow': "#FFBE62",
       'white': "#FFFFFF",
       'white1': "#F3F8FF",
-      'slate1': "#6F74A7",
+      'slate': "#6F74A7",
       'black': "#151E2C",
       'black1': "#29374C",
       'grey': "#778295",
