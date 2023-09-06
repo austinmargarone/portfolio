@@ -6,18 +6,18 @@ export default function Home() {
   return (
     <>
       <main>
-        <h1>HI, I AM AUSTIN</h1>
-        <h2>
+        <h3>HI, I AM AUSTIN</h3>
+        <h1>
           Professional
           <br />
           Web Developer
           <br /> Based in USA
-        </h2>
-        <h3>
+        </h1>
+        <h4>
           Transforming the web one line of code at a time: Crafting cutting-edge
           digital experiences with precision, passion, and a profound commitment
           to excellence
-        </h3>
+        </h4>
         <button>My Work</button>
         <div>austin@fcvt.dev</div>
       </main>
@@ -26,13 +26,13 @@ export default function Home() {
         <div></div>
         {/* Skills */}
         <div>
-          <h1>My Skills</h1>
+          <h2>My Skills</h2>
           <div>
-            <SkillTile />
+            <SkillTile imageUrl="" />
           </div>
         </div>
         {/* Services */}
-        <h1>What service do I provide</h1>
+        <h2>What service do I provide</h2>
         <div>
           <ServiceCard />
           <ServiceCardWhite />
@@ -44,12 +44,12 @@ export default function Home() {
         </div>
         {/* Projects */}
         <div>
-          <h1>Featured Projects</h1>
+          <h2>Featured Projects</h2>
           <div></div>
         </div>
         {/* About */}
         <div>
-          <h1>What they say about me</h1>
+          <h2>What they say about me</h2>
         </div>
         {/* Contact */}
         <div></div>
