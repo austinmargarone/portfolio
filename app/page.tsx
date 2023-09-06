@@ -1,4 +1,5 @@
 import ServiceCard from "@/components/ServiceCard";
+import SkillTile from "@/components/SkillTile";
 
 export default function Home() {
   return (
@@ -25,7 +26,9 @@ export default function Home() {
         {/* Skills */}
         <div>
           <h1>My Skills</h1>
-          <div></div>
+          <div>
+            <SkillTile />
+          </div>
         </div>
         {/* Services */}
         <h1>What service do I provide</h1>
