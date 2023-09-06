@@ -1,3 +1,119 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -0.04rem;
+  }
+}
+
+@layer base {
+  h2 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: -0.03rem;
+  }
+}
+
+@layer base {
+  h3 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105%;
+    letter-spacing: -0.01rem;
+  }
+}
+
+@layer base {
+  .regbase {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+}
+
+@layer base {
+  .boldbase {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+  }
+}
+
+@layer base {
+  .regp {
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
+
+@layer base {
+  .boldp {
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+  }
+}
+
+@layer base {
+  .regbody {
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+}
+
+@layer base {
+  .boldbody {
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+  }
+}
+
+@layer base {
+  .smallreg {
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+  }
+}
+
+@layer base {
+  .smallbold {
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%;
+  }
+}
