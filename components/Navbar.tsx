@@ -51,21 +51,15 @@ const Navbar = () => {
           </li>
           <li>
             <button onClick={toggleTheme}>
-              <Image src="/Union.svg" width={20} height={20} alt="Dark Mode" />
               {theme === "dark" ? (
                 <Image
                   src="/Union.svg"
                   width={20}
                   height={20}
-                  alt="Dark Mode"
+                  alt="Light Mode"
                 />
               ) : (
-                <Image
-                  src="/Union.svg"
-                  width={20}
-                  height={20}
-                  alt="Dark Mode"
-                />
+                <Image src="/Moon.svg" width={20} height={20} alt="Dark Mode" />
               )}
             </button>
           </li>
