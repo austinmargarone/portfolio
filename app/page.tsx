@@ -1,3 +1,4 @@
+import Hero from "@/components/Hero";
 import ServiceCard from "@/components/ServiceCard";
 import ServiceCardWhite from "@/components/ServiceCardWhite";
 import SkillTile from "@/components/SkillTile";
@@ -6,20 +7,8 @@ export default function Home() {
   return (
     <>
       <main>
-        <h3>HI, I AM AUSTIN</h3>
-        <h1>
-          Professional
-          <br />
-          Web Developer
-          <br /> Based in USA
-        </h1>
-        <h4>
-          Transforming the web one line of code at a time: Crafting cutting-edge
-          digital experiences with precision, passion, and a profound commitment
-          to excellence
-        </h4>
+        <Hero />
         <button>My Work</button>
-        <div>austin@fcvt.dev</div>
       </main>
       <section>
         {/* Top Image */}
