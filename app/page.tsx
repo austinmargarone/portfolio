@@ -1,6 +1,6 @@
-import ServiceCard from "@/components/ServiceCard";
-import ServiceCardWhite from "@/components/ServiceCardWhite";
-import SkillTile from "@/components/SkillTile";
+import ServiceCard from "@/components/homepage/ServiceCard";
+import ServiceCardWhite from "@/components/homepage/ServiceCardWhite";
+import SkillTile from "@/components/homepage/SkillTile";
 
 export default function Home() {
   return (
