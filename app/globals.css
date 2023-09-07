@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Globals */
+
 @layer base {
   h1 {
-    text-align: center;
     font-family: Poppins;
     font-size: 4rem;
     font-style: normal;
@@ -16,13 +17,13 @@
 
 @layer base {
   h2 {
-    text-align: center;
     font-family: Poppins;
     font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: 115%;
     letter-spacing: -0.03rem;
+    text-align: center;
   }
 }
 
@@ -115,5 +116,162 @@
     font-style: normal;
     font-weight: 600;
     line-height: 145%;
+  }
+}
+
+/* Hero */
+@layer base {
+  .title {
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 1.625rem */
+    letter-spacing: 0.375rem;
+    text-transform: uppercase;
+  }
+}
+
+@layer base {
+  .herobtn {
+    display: flex;
+    width: 21.5625rem;
+    height: 2.9375rem;
+    padding: 0.84394rem 0.50638rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.42194rem;
+    flex-shrink: 0;
+  }
+}
+
+@layer base {
+  .herobtnlg {
+    display: flex;
+    width: 11.625rem;
+    padding: 1.25rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+  }
+}
+
+@layer base {
+  .herotext {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+  }
+}
+
+@layer base {
+  .herocopy {
+    display: flex;
+    width: 21.5625rem;
+    height: 2.9375rem;
+    padding: 0.875rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 600px;
+  }
+}
+
+@layer base {
+  .herocopylg {
+    display: inline-flex;
+    padding: 1.25rem 1.5rem;
+    align-items: center;
+    gap: 1.125rem;
+    border-radius: 562.5rem;
+  }
+}
+
+@layer base {
+  .herocopytext {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+  }
+}
+
+@layer base {
+  .heroimg {
+    display: flex;
+    width: 24.5625rem;
+    padding: 3rem 0rem 2rem 0rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.6875rem;
+  }
+}
+
+@layer base {
+  .heroimglg {
+    display: inline-flex;
+    padding: 2.42725rem 2.1845rem 0rem 0.84456rem;
+    align-items: center;
+    width: 32rem;
+  }
+}
+
+/* Skills */
+
+@layer base {
+  .skills {
+    display: flex;
+    width: 21.5625rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
+
+@layer base {
+  .skillslg {
+    display: flex;
+    width: 90rem;
+    padding: 4.5rem 5.3125rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+  }
+}
+
+@layer base {
+  .myskills {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 2.5875rem */
+    letter-spacing: -0.0225rem;
+  }
+}
+
+@layer base {
+  .tech {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 3rem 2.5rem;
+    flex-wrap: wrap;
+  }
+}
+
+@layer base {
+  .techlg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
   }
 }
