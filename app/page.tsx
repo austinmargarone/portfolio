@@ -1,3 +1,4 @@
+import MySkills from "@/components/homepage/MySkills";
 import ServiceCard from "@/components/homepage/ServiceCard";
 import ServiceCardWhite from "@/components/homepage/ServiceCardWhite";
 import SkillTile from "@/components/homepage/SkillTile";
@@ -5,31 +6,12 @@ import SkillTile from "@/components/homepage/SkillTile";
 export default function Home() {
   return (
     <>
-      <main>
-        <h3>HI, I AM AUSTIN</h3>
-        <h1>
-          Professional
-          <br />
-          Web Developer
-          <br /> Based in USA
-        </h1>
-        <h4>
-          Transforming the web one line of code at a time: Crafting cutting-edge
-          digital experiences with precision, passion, and a profound commitment
-          to excellence
-        </h4>
-        <button>My Work</button>
-        <div>austin@fcvt.dev</div>
-      </main>
       <section>
         {/* Top Image */}
         <div></div>
         {/* Skills */}
         <div>
-          <h2>My Skills</h2>
-          <div>
-            <SkillTile imageUrl="" />
-          </div>
+          <MySkills />
         </div>
         {/* Services */}
         <h2>What service do I provide</h2>
