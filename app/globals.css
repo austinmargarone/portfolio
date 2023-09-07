@@ -28,6 +28,17 @@
 }
 
 @layer base {
+  .herobtnlg {
+    display: flex;
+    width: 11.625rem;
+    padding: 1.25rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+  }
+}
+
+@layer base {
   .herotext {
     text-align: center;
     font-family: Poppins;
@@ -52,6 +63,16 @@
 }
 
 @layer base {
+  .herocopylg {
+    display: inline-flex;
+    padding: 1.25rem 1.5rem;
+    align-items: center;
+    gap: 1.125rem;
+    border-radius: 562.5rem;
+  }
+}
+
+@layer base {
   .herocopytext {
     text-align: center;
     font-family: Poppins;
@@ -59,6 +80,27 @@
     font-style: normal;
     font-weight: 600;
     line-height: 160%;
+  }
+}
+
+@layer base {
+  .heroimg {
+    display: flex;
+    width: 24.5625rem;
+    padding: 3rem 0rem 2rem 0rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.6875rem;
+  }
+}
+
+@layer base {
+  .heroimglg {
+    display: inline-flex;
+    padding: 2.42725rem 2.1845rem 0rem 0.84456rem;
+    align-items: center;
+    width: 32rem;
   }
 }
 
