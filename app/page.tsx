@@ -1,11 +1,16 @@
+import Hero from "@/components/Hero";
 import MySkills from "@/components/homepage/MySkills";
 import ServiceCard from "@/components/homepage/ServiceCard";
 import ServiceCardWhite from "@/components/homepage/ServiceCardWhite";
-import SkillTile from "@/components/homepage/SkillTile";
 
 export default function Home() {
   return (
     <>
+      <main>
+        <div className="bg-white1 md:pb-[6.01rem]">
+          <Hero />
+        </div>
+      </main>
       <section>
         {/* Top Image */}
         <div></div>
