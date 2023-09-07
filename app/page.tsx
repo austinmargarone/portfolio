@@ -1,7 +1,5 @@
 import Hero from "@/components/Hero";
 
-import Services from "@/components/Services";
-import SkillTile from "@/components/SkillTile";
 import WorkExp from "@/components/WorkExp";
 
 export default function Home() {
@@ -18,9 +16,7 @@ export default function Home() {
         {/* Skills */}
         <div></div>
         {/* Services */}
-        <div className="bg-white1">
-          <Services />
-        </div>
+        <div className="bg-white1"></div>
         {/* Exp */}
         <div>
           <WorkExp />
