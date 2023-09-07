@@ -218,3 +218,39 @@
     line-height: 145%;
   }
 }
+
+/* Services */
+
+@layer base {
+  .services {
+    padding: 3rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+  }
+}
+
+@layer base {
+  .serviceslg {
+    padding: 4.5rem 5.3125rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+  }
+}
+
+@layer base {
+  .services1 {
+    width: 21.5625rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
+
+@layer base {
+  .services1lg {
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
