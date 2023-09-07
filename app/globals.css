@@ -218,3 +218,23 @@
     line-height: 145%;
   }
 }
+
+/* Word Exp */
+
+@layer base {
+  .expcard {
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: var(--white-900, #fff);
+    box-shadow: -25px 47px 66px 0px rgba(0, 0, 0, 0.08);
+  }
+}
+
+@layer base {
+  .expcardlg {
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 1px solid var(--white-800, #f3f8ff);
+    background: var(--white-900, #fff);
+  }
+}
