@@ -3,7 +3,7 @@ import React from "react";
 
 type Props = {};
 
-const ServiceCard = (props: Props) => {
+const ServiceCardWhite = (props: Props) => {
   return (
     <div className="flex h-[16.66em] w-[18rem] flex-col rounded-[0.625rem] bg-white1 px-[1.56rem] shadow-[0px_1px_20px_0px_rgba(224,236,255)]">
       <div className="mb-[2.25rem] mt-[2.5rem] flex">
@@ -26,4 +26,4 @@ const ServiceCard = (props: Props) => {
   );
 };
 
-export default ServiceCard;
+export default ServiceCardWhite;
