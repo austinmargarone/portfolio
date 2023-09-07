@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <>
       <main>
-        <Hero />
+        <div className="bg-white1 md:pb-[6.01rem]">
+          <Hero />
+        </div>
         <button>My Work</button>
       </main>
       <section>
