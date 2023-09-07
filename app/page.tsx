@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
-import ServiceCard from "@/components/ServiceCard";
-import ServiceCardWhite from "@/components/ServiceCardWhite";
+
+import Services from "@/components/Services";
 import SkillTile from "@/components/SkillTile";
 
 export default function Home() {
@@ -10,23 +10,15 @@ export default function Home() {
         <div className="bg-white1 md:pb-[6.01rem]">
           <Hero />
         </div>
-        <button>My Work</button>
       </main>
       <section>
         {/* Top Image */}
         <div></div>
         {/* Skills */}
-        <div>
-          <h2>My Skills</h2>
-          <div>
-            <SkillTile imageUrl="" />
-          </div>
-        </div>
+        <div></div>
         {/* Services */}
-        <h2>What service do I provide</h2>
-        <div>
-          <ServiceCard />
-          <ServiceCardWhite />
+        <div className="bg-white1">
+          <Services />
         </div>
         {/* Exp */}
         <div>
