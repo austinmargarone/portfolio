@@ -5,9 +5,11 @@ type Props = {};
 
 const MySkills = (props: Props) => {
   return (
-    <div>
-      {" "}
-      <SkillTile imageUrl="" />
+    <div className="bg-white">
+      <h2>My Skills</h2>
+      <div>
+        <SkillTile imageUrl="" />
+      </div>
     </div>
   );
 };
