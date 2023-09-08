@@ -117,7 +117,6 @@
 
 @layer base {
   h2 {
-    text-align: center;
     font-family: Poppins;
     font-size: 3rem;
     font-style: normal;
@@ -219,6 +218,15 @@
   }
 }
 
+/* Word Exp */
+
+@layer base {
+  .expcard {
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: var(--white-900, #fff);
+    box-shadow: -25px 47px 66px 0px rgba(0, 0, 0, 0.08);
+=======
 /* Services */
 
 @layer base {
@@ -231,6 +239,11 @@
 }
 
 @layer base {
+  .expcardlg {
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 1px solid var(--white-800, #f3f8ff);
+    background: var(--white-900, #fff);
   .serviceslg {
     padding: 4.5rem 5.3125rem;
     flex-direction: column;
