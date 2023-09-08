@@ -9,7 +9,7 @@ const ServiceCard = (props: Props) => {
       <div className="mb-[2.25rem] mt-[2.5rem] flex">
         <Image
           className="rounded-[0.625rem] bg-blue shadow-[18px_18px_26px_0px_rgba(2,82,205,0.28)]"
-          src="/Rectangle.svg"
+          src=""
           width={62}
           height={62}
           alt="Service Image"
@@ -23,6 +23,10 @@ const ServiceCard = (props: Props) => {
         elements of websites and apps.
       </p>
     </div>
+
+    // Blue Card
+
+    // className="flex h-[16.66em] w-[18rem] flex-col rounded-[0.625rem] bg-blue px-[1.56rem] shadow-[32px_32px_71px_0px_rgba(2,82,205,0.28)]"
   );
 };
 
