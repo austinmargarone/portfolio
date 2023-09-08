@@ -1,4 +1,7 @@
-import Hero from "@/components/Hero";
+import Hero from "@/components/homepage/Hero";
+import MySkills from "@/components/homepage/MySkills";
+import Services from "@/components/homepage/Services";
+import WorkExp from "@/components/homepage/WorkExp";
 
 export default function Home() {
   return (
@@ -9,15 +12,19 @@ export default function Home() {
         </div>
       </main>
       <section>
-        {/* Top Image */}
-        <div></div>
         {/* Skills */}
-        <div></div>
+        <div>
+          <MySkills />
+        </div>
         {/* Services */}
-        <div className="bg-white1"></div>
+        <div className="bg-white1">
+          <Services />
+        </div>
 
         {/* Exp */}
-        <div></div>
+        <div>
+          <WorkExp />
+        </div>
         {/* Projects */}
         <div>
           <h2>Featured Projects</h2>
