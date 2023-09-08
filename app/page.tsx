@@ -1,7 +1,10 @@
+import About from "@/components/homepage/About";
+import FeaturedProjects from "@/components/homepage/FeaturedProjects";
 import Hero from "@/components/homepage/Hero";
 import MySkills from "@/components/homepage/MySkills";
 import Services from "@/components/homepage/Services";
 import WorkExp from "@/components/homepage/WorkExp";
+import Contact from "./contact/page";
 
 export default function Home() {
   return (
@@ -27,15 +30,18 @@ export default function Home() {
         </div>
         {/* Projects */}
         <div>
-          <h2>Featured Projects</h2>
-          <div></div>
+          <div>
+            <FeaturedProjects />
+          </div>
         </div>
         {/* About */}
         <div>
-          <h2>What they say about me</h2>
+          <About />
         </div>
         {/* Contact */}
-        <div></div>
+        <div>
+          <Contact />
+        </div>
       </section>
     </>
   );
