@@ -1,6 +1,5 @@
 import Hero from "@/components/Hero";
 
-
 export default function Home() {
   return (
     <>
@@ -18,9 +17,7 @@ export default function Home() {
         <div className="bg-white1"></div>
 
         {/* Exp */}
-        <div>
-          <WorkExp />
-        </div>
+        <div></div>
         {/* Projects */}
         <div>
           <h2>Featured Projects</h2>

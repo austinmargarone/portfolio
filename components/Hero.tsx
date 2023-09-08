@@ -5,8 +5,8 @@ type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <div className=" 2xl:mx-auto 2xl:max-w-[120rem] mx-[1.5rem] flex w-full max-w-[28rem] flex-col justify-center bg-white1 pb-[2rem] pt-[3rem] sm:mx-auto sm:max-w-[30rem] md:mx-auto md:max-w-[60rem] md:flex-row lg:mx-auto lg:max-w-[75rem] xl:mx-auto xl:max-w-[90rem]">
-      <div className="flex flex-col md:min-w-[32rem]">
+    <div className=" 2xl:mx-auto 2xl:max-w-[120rem] mx-auto flex w-full max-w-[26rem] flex-col justify-center bg-white1 pb-[2rem] pt-[3rem] xs:mx-auto xs:max-w-[25.59rem] sm:mx-auto sm:max-w-[30rem] md:mx-auto md:max-w-[60rem] md:flex-row lg:mx-auto lg:max-w-[75rem] xl:mx-auto xl:max-w-[90rem]">
+      <div className="flex min-w-[20rem] flex-col md:min-w-[32rem]">
         <h4 className="title mb-[1.25rem] md:mb-[1.69rem]">HI, I AM AUSTIN</h4>
         <h1>
           Professional
