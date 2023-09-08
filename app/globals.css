@@ -370,3 +370,18 @@
     backdrop-filter: blur(4px);
   }
 }
+
+@layer base {
+  .circlelg {
+    display: flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+    border-radius: 1.75rem;
+    border: 1px solid var(--white-800, #f3f8ff);
+    background: var(--white-900, #fff);
+  }
+}
