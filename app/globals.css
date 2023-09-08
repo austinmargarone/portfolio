@@ -275,3 +275,53 @@
     gap: 2.5rem;
   }
 }
+
+/* Word Exp */
+
+@layer base {
+  .expcard {
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: var(--white-900, #fff);
+    box-shadow: -25px 47px 66px 0px rgba(0, 0, 0, 0.08);
+=======
+/* Services */
+
+@layer base {
+  .services {
+    padding: 3rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+  }
+}
+
+@layer base {
+  .expcardlg {
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 1px solid var(--white-800, #f3f8ff);
+    background: var(--white-900, #fff);
+  .serviceslg {
+    padding: 4.5rem 5.3125rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+  }
+}
+
+@layer base {
+  .services1 {
+    width: 21.5625rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
+
+@layer base {
+  .services1lg {
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
