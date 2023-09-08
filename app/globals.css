@@ -375,3 +375,19 @@
     display: flex;
   }
 }
+
+/* For underline */
+.underline-magic {
+  position: relative !important;
+  z-index: 1 !important;
+}
+.underline-magic::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background-color: rgb(78, 248, 0);
+  z-index: -1;
+}
