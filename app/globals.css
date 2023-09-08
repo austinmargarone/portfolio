@@ -6,7 +6,6 @@
 
 @layer base {
   h1 {
-    font-family: Poppins;
     font-size: 4rem;
     font-style: normal;
     font-weight: 700;
@@ -17,7 +16,6 @@
 
 @layer base {
   h2 {
-    font-family: Poppins;
     font-size: 3rem;
     font-style: normal;
     font-weight: 700;
@@ -30,7 +28,7 @@
 @layer base {
   h3 {
     text-align: center;
-    font-family: Poppins;
+
     font-size: 2rem;
     font-style: normal;
     font-weight: 600;
@@ -41,7 +39,6 @@
 
 @layer base {
   .regbase {
-    font-family: Poppins;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
@@ -51,7 +48,6 @@
 
 @layer base {
   .boldbase {
-    font-family: Poppins;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
@@ -61,7 +57,6 @@
 
 @layer base {
   .regp {
-    font-family: Poppins;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
@@ -71,7 +66,6 @@
 
 @layer base {
   .boldp {
-    font-family: Poppins;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
@@ -81,7 +75,6 @@
 
 @layer base {
   .regbody {
-    font-family: Poppins;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
@@ -91,7 +84,6 @@
 
 @layer base {
   .boldbody {
-    font-family: Poppins;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 600;
@@ -101,7 +93,6 @@
 
 @layer base {
   .smallreg {
-    font-family: Poppins;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
@@ -111,7 +102,6 @@
 
 @layer base {
   .smallbold {
-    font-family: Poppins;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;
@@ -122,7 +112,6 @@
 /* Hero */
 @layer base {
   .title {
-    font-family: Poppins;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
@@ -159,7 +148,7 @@
 @layer base {
   .herotext {
     text-align: center;
-    font-family: Poppins;
+
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;
@@ -193,7 +182,7 @@
 @layer base {
   .herocopytext {
     text-align: center;
-    font-family: Poppins;
+
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -218,7 +207,7 @@
     display: inline-flex;
     padding: 2.42725rem 2.1845rem 0rem 0.84456rem;
     align-items: center;
-    width: 32rem;
+    width: 64rem;
   }
 }
 
@@ -248,7 +237,7 @@
 @layer base {
   .myskills {
     text-align: center;
-    font-family: Poppins;
+
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 700;
@@ -335,7 +324,6 @@
 
 @layer base {
   .projecttitle {
-    font-family: Poppins;
     font-size: 2rem;
     font-style: normal;
     font-weight: 700;
