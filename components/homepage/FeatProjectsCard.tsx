@@ -31,8 +31,8 @@ const FeatProjectsCard = (props: Props) => {
           />
         </div>
       </div>
-      <div className="mx-auto mt-[1.49rem] flex flex-col md:ml-[2.27rem]">
-        <div className="my-auto hidden md:flex">
+      <div className="mx-auto mt-[1.49rem] flex flex-col overflow-hidden md:ml-[2.27rem]">
+        <div className="relative left-1 my-auto hidden w-[695px] md:flex">
           <Image
             src="/Display.svg"
             width={701}
