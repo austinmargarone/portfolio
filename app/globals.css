@@ -355,3 +355,23 @@
     background: var(--accent-primary-light, #0252cd);
   }
 }
+
+/* Contact */
+
+@layer base {
+  .contact {
+    border-radius: 1.25rem;
+    border: 1px solid var(--accent-secondary, #ffbe62);
+    background: var(--accent-secondary, #ffbe62);
+  }
+}
+
+@layer base {
+  .contactborder {
+    padding: 3rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    display: flex;
+  }
+}
