@@ -2,9 +2,8 @@ import React from "react";
 import FeatProjectsCard from "./FeatProjectsCard";
 import Image from "next/image";
 
-type Props = {};
 
-const FeaturedProjects = (props: Props) => {
+const FeaturedProjects = () => {
   return (
     <section className=" 2xl:mx-auto 2xl:max-w-[120rem] mx-auto flex w-full max-w-[28rem] flex-col justify-center sm:mx-auto sm:max-w-[30rem] md:mx-auto md:max-w-[60rem] md:flex-row lg:mx-auto lg:max-w-[75rem] xl:mx-auto xl:max-w-[90rem]">
       <div className="my-[3rem] md:my-[4.5rem]">
