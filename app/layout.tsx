@@ -9,7 +9,7 @@ import ThemeProvider from "@/providers/ThemeProvider";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: "600",
+  weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
