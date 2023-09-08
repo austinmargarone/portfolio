@@ -5,13 +5,15 @@ type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <div className=" 2xl:mx-auto 2xl:max-w-[120rem] mx-auto flex w-full max-w-[26rem] flex-col justify-center bg-white1 pb-[2rem] pt-[3rem] xs:mx-auto xs:max-w-[25.59rem] sm:mx-auto sm:max-w-[30rem] md:mx-auto md:max-w-[60rem] md:flex-row lg:mx-auto lg:max-w-[75rem] xl:mx-auto xl:max-w-[90rem]">
+    <div className=" 2xl:mx-auto 2xl:max-w-[120rem] mx-auto flex w-full max-w-[26rem] flex-col justify-center bg-white1 pb-[2rem] pt-[3rem] xs:mx-auto xs:max-w-[25.59rem] sm:mx-auto sm:max-w-[30rem] md:mx-auto md:max-w-[60rem] md:flex-row lg:mx-auto lg:max-w-[75rem] xl:mx-auto xl:max-w-[140rem]">
       <div className="flex min-w-[20rem] flex-col md:min-w-[32rem]">
         <h4 className="title mb-[1.25rem] md:mb-[1.69rem]">HI, I AM AUSTIN</h4>
         <h1>
           Professional
           <br />
           Web Developer
+          {/* z index negative */}
+          <div className="z-[-1] h-[1rem] w-full bg-yellow"></div>
           <br /> Based in USA
         </h1>
         <h4 className="regbody mb-[1.25rem] mt-[.87rem] w-[21.125rem] md:mb-[2.25rem] md:mt-[.62rem]">
