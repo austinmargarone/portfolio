@@ -1,6 +1,5 @@
 import Hero from "@/components/Hero";
 
-import WorkExp from "@/components/WorkExp";
 
 export default function Home() {
   return (
@@ -17,6 +16,7 @@ export default function Home() {
         <div></div>
         {/* Services */}
         <div className="bg-white1"></div>
+
         {/* Exp */}
         <div>
           <WorkExp />
