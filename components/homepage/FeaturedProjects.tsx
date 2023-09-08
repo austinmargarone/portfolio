@@ -1,6 +1,7 @@
 import React from "react";
-import FeatProjectsCard from "./FeatProjectsCard";
 import Image from "next/image";
+
+import FeatProjectsCard from "./FeatProjectsCard";
 
 
 const FeaturedProjects = () => {
