@@ -14,7 +14,7 @@ const Hero = (props: Props) => {
           <br />
           Web Developer
           {/* z index negative */}
-          <div className="z-[-1] h-[1rem] w-full bg-yellow"></div>
+<div className="underline-magic">Based in USA</div>
           <br /> Based in USA
         </h1>
         <h4 className="regbody mb-[1.25rem] mt-[.87rem] md:mb-[2.25rem] md:mt-[.62rem]">
