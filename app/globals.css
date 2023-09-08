@@ -2,6 +2,124 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Globals */
+
+@layer base {
+  h1 {
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -0.04rem;
+  }
+}
+
+@layer base {
+  h2 {
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: -0.03rem;
+    text-align: center;
+  }
+}
+
+@layer base {
+  h3 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105%;
+    letter-spacing: -0.01rem;
+  }
+}
+
+@layer base {
+  .regbase {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+}
+
+@layer base {
+  .boldbase {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+  }
+}
+
+@layer base {
+  .regp {
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
+
+@layer base {
+  .boldp {
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+  }
+}
+
+@layer base {
+  .regbody {
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+}
+
+@layer base {
+  .boldbody {
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+  }
+}
+
+@layer base {
+  .smallreg {
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+  }
+}
+
+@layer base {
+  .smallbold {
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%;
+  }
+}
+
+/* Hero */
 @layer base {
   .title {
     font-family: Poppins;
@@ -104,117 +222,111 @@
   }
 }
 
+/* Skills */
+
 @layer base {
-  h1 {
-    font-family: Poppins;
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 130%;
-    letter-spacing: -0.04rem;
+  .skills {
+    display: flex;
+    width: 21.5625rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
   }
 }
 
 @layer base {
-  h2 {
+  .skillslg {
+    display: flex;
+    width: 90rem;
+    padding: 4.5rem 5.3125rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+  }
+}
+
+@layer base {
+  .myskills {
     text-align: center;
     font-family: Poppins;
-    font-size: 3rem;
+    font-size: 2.25rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 115%;
-    letter-spacing: -0.03rem;
+    line-height: 115%; /* 2.5875rem */
+    letter-spacing: -0.0225rem;
   }
 }
 
 @layer base {
-  h3 {
-    text-align: center;
-    font-family: Poppins;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 105%;
-    letter-spacing: -0.01rem;
+  .tech {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 3rem 2.5rem;
+    flex-wrap: wrap;
   }
 }
 
 @layer base {
-  .regbase {
-    font-family: Poppins;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130%;
+  .techlg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
+
+/* Word Exp */
+
+@layer base {
+  .expcard {
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: var(--white-900, #fff);
+    box-shadow: -25px 47px 66px 0px rgba(0, 0, 0, 0.08);
+  }
+}
+@layer base {
+  .expcardlg {
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 1px solid var(--white-800, #f3f8ff);
+    background: var(--white-900, #fff);
+  }
+}
+
+/* Services */
+
+@layer base {
+  .services {
+    padding: 3rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
   }
 }
 
 @layer base {
-  .boldbase {
-    font-family: Poppins;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 130%;
+  .serviceslg {
+    padding: 4.5rem 5.3125rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
   }
 }
 
 @layer base {
-  .regp {
-    font-family: Poppins;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+  .services1 {
+    width: 21.5625rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
   }
 }
 
 @layer base {
-  .boldp {
-    font-family: Poppins;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 130%;
-  }
-}
-
-@layer base {
-  .regbody {
-    font-family: Poppins;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
-  }
-}
-
-@layer base {
-  .boldbody {
-    font-family: Poppins;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 160%;
-  }
-}
-
-@layer base {
-  .smallreg {
-    font-family: Poppins;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 155%;
-  }
-}
-
-@layer base {
-  .smallbold {
-    font-family: Poppins;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 145%;
+  .services1lg {
+    align-items: center;
+    gap: 2.5rem;
   }
 }
