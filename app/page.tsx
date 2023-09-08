@@ -9,6 +9,7 @@ import Contact from "./contact/page";
 export default function Home() {
   return (
     <>
+      {/*  left right top gaps */}
       <main>
         <div className="bg-white1 md:pb-[6.01rem]">
           <Hero />
