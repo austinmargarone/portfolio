@@ -10,35 +10,6 @@ const Contact = () => {
           <div className="absolute shrink-0">
             <Image src="/Ellipse.svg" width={362} height={362} alt="Ellipse" />
           </div>
-          <div className="absolute left-[6rem] top-[3.94rem] shrink-0">
-            <Image
-              src="/Rectangle.svg"
-              width={157}
-              height={147}
-              alt="Rectangle"
-            />
-          </div>
-          <div className="absolute left-[6.06rem] top-[13.76rem] shrink-0">
-            <Image src="/Ellipse1.svg" width={146} height={79} alt="Ellipse" />
-          </div>
-          <div className="absolute bottom-[.54rem] right-[3.25rem] shrink-0">
-            <Image
-              className="rounded-br-2xl"
-              src="/Rectangle1.svg"
-              width={50}
-              height={154}
-              alt="Rectangle"
-            />
-          </div>
-          <div className="absolute bottom-[.54rem] right-[3.25rem] shrink-0">
-            <Image
-              className="rounded-br-2xl"
-              src="/Rectangle2.svg"
-              width={50}
-              height={154}
-              alt="Rectangle"
-            />
-          </div>
         </div>
         <div className="absolute">
           <h4 className="contacttext mx-[1rem] mb-[1rem] mt-[4.87rem]">
@@ -52,7 +23,7 @@ const Contact = () => {
       </div>
       {/* Desktop */}
       <div className="mx-auto hidden md:block">
-        <div className="contact relative flex h-[20.625rem] w-[79.375rem] shrink-0">
+        <div className="contact relative flex h-[330px] w-[1270px] shrink-0">
           <div className="absolute">
             <Image src="/Group1.svg" width={1270} height={330} alt="Ellipse" />
           </div>
