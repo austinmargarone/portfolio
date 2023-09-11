@@ -334,6 +334,48 @@
     background: var(--accent-secondary, #ffbe62);
   }
 
+  .contacttext {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 105%; /* 31.5px */
+    letter-spacing: -0.15px;
+  }
+
+  .contactbtn {
+    display: flex;
+    width: 19.375rem;
+    height: 2.9375rem;
+    padding: 0.84394rem 0.50638rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.42194rem;
+    flex-shrink: 0;
+    border-radius: 379.77006rem;
+    background: var(--accent-primary-light, #0252cd);
+  }
+
+  .contactbtntext {
+    color: var(--white-900, #fff);
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+  }
+
+  .contactbtnlg {
+    display: flex;
+    width: 20.1875rem;
+    height: 4.3125rem;
+    padding: 1.25rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    background: var(--accent-primary-light, #0252cd);
+    border-radius: 562.5rem;
+  }
+
   /* Yellow Underline */
 
   .underline-magic {

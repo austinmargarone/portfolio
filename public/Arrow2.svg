@@ -1,0 +1,39 @@
+<svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="13" fill="#2A2E34"/>
+<g id="HomePage  (Light)">
+<g clip-path="url(#clip0_3309_13)">
+<rect x="-266" y="-8337" width="393" height="8657.09" rx="20" fill="white"/>
+<g id="cta">
+<rect width="393" height="407" transform="translate(-266 -251.909)" fill="white"/>
+<g id="CTA">
+<g clip-path="url(#clip1_3309_13)">
+<rect x="-242" y="-203.909" width="345" height="311" rx="20" fill="#FFBE62"/>
+<g id="CTA_2">
+<mask id="mask0_3309_13" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-231" y="-170" width="278" height="267">
+<path id="Rectangle 4402" d="M-230.5 76.1816C-230.5 86.9512 -221.77 95.6816 -211 95.6816H27C37.7695 95.6816 46.5 86.9512 46.5 76.1816V-149.818C46.5 -160.588 37.7695 -169.318 27 -169.318H-211C-221.77 -169.318 -230.5 -160.588 -230.5 -149.818V76.1816Z" fill="#4A3AFF" stroke="#EFF0F7"/>
+</mask>
+<g mask="url(#mask0_3309_13)">
+<rect id="Rectangle 4404" opacity="0.1" width="157" height="147" transform="matrix(-4.06011e-08 -1 -1 4.70599e-08 1 16.1816)" fill="white"/>
+<rect id="Rectangle 4401" opacity="0.2" width="166" height="154" transform="matrix(-4.06011e-08 -1 -1 4.70599e-08 155 115.182)" fill="white"/>
+<path id="Rectangle 4399" opacity="0.2" d="M137 95.1816L64.5466 20.0477L0.999994 -49.8184L1 95.1816L137 95.1816Z" fill="white"/>
+</g>
+</g>
+<g id="CTA - CONTACT US">
+<rect x="-224" y="-17" width="310" height="47" rx="23.5" fill="#0252CD"/>
+<path id="Arrow 9" d="M0.875732 5.7C0.433905 5.7 0.0757324 6.05817 0.0757324 6.5C0.0757324 6.94183 0.433905 7.3 0.875732 7.3V5.7ZM15.4414 7.06569C15.7538 6.75327 15.7538 6.24673 15.4414 5.93431L10.3502 0.843146C10.0378 0.530726 9.5313 0.530726 9.21888 0.843146C8.90646 1.15557 8.90646 1.6621 9.21888 1.97452L13.7444 6.5L9.21888 11.0255C8.90646 11.3379 8.90646 11.8444 9.21888 12.1569C9.5313 12.4693 10.0378 12.4693 10.3502 12.1569L15.4414 7.06569ZM0.875732 7.3H14.8757V5.7H0.875732V7.3Z" fill="white"/>
+</g>
+</g>
+<rect x="-241.5" y="-203.409" width="344" height="310" rx="19.5" stroke="#FFBE62"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_3309_13">
+<rect x="-266" y="-8337" width="393" height="8657.09" rx="20" fill="white"/>
+</clipPath>
+<clipPath id="clip1_3309_13">
+<rect x="-242" y="-203.909" width="345" height="311" rx="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>
