@@ -53,11 +53,10 @@ const About = () => {
           </div>
           <div>
             <p className="regbody mb-[1.5rem] self-stretch text-black">
-              I have had the pleasure of working with Adrian as a Software
-              Developer and can confidently say that he is a valuable asset to
-              any team. He is highly skilled in ReactJS, NextJS, Javascript,
-              Material UI, Tailwind CSS, Redux, and GitHub, and consistently
-              delivers high-quality code.
+              He was very knowledgeable about what he was doing and provided a
+              high level of service. I could not have asked for more. I will
+              definitely be using him in the future, and would highly recommend
+              him to anyone considering his services!
             </p>
           </div>
           <div>
