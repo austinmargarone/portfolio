@@ -7,10 +7,10 @@ const Contact = () => {
       {/* Mobile */}
       <div className="contact relative mx-auto flex h-[19.4375rem] w-[21.5625rem] md:hidden">
         <div>
-          <div className="absolute shrink-0 opacity-[.01rem]">
+          <div className="absolute shrink-0">
             <Image src="/Ellipse.svg" width={362} height={362} alt="Ellipse" />
           </div>
-          <div className="absolute left-[6rem] top-[3.94rem] shrink-0 opacity-[.01rem]">
+          <div className="absolute left-[6rem] top-[3.94rem] shrink-0">
             <Image
               src="/Rectangle.svg"
               width={157}
@@ -18,19 +18,21 @@ const Contact = () => {
               alt="Rectangle"
             />
           </div>
-          <div className="absolute left-[6.06rem] top-[13.76rem] shrink-0 opacity-[.02rem]">
+          <div className="absolute left-[6.06rem] top-[13.76rem] shrink-0">
             <Image src="/Ellipse1.svg" width={146} height={79} alt="Ellipse" />
           </div>
-          <div className="absolute bottom-[.54rem] right-[3.25rem] shrink-0 rounded-br-full	 opacity-[.02rem]	">
+          <div className="absolute bottom-[.54rem] right-[3.25rem] shrink-0">
             <Image
+              className="rounded-br-2xl"
               src="/Rectangle1.svg"
               width={50}
               height={154}
               alt="Rectangle"
             />
           </div>
-          <div className="absolute bottom-[.54rem] right-[3.25rem] shrink-0 rounded-br-full	 opacity-[.02rem]	">
+          <div className="absolute bottom-[.54rem] right-[3.25rem] shrink-0">
             <Image
+              className="rounded-br-2xl"
               src="/Rectangle2.svg"
               width={50}
               height={154}
@@ -52,7 +54,7 @@ const Contact = () => {
       <div className="mx-auto hidden md:block">
         <div className="contact relative flex h-[20.625rem] w-[79.375rem] shrink-0">
           <div>
-            <div className="absolute h-[22.67375rem] w-[10.53019rem] shrink-0 opacity-[.01rem]">
+            <div className="absolute h-[22.67375rem] w-[10.53019rem] shrink-0">
               <Image
                 src="/Ellipse2.svg"
                 width={168}
@@ -60,7 +62,7 @@ const Contact = () => {
                 alt="Ellipse"
               />
             </div>
-            <div className="absolute left-[42.81rem] top-[10.14rem] shrink-0 opacity-[.01rem]">
+            <div className="absolute left-[42.81rem] top-[10.14rem] shrink-0">
               <Image
                 src="/Ellipse4.svg"
                 width={212}
@@ -68,7 +70,7 @@ const Contact = () => {
                 alt="Ellipse"
               />
             </div>
-            <div className="absolute left-[56.12rem] top-[.1rem] shrink-0 opacity-[.02rem]">
+            <div className="absolute left-[56.12rem] top-[.1rem] shrink-0">
               <Image
                 src="/Ellipse4.svg"
                 width={180}
@@ -76,7 +78,7 @@ const Contact = () => {
                 alt="Ellipse"
               />
             </div>
-            <div className="absolute left-[56.08rem] top-[6.15rem] shrink-0 opacity-[.01rem]">
+            <div className="absolute left-[56.08rem] top-[6.15rem] shrink-0">
               <Image
                 src="/Rectangle5.svg"
                 width={181}
@@ -84,7 +86,7 @@ const Contact = () => {
                 alt="Rectangle"
               />
             </div>
-            <div className="absolute bottom-[0rem] left-[56.08rem] shrink-0 opacity-[.07rem]">
+            <div className="absolute bottom-[0rem] left-[56.08rem] shrink-0 opacity-[.7]">
               <Image
                 src="/Rectangle4.svg"
                 width={181}
@@ -92,7 +94,7 @@ const Contact = () => {
                 alt="Rectangle"
               />
             </div>
-            <div className="absolute right-[0rem] top-[-1.45rem] shrink-0 opacity-[.02rem]">
+            <div className="absolute right-[0rem] top-[-1.45rem] shrink-0">
               <Image
                 src="/Rectangle6.svg"
                 width={191}
@@ -100,7 +102,7 @@ const Contact = () => {
                 alt="Rectangle"
               />
             </div>
-            <div className="absolute right-[0rem] top-[-1.45rem] shrink-0 opacity-[.02rem]">
+            <div className="absolute right-[0rem] top-[-1.45rem] shrink-0">
               <Image
                 src="/Rectangle7.svg"
                 width={191}
@@ -108,7 +110,7 @@ const Contact = () => {
                 alt="Rectangle"
               />
             </div>
-            <div className="absolute bottom-[-1.45rem] right-[0rem] shrink-0 opacity-[.07rem]">
+            <div className="absolute bottom-[-1.45rem] right-[0rem] shrink-0 opacity-[.7]">
               <Image
                 src="/Ellipse3.svg"
                 width={198}
