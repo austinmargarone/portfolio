@@ -21,7 +21,7 @@ const Contact = () => {
           <div className="absolute left-[6.06rem] top-[13.76rem] shrink-0 opacity-[.02rem]">
             <Image src="/Ellipse1.svg" width={146} height={79} alt="Ellipse" />
           </div>
-          <div className="absolute bottom-[.54rem] right-[3.25rem] shrink-0 opacity-[.02rem]">
+          <div className="absolute bottom-[.54rem] right-[3.25rem] shrink-0 rounded-br-full	 opacity-[.02rem]	">
             <Image
               src="/Rectangle1.svg"
               width={50}
@@ -29,7 +29,7 @@ const Contact = () => {
               alt="Rectangle"
             />
           </div>
-          <div className="absolute bottom-[.54rem] right-[3.25rem] shrink-0 opacity-[.02rem]">
+          <div className="absolute bottom-[.54rem] right-[3.25rem] shrink-0 rounded-br-full	 opacity-[.02rem]	">
             <Image
               src="/Rectangle2.svg"
               width={50}
