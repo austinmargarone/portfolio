@@ -5,9 +5,9 @@ const About = () => {
   return (
     <div className="about md:aboutlg mx-auto my-[3rem] bg-white1">
       <div>
-        <div>
-          <h2>What they say about me</h2>
-        </div>
+        <h2>
+          What <span className="underline-magic w-fit">they say</span> about me
+        </h2>
       </div>
       <div className="md:hidden">
         <div className="flex gap-[2rem]">
