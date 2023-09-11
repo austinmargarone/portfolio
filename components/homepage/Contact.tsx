@@ -7,34 +7,34 @@ const Contact = () => {
       {/* Mobile */}
       <div className="contact relative mx-auto flex h-[19.4375rem] w-[21.5625rem] md:hidden">
         <div>
-          <div className=" absolute bottom-[.74rem] left-[20%]">
-            <Image src="/Ellipse.svg" width={200} height={200} alt="Ellipse" />
+          <div className="absolute shrink-0 opacity-[.01rem]">
+            <Image src="/Ellipse.svg" width={362} height={362} alt="Ellipse" />
           </div>
-          <div className="absolute left-[25%] h-[22.67375rem] w-[10.53019rem]">
-            <Image src="/Ellipse1.svg" width={168} height={362} alt="Ellipse" />
-          </div>
-          <div className="absolute left-[25%] top-[25%] h-[9.1875rem] w-[9.8125rem]">
+          <div className="absolute left-[6rem] top-[3.94rem] shrink-0 opacity-[.01rem]">
             <Image
-              src="/Rectangle3.svg"
+              src="/Rectangle.svg"
               width={157}
               height={147}
-              alt="Ellipse"
+              alt="Rectangle"
             />
           </div>
-          <div className="absolute left-[70%] top-[50%] h-[9.625rem] w-[10.53019rem]">
-            <Image
-              src="/Rectangle2.svg"
-              width={166}
-              height={154}
-              alt="Ellipse"
-            />
+          <div className="absolute left-[6.06rem] top-[13.76rem] shrink-0 opacity-[.02rem]">
+            <Image src="/Ellipse1.svg" width={146} height={79} alt="Ellipse" />
           </div>
-          <div className="absolute bottom-[9%] left-[70%] -z-10 h-[8.5rem] w-[9.0625rem]">
+          <div className="absolute bottom-[.54rem] right-[3.25rem] shrink-0 opacity-[.02rem]">
             <Image
               src="/Rectangle1.svg"
-              width={145}
-              height={136}
-              alt="Ellipse"
+              width={50}
+              height={154}
+              alt="Rectangle"
+            />
+          </div>
+          <div className="absolute bottom-[.54rem] right-[3.25rem] shrink-0 opacity-[.02rem]">
+            <Image
+              src="/Rectangle2.svg"
+              width={50}
+              height={154}
+              alt="Rectangle"
             />
           </div>
         </div>
@@ -76,7 +76,7 @@ const Contact = () => {
                 alt="Ellipse"
               />
             </div>
-            <div className="absolute left-[56.08rem] top-[6.15rem] h-[] shrink-0 opacity-[.01rem]">
+            <div className="absolute left-[56.08rem] top-[6.15rem] shrink-0 opacity-[.01rem]">
               <Image
                 src="/Rectangle5.svg"
                 width={181}
@@ -84,7 +84,7 @@ const Contact = () => {
                 alt="Rectangle"
               />
             </div>
-            <div className="absolute bottom-[0rem] left-[56.08rem] h-[] shrink-0 opacity-[.07rem]">
+            <div className="absolute bottom-[0rem] left-[56.08rem] shrink-0 opacity-[.07rem]">
               <Image
                 src="/Rectangle4.svg"
                 width={181}
@@ -92,7 +92,7 @@ const Contact = () => {
                 alt="Rectangle"
               />
             </div>
-            <div className="absolute right-[0rem] top-[-1.45rem] h-[] shrink-0 opacity-[.02rem]">
+            <div className="absolute right-[0rem] top-[-1.45rem] shrink-0 opacity-[.02rem]">
               <Image
                 src="/Rectangle6.svg"
                 width={191}
@@ -100,7 +100,7 @@ const Contact = () => {
                 alt="Rectangle"
               />
             </div>
-            <div className="absolute right-[0rem] top-[-1.45rem] h-[] shrink-0 opacity-[.02rem]">
+            <div className="absolute right-[0rem] top-[-1.45rem] shrink-0 opacity-[.02rem]">
               <Image
                 src="/Rectangle7.svg"
                 width={191}
@@ -108,7 +108,7 @@ const Contact = () => {
                 alt="Rectangle"
               />
             </div>
-            <div className="absolute bottom-[-1.45rem] right-[0rem] h-[] shrink-0 opacity-[.07rem]">
+            <div className="absolute bottom-[-1.45rem] right-[0rem] shrink-0 opacity-[.07rem]">
               <Image
                 src="/Ellipse3.svg"
                 width={198}
