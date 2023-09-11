@@ -5,7 +5,7 @@ type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <div className="mx-auto flex w-full flex-col justify-center bg-white1 pb-[2rem] pt-[3rem] md:flex-row xl:max-w-[120rem]">
+    <div className=" mx-auto flex w-fit flex-col justify-center bg-white1 pb-[2rem] pt-[3rem] md:w-auto md:max-w-[60rem] md:flex-row xl:max-w-[120rem]">
       <div className="flex flex-col md:min-w-[32rem]">
         <h4 className="title mb-[1.25rem] md:mb-[1.69rem]">HI, I AM AUSTIN</h4>
         <h1 className="text-[2.25rem] md:text-[4rem]">

@@ -5,10 +5,15 @@ const Contact = () => {
   return (
     <div className="flex">
       {/* Mobile */}
-      <div className="contact relative mx-auto flex h-[19.4375rem] w-[21.5625rem] md:hidden">
+      <div className="contact relative mx-auto mb-[3rem] flex h-[19.4375rem] w-[21.5625rem] md:hidden">
         <div>
           <div className="absolute shrink-0">
-            <Image src="/Ellipse.svg" width={362} height={362} alt="Ellipse" />
+            <Image
+              src="/Group.svg"
+              width={362}
+              height={362}
+              alt="Background Mobile"
+            />
           </div>
         </div>
         <div className="absolute">
@@ -22,10 +27,15 @@ const Contact = () => {
         </div>
       </div>
       {/* Desktop */}
-      <div className="mx-auto hidden md:block">
+      <div className="mx-auto hidden md:block md:max-w-[80rem]">
         <div className="contact relative flex h-[330px] w-[1270px] shrink-0">
           <div className="absolute">
-            <Image src="/Group1.svg" width={1270} height={330} alt="Ellipse" />
+            <Image
+              src="/Group1.svg"
+              width={1270}
+              height={330}
+              alt="Background Desktop"
+            />
           </div>
           <div className="absolute flex">
             <h2 className="ml-[4.66rem] mt-[5.19rem] w-[32.5rem] text-left">
