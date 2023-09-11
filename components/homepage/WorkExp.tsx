@@ -10,7 +10,7 @@ const WorkExp = (props: Props) => {
       <div className="flex flex-col justify-center gap-[1rem] md:flex-row">
         <div className="flex w-[21.5625rem] flex-col content-center justify-center rounded-[1rem] bg-black px-[2.38rem] pb-[2.39rem] pt-[3.68rem] md:w-auto md:pb-[6.5625rem] md:pl-[6.56rem] md:pr-[8.94rem] md:pt-[9.5rem]">
           <h2 className="mb-[1.49rem] flex h-[5.9rem] w-[12.625rem] shrink-0 flex-col text-white md:h-[7.31rem] md:w-[20rem]">
-            Work Experience
+            Work <h2 className="underline-magic w-fit">Experi</h2>ence
           </h2>
           <p className="smallreg mb-[2.66rem] h-[4.1rem] w-[16.1875rem] shrink-0 text-white md:mb-[3.66rem] md:w-[20rem]">
             Progress and milestones: A simple walkthrough of roles, projects,
