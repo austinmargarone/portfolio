@@ -10,7 +10,7 @@ const MySkills = (props: Props) => {
         <h2 className="underline-magic mb-[2.5rem] flex w-fit text-center">
           My Skills
         </h2>
-        <div className="tech md:techlg flex">
+        <div className="tech md:techlg flex md:flex-row">
           <SkillTile imageUrl="" />
           <SkillTile imageUrl="" />
           <SkillTile imageUrl="" />
