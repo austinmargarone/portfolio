@@ -36,7 +36,7 @@ export default function Home() {
           </div>
         </div>
         {/* About */}
-        <div>
+        <div className="bg-white1">
           <About />
         </div>
         {/* Contact */}
