@@ -14,9 +14,9 @@ const About = () => {
           <div>
             <Image
               className="shrink-0 rounded-[1rem]"
-              src="/headshot.svg"
-              width={200}
-              height={200}
+              src="/Headshot.jpg"
+              width={320}
+              height={320}
               alt="Headshot"
             />
           </div>
@@ -84,7 +84,7 @@ const About = () => {
             <div className="mx-[1.62rem]">
               <Image
                 className="shrink-0 rounded-[1rem]"
-                src="/headshot.svg"
+                src="/Headshot.jpg"
                 width={800}
                 height={800}
                 alt="Headshot"
@@ -102,11 +102,10 @@ const About = () => {
               </div>
               <div>
                 <p className="regbase mb-[2rem] text-slate">
-                  I have had the pleasure of working with Adrian as a Software
-                  Developer and can confidently say that he is a valuable asset
-                  to any team. He is highly skilled in ReactJS, NextJS,
-                  Javascript, Material UI, Tailwind CSS, Redux, and GitHub, and
-                  consistently delivers high-quality code.
+                  He was very knowledgeable about what he was doing and provided
+                  a high level of service. I could not have asked for more. I
+                  will definitely be using him in the future, and would highly
+                  recommend him to anyone considering his services!
                 </p>
               </div>
               <div>
