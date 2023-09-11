@@ -15,8 +15,8 @@ const About = () => {
             <Image
               className="shrink-0 rounded-[1rem]"
               src="/Headshot.jpg"
-              width={320}
-              height={320}
+              width={328}
+              height={328}
               alt="Headshot"
             />
           </div>
@@ -85,8 +85,8 @@ const About = () => {
               <Image
                 className="shrink-0 rounded-[1rem]"
                 src="/Headshot.jpg"
-                width={800}
-                height={800}
+                width={328}
+                height={328}
                 alt="Headshot"
               />
             </div>
@@ -102,10 +102,10 @@ const About = () => {
               </div>
               <div>
                 <p className="regbase mb-[2rem] text-slate">
-                  He was very knowledgeable about what he was doing and provided
-                  a high level of service. I could not have asked for more. I
-                  will definitely be using him in the future, and would highly
-                  recommend him to anyone considering his services!
+                  Austin was very knowledgeable about what he was doing and
+                  provided a high level of service. I could not have asked for
+                  more. I will definitely be using him in the future, and would
+                  highly recommend him to anyone considering his services!
                 </p>
               </div>
               <div>
