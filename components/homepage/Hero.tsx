@@ -5,17 +5,14 @@ type Props = {};
 
 const Hero = (props: Props) => {
   return (
-
     <div className=" 2xl:mx-auto 2xl:max-w-[120rem] mx-auto flex w-full max-w-[30rem] flex-col justify-center bg-white1 pb-[2rem] pt-[3rem] sm:mx-auto sm:max-w-[30rem] md:mx-auto md:max-w-[60rem] md:flex-row lg:mx-auto lg:max-w-[75rem] xl:mx-auto xl:max-w-[90rem]">
-      <div className="flex flex-col md:min-w-[32rem]">
+      <div className="flex flex-col border md:min-w-[32rem]">
         <h4 className="title mb-[1.25rem] md:mb-[1.69rem]">HI, I AM AUSTIN</h4>
         <h1 className="text-[2.25rem] md:text-[4rem]">
           Professional
           <br />
-          Web Developer
-          {/* z index negative */}
-<div className="underline-magic">Based in USA</div>
-          <br /> Based in USA
+          <div className="underline-magic w-fit">Web Developer</div>
+          Based in USA
         </h1>
         <h4 className="regbody mb-[1.25rem] mt-[.87rem] md:mb-[2.25rem] md:mt-[.62rem]">
           Transforming the web one line of code at a time: Crafting cutting-edge

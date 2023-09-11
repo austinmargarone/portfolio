@@ -189,7 +189,7 @@
     gap: 0.625rem;
   }
 
-  .techcard {
+  .tech {
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -197,7 +197,7 @@
     flex-wrap: wrap;
   }
 
-  .techcardlg {
+  .techlg {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -345,11 +345,11 @@
   .underline-magic::after {
     content: "";
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 0;
     right: 0;
-    height: 20px;
-    background-color: rgb(78, 248, 0);
+    height: 25px;
+    background-color: #ffbe62;
     z-index: -1;
   }
 }
