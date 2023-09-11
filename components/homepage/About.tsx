@@ -6,7 +6,7 @@ const About = () => {
     <div className="about md:aboutlg mx-auto my-[3rem] bg-white1">
       <div>
         <h2>
-          What <h2 className="underline-magic w-fit">they say</h2> about me
+          What <span className="underline-magic w-fit">they say</span> about me
         </h2>
       </div>
       <div className="md:hidden">

@@ -352,4 +352,20 @@
     background-color: #ffbe62;
     z-index: -1;
   }
+
+  .underline-magicexp {
+    position: relative !important;
+    z-index: 1 !important;
+  }
+
+  .underline-magicexp::after {
+    content: "";
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 40%;
+    height: 25px;
+    background-color: #ffbe62;
+    z-index: -1;
+  }
 }

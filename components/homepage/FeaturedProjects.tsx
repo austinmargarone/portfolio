@@ -9,7 +9,7 @@ const FeaturedProjects = () => {
       <div className="my-[3rem] md:my-[4.5rem]">
         <div className="flex flex-col gap-[2.25rem] md:gap-[3rem]">
           <h2 className="">
-            Featured <h2 className="underline-magic w-fit">Projects</h2>
+            Featured <span className="underline-magic w-fit">Projects</span>
           </h2>
           <div className="flex flex-col gap-[2.25rem] md:gap-[3rem]">
             <FeatProjectsCard />
