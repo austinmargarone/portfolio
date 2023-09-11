@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="about md:aboutlg mx-auto my-[3rem] bg-white1">
+    <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 md:max-w-[60rem]">
       <div>
         <h2>
           What <span className="underline-magic w-fit">they say</span> about me
