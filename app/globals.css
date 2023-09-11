@@ -320,6 +320,19 @@
   }
 }
 
+/* About */
+
+@layer base {
+  .about {
+    display: flex;
+    width: 24.5625rem;
+    padding: 3rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.25rem;
+  }
+}
+
 /* Projects */
 
 @layer base {
@@ -333,6 +346,44 @@
 }
 
 @layer base {
+  .aboutlg {
+    display: flex;
+    width: 90rem;
+    padding: 4.5rem 5.3125rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+  }
+}
+
+@layer base {
+  .circle {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 1.75rem;
+    border: 1px solid var(--white-800, #f3f8ff);
+    background: var(--white-900, #fff);
+    backdrop-filter: blur(4px);
+  }
+}
+
+@layer base {
+  .circlelg {
+    display: flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+    border-radius: 1.75rem;
+    border: 1px solid var(--white-800, #f3f8ff);
+    background: var(--white-900, #fff);
   .projectbutton {
     display: flex;
     padding: 0.625rem;
