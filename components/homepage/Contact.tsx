@@ -53,71 +53,8 @@ const Contact = () => {
       {/* Desktop */}
       <div className="mx-auto hidden md:block">
         <div className="contact relative flex h-[20.625rem] w-[79.375rem] shrink-0">
-          <div>
-            <div className="absolute h-[22.67375rem] w-[10.53019rem] shrink-0">
-              <Image
-                src="/Ellipse2.svg"
-                width={168}
-                height={362}
-                alt="Ellipse"
-              />
-            </div>
-            <div className="absolute left-[42.81rem] top-[10.14rem] shrink-0">
-              <Image
-                src="/Ellipse4.svg"
-                width={212}
-                height={114}
-                alt="Ellipse"
-              />
-            </div>
-            <div className="absolute left-[56.12rem] top-[.1rem] shrink-0">
-              <Image
-                src="/Ellipse4.svg"
-                width={180}
-                height={97}
-                alt="Ellipse"
-              />
-            </div>
-            <div className="absolute left-[56.08rem] top-[6.15rem] shrink-0">
-              <Image
-                src="/Rectangle5.svg"
-                width={181}
-                height={181}
-                alt="Rectangle"
-              />
-            </div>
-            <div className="absolute bottom-[0rem] left-[56.08rem] shrink-0 opacity-[.7]">
-              <Image
-                src="/Rectangle4.svg"
-                width={181}
-                height={181}
-                alt="Rectangle"
-              />
-            </div>
-            <div className="absolute right-[0rem] top-[-1.45rem] shrink-0">
-              <Image
-                src="/Rectangle6.svg"
-                width={191}
-                height={205}
-                alt="Rectangle"
-              />
-            </div>
-            <div className="absolute right-[0rem] top-[-1.45rem] shrink-0">
-              <Image
-                src="/Rectangle7.svg"
-                width={191}
-                height={205}
-                alt="Rectangle"
-              />
-            </div>
-            <div className="absolute bottom-[-1.45rem] right-[0rem] shrink-0 opacity-[.7]">
-              <Image
-                src="/Ellipse3.svg"
-                width={198}
-                height={285}
-                alt="Rectangle"
-              />
-            </div>
+          <div className="absolute">
+            <Image src="/Group1.svg" width={1270} height={330} alt="Ellipse" />
           </div>
           <div className="absolute flex">
             <h2 className="ml-[4.66rem] mt-[5.19rem] w-[32.5rem] text-left">

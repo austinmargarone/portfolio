@@ -332,6 +332,7 @@
     border-radius: 1.25rem;
     border: 1px solid var(--accent-secondary, #ffbe62);
     background: var(--accent-secondary, #ffbe62);
+    stroke-width: 1px;
   }
 
   .contacttext {
