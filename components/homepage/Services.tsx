@@ -7,7 +7,7 @@ const Services = (props: Props) => {
   return (
     <section className="services md:serviceslg mx-auto mb-[3rem] flex w-fit flex-col justify-center py-[3rem] md:mb-[4.5rem]  md:max-w-[60rem] xl:max-w-[100rem]">
       <div className="services1 md:services1lg flex flex-col md:w-fit">
-        <h2>
+        <h2 className="dark:text-white">
           What <span className="underline-magic w-fit">service</span> do I
           provide
         </h2>

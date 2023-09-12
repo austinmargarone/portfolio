@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={poppins.className}>
         <ThemeProvider>
-          <div className={`bg-white dark:bg-black`}>
+          <div className={`bg-white dark:bg-darkbg2`}>
             <Navbar />
             {children}
             <Footer />
