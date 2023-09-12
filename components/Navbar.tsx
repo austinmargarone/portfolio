@@ -19,7 +19,7 @@ const Navbar = () => {
           <Image src="/Nav.svg" alt="Nav" width={24} height={24} />
         </div>
         <div className="mr-[1.5rem] hidden items-center md:mr-[5.31rem] md:block">
-          <ul className="flex gap-[2.25rem]">
+          <ul className="flex gap-[2.25rem] dark:text-white1">
             <li>
               <button>
                 <Link href="/">Home</Link>
