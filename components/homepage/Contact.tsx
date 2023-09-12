@@ -27,21 +27,21 @@ const Contact = () => {
         </div>
       </div>
       {/* Desktop */}
-      <div className="mx-auto hidden md:block md:max-w-[80rem]">
-        <div className="contact relative flex h-[330px] w-[1270px] shrink-0">
-          <div className="absolute">
+      <div className="mx-auto hidden w-full md:block md:max-w-[80rem]">
+        <div className="contact relative flex h-[330px] shrink-0">
+          <div className="absolute h-full w-full">
             <Image
               src="/Group1.svg"
-              width={1270}
-              height={330}
+              className="object-cover"
+              fill={true}
               alt="Background Desktop"
             />
           </div>
-          <div className="absolute flex">
-            <h2 className="ml-[4.66rem] mt-[5.19rem] w-[32.5rem] text-left">
+          <div className="absolute flex w-full justify-between px-[4rem] ">
+            <h2 className=" mt-[5.19rem] w-[32.5rem] text-left">
               Have a project in mind that requires technical expertise?
             </h2>
-            <div className="ml-[17.62rem] mt-[10.69rem] flex">
+            <div className=" mt-[10.69rem] flex">
               <button className="contactbtnlg flex">
                 <p className="boldbody text-white">Get in Touch with Me</p>
                 <Image src="/Arrow2.svg" width={16} height={0} alt="Ellipse" />
