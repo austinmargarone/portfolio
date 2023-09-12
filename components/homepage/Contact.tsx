@@ -29,14 +29,12 @@ const Contact = () => {
       {/* Desktop */}
       <div className="mx-auto hidden w-full md:block md:max-w-[80rem]">
         <div className="contact relative flex h-[330px] shrink-0">
-          <div className="absolute h-full w-full">
-            <Image
-              src="/Group1.svg"
-              className="object-cover"
-              fill={true}
-              alt="Background Desktop"
-            />
-          </div>
+          <Image
+            src="/Group1.svg"
+            className="rounded-[1.25rem] object-cover"
+            fill={true}
+            alt="Background Desktop"
+          />
           <div className="absolute flex w-full justify-between px-[4rem] ">
             <h2 className=" mt-[5.19rem] w-[32.5rem] text-left">
               Have a project in mind that requires technical expertise?

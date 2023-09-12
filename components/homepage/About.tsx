@@ -90,14 +90,6 @@ const About = () => {
                 alt="Headshot"
               />
             </div>
-            <div className="absolute h-full w-full">
-              <Image
-                src="/Group1.svg"
-                className="object-cover"
-                fill={true}
-                alt="Background Desktop"
-              />
-            </div>
             <div>
               <div className="mb-[1rem]">
                 <Image
@@ -109,7 +101,7 @@ const About = () => {
                 />
               </div>
               <div>
-                <p className="regbase mb-[2rem] text-slate">
+                <p className="regbase mb-[2rem] text-slate dark:text-white">
                   Austin was very knowledgeable about what he was doing and
                   provided a high level of service. I could not have asked for
                   more. I will definitely be using him in the future, and would
@@ -117,10 +109,10 @@ const About = () => {
                 </p>
               </div>
               <div>
-                <p className="boldbody mb-[.25rem] self-stretch text-black">
+                <p className="boldbody mb-[.25rem] self-stretch text-black dark:text-white1">
                   - Austin Margarone
                 </p>
-                <p className="regbody self-stretch text-slate	">
+                <p className="regbody self-stretch text-slate	dark:text-white">
                   Managing-Member of FC Virtual Tours
                 </p>
               </div>

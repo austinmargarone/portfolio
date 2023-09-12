@@ -322,6 +322,8 @@
 
   /* Contact */
 
+  /* @apply dark:bg-white; */
+
   .contact {
     border-radius: 1.25rem;
     border: 1px solid var(--accent-secondary, #ffbe62);
