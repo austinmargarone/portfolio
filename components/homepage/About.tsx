@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="about md:aboutlg mx-auto my-[3rem] border bg-white1 dark:bg-darkbg md:w-fit md:max-w-[80rem]">
+    <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 dark:bg-darkbg md:w-fit md:max-w-[80rem]">
       <div>
         <h2 className="dark:text-white">
           What <span className="underline-magic w-fit">they say</span> about me
@@ -80,12 +80,12 @@ const About = () => {
               alt="Arrow Left"
             />
           </div>
-          <div className="flex">
+          <div className="flex ">
             <div className="mx-[1.62rem]">
               <Image
-                className="shrink-0 rounded-[1rem]"
-                src="/Headshot.jpg"
-                width={328}
+                className="rounded-[1rem]"
+                src="/Headshot1.jpg"
+                width={625}
                 height={328}
                 alt="Headshot"
               />
