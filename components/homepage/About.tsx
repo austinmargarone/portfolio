@@ -3,9 +3,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 md:max-w-[60rem]">
+    <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 dark:bg-darkbg md:max-w-[80rem] xl:max-w-[120rem]">
       <div>
-        <h2>
+        <h2 className="dark:text-white">
           What <span className="underline-magic w-fit">they say</span> about me
         </h2>
       </div>
@@ -52,7 +52,7 @@ const About = () => {
             />
           </div>
           <div>
-            <p className="regbody mb-[1.5rem] self-stretch text-black">
+            <p className="regbody mb-[1.5rem] self-stretch text-black dark:text-white">
               He was very knowledgeable about what he was doing and provided a
               high level of service. I could not have asked for more. I will
               definitely be using him in the future, and would highly recommend
@@ -60,10 +60,10 @@ const About = () => {
             </p>
           </div>
           <div>
-            <p className="boldbody self-stretch text-black	">
+            <p className="boldbody self-stretch text-black dark:text-white1">
               - Austin Margarone
             </p>
-            <p className="regbody self-stretch text-slate	">
+            <p className="regbody self-stretch text-slate	dark:text-white">
               Managing-Member of FC Virtual Tours
             </p>
           </div>
@@ -88,6 +88,14 @@ const About = () => {
                 width={328}
                 height={328}
                 alt="Headshot"
+              />
+            </div>
+            <div className="absolute h-full w-full">
+              <Image
+                src="/Group1.svg"
+                className="object-cover"
+                fill={true}
+                alt="Background Desktop"
               />
             </div>
             <div>

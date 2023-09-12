@@ -11,7 +11,7 @@ export default function Home() {
     <>
       {/*  left right top gaps */}
       <main>
-        <div className="bg-white1 md:pb-[6.01rem]">
+        <div className="bg-white1 dark:bg-darkbg md:pb-[6.01rem]">
           <Hero />
         </div>
       </main>
@@ -21,7 +21,7 @@ export default function Home() {
           <MySkills />
         </div>
         {/* Services */}
-        <div className="bg-white1">
+        <div className="bg-white1 dark:bg-darkbg">
           <Services />
         </div>
 
@@ -36,7 +36,7 @@ export default function Home() {
           </div>
         </div>
         {/* About */}
-        <div className="bg-white1">
+        <div className="bg-white1 dark:bg-darkbg">
           <About />
         </div>
         {/* Contact */}
