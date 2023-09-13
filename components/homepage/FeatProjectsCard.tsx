@@ -1,27 +1,36 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
-type Props = {};
+type Props = {
+  title: string;
+  tech: string;
+  tech1: string;
+  link: string;
+  bg: string;
+};
 
 const FeatProjectsCard = (props: Props) => {
   return (
     <div className="mx-auto flex h-[32.125rem] w-[21.6rem] flex-col rounded-[1rem] bg-slate md:h-[27.75rem] md:w-full md:flex-row">
       <div className="ml-[1.5rem] flex flex-col md:ml-[6.75rem] ">
         <h3 className="projecttitle mr-[1.63rem] mt-[2.5rem] w-[18.4375rem] text-left text-white md:mt-[6.06rem] md:w-[23.25rem]">
-          Morrent - A Car Rental Application
+          {props.title}
         </h3>
         <div className="my-[1.88rem] flex gap-[1.25rem] md:mb-[3.13rem] md:mt-[1.44rem]">
           <button className="projectbutton flex bg-yellow">
-            <p className="smallreg text-white">ReactJS, Next.js</p>
+            <p className="smallreg text-white">{props.tech}</p>
           </button>
           <button className="projectbutton bg-yellow">
-            <p className="smallreg text-white">Nodejs, MongoDB</p>
+            <p className="smallreg text-white">{props.tech1}</p>
           </button>
         </div>
         <div className="flex">
-          <button className="boldbody mr-[.52rem] text-white">
-            See Detail Project
-          </button>
+          <Link href={props.link}>
+            <button className="boldbody mr-[.52rem] text-white">
+              See Detail Project
+            </button>
+          </Link>
           <Image
             className="shrink-0 stroke-1"
             src="/Arrow.svg"
