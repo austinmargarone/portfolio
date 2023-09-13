@@ -119,7 +119,6 @@
 
   .herotext {
     text-align: center;
-
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;
@@ -223,21 +222,16 @@
 
   .services {
     padding: 3rem 1.5rem;
-    flex-direction: column;
-    align-items: flex-start;
     gap: 0.625rem;
   }
 
   .serviceslg {
     padding: 4.5rem 5.3125rem;
-    flex-direction: column;
-    align-items: flex-start;
     gap: 0.625rem;
   }
 
   .services1 {
     width: 21.5625rem;
-    flex-direction: column;
     align-items: center;
     gap: 2.5rem;
   }
@@ -249,20 +243,17 @@
 
   /* About */
 
-  @layer base {
-    .about {
-      display: flex;
-      width: 24.5625rem;
-      padding: 3rem 1.5rem;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 2.25rem;
-    }
+  .about {
+    display: flex;
+    width: 24.5625rem;
+    padding: 3rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.25rem;
   }
 
   .aboutlg {
     display: flex;
-    width: 90rem;
     padding: 4.5rem 5.3125rem;
     flex-direction: column;
     justify-content: center;
@@ -327,6 +318,8 @@
   }
 
   /* Contact */
+
+  /* @apply dark:bg-white; */
 
   .contact {
     border-radius: 1.25rem;

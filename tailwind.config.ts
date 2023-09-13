@@ -19,6 +19,8 @@ const config: Config = {
       black: "#151E2C",
       black1: "#29374C",
       grey: "#778295",
+      darkbg: "#192333",
+      darkbg2: "#151E2C",
     },
     fontFamily: {
       jakarta: ["Poppins"],
