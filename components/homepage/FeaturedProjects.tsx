@@ -16,21 +16,21 @@ const FeaturedProjects = () => {
             tech={"ReactJS, Next.js"}
             tech1={"Nodejs, MongoDB"}
             link={""}
-            bg={"#416CEA"}
+            bg={"blue"}
           />
           <FeatProjectsCard
             title={"JobIT - A Job Finding Application"}
             tech={"ReactJS, Next.js"}
             tech1={"Nodejs, MongoDB"}
             link={""}
-            bg={"#0BAB7C"}
+            bg={"black"}
           />
           <FeatProjectsCard
             title={"Hipnode - A Social Media Application"}
             tech={"ReactJS, Next.js"}
             tech1={"Nodejs, MongoDB"}
             link={""}
-            bg={"#FF6934"}
+            bg={"yellow"}
           />
         </div>
         <div>

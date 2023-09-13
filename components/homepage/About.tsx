@@ -1,9 +1,10 @@
 import Image from "next/image";
 import React from "react";
+import Arrow from "@/public/Arrow.svg";
 
 const About = () => {
   return (
-    <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 dark:bg-darkbg md:w-fit md:max-w-[60rem] xl:max-w-[80rem] ">
+    <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 dark:bg-darkbg md:w-fit md:max-w-[80rem] xl:max-w-[80rem] ">
       <div>
         <h2 className="dark:text-white">
           What <span className="underline-magic w-fit">They Say</span> About Me
@@ -80,13 +81,13 @@ const About = () => {
               alt="Arrow Left"
             />
           </div>
-          <div className="flex ">
+          <div className="flex">
             <div className="mx-[1.62rem]">
               <Image
                 className="rounded-[1rem]"
-                src="/Headshot1.jpg"
-                width={625}
-                height={328}
+                src="/Headshot.jpg"
+                width={1425}
+                height={1425}
                 alt="Headshot"
               />
             </div>
