@@ -41,7 +41,7 @@ const Contact = () => {
             </h2>
             <div className=" mt-[10.69rem] flex">
               <button className="contactbtnlg flex">
-                <p className="boldbody text-white">Get in Touch with Me</p>
+                <p className="boldbody text-white">Get In Touch With Me</p>
                 <Image src="/Arrow2.svg" width={16} height={0} alt="Ellipse" />
               </button>
             </div>
