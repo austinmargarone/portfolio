@@ -58,10 +58,26 @@ const WorkExp = (props: Props) => {
           </div>
         </div>
         <div className="flex flex-col gap-[1rem] md:ml-[1.62rem] md:gap-[2.19rem]">
-          <WorkExpCard />
-          <WorkExpCard />
-          <WorkExpCard />
-          <WorkExpCard />
+          <WorkExpCard
+            title={"Slack"}
+            body={"Product Design - 4 Years Experince"}
+            image={"/Slack.svg"}
+          />
+          <WorkExpCard
+            title={"Firefox"}
+            body={"Sr. UI Design - 4 Years Experince"}
+            image={"Firefox.svg"}
+          />
+          <WorkExpCard
+            title={"Digital Ocean"}
+            body={"UI & Motion Designer - 4 Years Experince"}
+            image={"Ocean.svg"}
+          />
+          <WorkExpCard
+            title={"Mailchimp"}
+            body={"UI Designer - 4 Years Experince"}
+            image={"Chimp.svg"}
+          />
         </div>
       </div>
     </section>
