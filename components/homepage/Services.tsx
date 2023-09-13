@@ -5,13 +5,13 @@ type Props = {};
 
 const Services = (props: Props) => {
   return (
-    <section className="services md:serviceslg 2xl:mx-auto 2xl:max-w-[120rem] mx-[1.5rem] flex w-full max-w-[28rem] flex-col justify-center pb-[2rem] pt-[3rem] sm:mx-auto sm:max-w-[30rem] md:mx-auto md:max-w-[60rem] md:flex-row lg:mx-auto lg:max-w-[75rem] xl:mx-auto xl:max-w-[100rem]">
-      <div className="services1 md:services1lg flex md:w-fit md:flex-col">
-        <h2 className="">
+    <section className="services md:serviceslg mx-auto mb-[3rem] flex w-fit flex-col justify-center py-[3rem] md:mb-[4.5rem]  md:max-w-[60rem] xl:max-w-[100rem]">
+      <div className="services1 md:services1lg flex flex-col md:w-fit">
+        <h2 className="dark:text-white">
           What <span className="underline-magic w-fit">service</span> do I
           provide
         </h2>
-        <div className="flex flex-col gap-[2.5rem] md:flex-row md:flex-wrap">
+        <div className="flex flex-col justify-center gap-[2.5rem] md:flex-row md:flex-wrap">
           <ServiceCard />
           <ServiceCard />
           <ServiceCard />
