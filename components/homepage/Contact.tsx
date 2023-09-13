@@ -40,7 +40,7 @@ const Contact = () => {
               Have a project in mind that requires technical expertise?
             </h2>
             <div className=" mt-[10.69rem] flex">
-              <button className="contactbtnlg flex">
+              <button className="contactbtnlg flex dark:bg-blue1">
                 <p className="boldbody text-white">Get In Touch With Me</p>
                 <Image src="/Arrow2.svg" width={16} height={0} alt="Ellipse" />
               </button>

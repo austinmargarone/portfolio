@@ -7,7 +7,7 @@ const FeaturedProjects = () => {
   return (
     <section className="mx-auto flex w-fit flex-col justify-center pt-[3rem] md:max-w-[60rem] xl:max-w-[80rem]">
       <div className="my-[3rem] flex flex-col gap-[2.25rem] md:my-[4.5rem] md:gap-[3rem]">
-        <h2 className="">
+        <h2 className="dark:text-white">
           Featured <span className="underline-magic w-fit">Projects</span>
         </h2>
         <div className="flex flex-col gap-[2.25rem] md:gap-[3rem]">
@@ -17,8 +17,8 @@ const FeaturedProjects = () => {
         </div>
         <div>
           <div className="hidden justify-center md:flex">
-            <button className="projectbutton1 flex">
-              <p className="boldbody flex text-white">See more case studies</p>
+            <button className="projectbutton1 flex dark:bg-blue1">
+              <p className="boldbody flex text-white">See More Case Studies</p>
               <div className="flex shrink-0">
                 <Image
                   src="/Arrow1.svg"

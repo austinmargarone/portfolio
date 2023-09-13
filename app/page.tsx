@@ -21,7 +21,7 @@ export default function Home() {
           <MySkills />
         </div>
         {/* Services */}
-        <div className="bg-white1 dark:bg-darkbg">
+        <div className="dark:bg-darkbg md:bg-white1">
           <Services />
         </div>
 
