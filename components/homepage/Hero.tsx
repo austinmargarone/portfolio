@@ -7,7 +7,7 @@ const Hero = (props: Props) => {
   return (
     <div className=" mx-auto flex w-fit flex-col justify-center bg-white1 pb-[2rem] pt-[3rem] dark:bg-darkbg md:w-auto md:max-w-[60rem] md:flex-row xl:max-w-[80rem]">
       <div className="mx-auto flex flex-col">
-        <h4 className="title mb-[1.25rem] dark:text-blue1 md:mb-[1.69rem]">
+        <h4 className="title mb-[1.25rem] text-blue dark:text-blue1 md:mb-[1.69rem]">
           HI, I AM AUSTIN
         </h4>
         <h1 className="text-[2.25rem] dark:text-white md:text-[4rem]">
@@ -22,10 +22,10 @@ const Hero = (props: Props) => {
           to excellence
         </h4>
         <div className="flex flex-col md:flex-row md:gap-[1.13rem]">
-          <button className="herobtn md:herobtnlg mb-[.88rem] flex rounded-[379.77006rem] bg-blue md:mb-0">
+          <button className="herobtn md:herobtnlg mb-[.88rem] flex rounded-[379.77006rem] bg-blue dark:bg-blue1 md:mb-0">
             <p className="herotext text-white md:text-[1.125rem]">My Work</p>
           </button>
-          <div className="herocopy md:herocopylg mb-[1.69rem] flex bg-white md:mb-0 md:w-fit">
+          <div className="herocopy md:herocopylg mb-[1.69rem] flex bg-white dark:bg-darkbg2 md:mb-0 md:w-fit">
             <p className="herocopytext text-slate dark:text-white1">
               austin@fcvt.dev
             </p>

@@ -380,7 +380,7 @@
   .underline-magic::after {
     content: "";
     position: absolute;
-    top: 65%;
+    top: 60%;
     left: 0;
     right: 0;
     height: 25px;

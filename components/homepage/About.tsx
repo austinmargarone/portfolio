@@ -21,7 +21,7 @@ const About = () => {
             />
           </div>
           <div className="flex gap-[1rem]">
-            <div className="circle">
+            <div className="circle dark:border-darkbg dark:bg-darkbg2">
               <Image
                 className="shrink-0 rounded-[1rem]"
                 src="/arrow-left.svg"
@@ -30,7 +30,7 @@ const About = () => {
                 alt="Arrow Left"
               />
             </div>
-            <div className="circle">
+            <div className="circle dark:border-darkbg dark:bg-darkbg2">
               <Image
                 className="shrink-0 rounded-[1rem]"
                 src="/arrow-right.svg"
@@ -71,7 +71,7 @@ const About = () => {
       </div>
       <div className="mt-[4rem] hidden md:block">
         <div className="flex">
-          <div className="circlelg mt-[6rem] flex">
+          <div className="circlelg mt-[6rem] flex dark:border-darkbg dark:bg-darkbg2">
             <Image
               className="shrink-0 rounded-[1rem]"
               src="/arrow-left.svg"
@@ -118,7 +118,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="circlelg mt-[6rem]">
+          <div className="circlelg mt-[6rem] dark:border-darkbg dark:bg-darkbg2">
             <Image
               className="shrink-0 rounded-[1rem]"
               src="/arrow-right.svg"
