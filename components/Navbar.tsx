@@ -8,8 +8,8 @@ const Navbar = () => {
   const { theme, toggleTheme } = useThemeState();
 
   return (
-    <main className="bg-white1">
-      <div className="flex justify-between  py-[1.31rem] md:pt-[2.25rem] xl:mx-auto xl:max-w-[100rem]">
+    <main className="bg-white1 dark:bg-darkbg">
+      <div className="mx-auto flex justify-between py-[1.31rem] md:pt-[2.25rem] xl:max-w-[120rem]">
         <div className="ml-[1.5rem] flex h-[1.875rem] w-[1.875rem] shrink-0 gap-[0.52081rem] rounded-[468.75rem] bg-gradient-to-r from-[#0252cd54] from-20% to-blue p-[0.52rem] md:ml-[5rem] md:h-[2.8125rem] md:w-[2.8125rem] md:gap-[0.78125rem] md:p-[0.78125rem]">
           <p className="flex h-[0.83331rem] w-[0.83331rem] shrink-0 flex-col items-center justify-center text-white md:h-[1.25rem] md:w-[1.25rem]">
             A
@@ -19,7 +19,7 @@ const Navbar = () => {
           <Image src="/Nav.svg" alt="Nav" width={24} height={24} />
         </div>
         <div className="mr-[1.5rem] hidden items-center md:mr-[5.31rem] md:block">
-          <ul className="flex gap-[2.25rem]">
+          <ul className="flex gap-[2.25rem] dark:text-white1">
             <li>
               <button>
                 <Link href="/">Home</Link>
