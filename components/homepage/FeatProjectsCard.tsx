@@ -11,8 +11,11 @@ type Props = {
 };
 
 const FeatProjectsCard = (props: Props) => {
+  const bgColor = `bg-${props.bg}`;
   return (
-    <div className="mx-auto flex h-[32.125rem] w-[21.6rem] flex-col rounded-[1rem] bg-slate md:h-[27.75rem] md:w-full md:flex-row">
+    <div
+      className={`${bgColor} mx-auto flex h-[32.125rem] w-[21.6rem] flex-col rounded-[1rem] md:h-[27.75rem] md:w-full md:flex-row`}
+    >
       <div className="ml-[1.5rem] flex flex-col md:ml-[6.75rem] ">
         <h3 className="projecttitle mr-[1.63rem] mt-[2.5rem] w-[18.4375rem] text-left text-white md:mt-[6.06rem] md:w-[23.25rem]">
           {props.title}
