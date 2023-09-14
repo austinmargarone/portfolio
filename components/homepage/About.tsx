@@ -3,10 +3,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 dark:bg-darkbg md:w-fit md:max-w-[60rem] xl:max-w-[80rem] ">
+    <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 dark:bg-darkbg md:w-fit md:max-w-[75rem] xl:max-w-[80rem] ">
       <div>
         <h2 className="dark:text-white">
-          What <span className="underline-magic w-fit">They Say</span> About Me
+          <span className="underline-magic w-fit">Testimonials</span>
         </h2>
       </div>
       <div className="md:hidden">
@@ -14,10 +14,10 @@ const About = () => {
           <div>
             <Image
               className="shrink-0 rounded-[1rem]"
-              src="/Headshot.jpg"
+              src="/Avatar.svg"
               width={328}
               height={328}
-              alt="Headshot"
+              alt="Avatar"
             />
           </div>
           <div className="flex gap-[1rem]">
@@ -84,10 +84,10 @@ const About = () => {
             <div className="mx-[1.62rem]">
               <Image
                 className="rounded-[1rem]"
-                src="/Headshot1.jpg"
-                width={625}
-                height={328}
-                alt="Headshot"
+                src="/Avatar.svg"
+                width={1450}
+                height={1450}
+                alt="Avatar"
               />
             </div>
             <div>

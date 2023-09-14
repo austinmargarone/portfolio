@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Morrent",
+    "description": "Car Rental Application",
+    "project": "/Carrent.svg",
+    "bg": ""
+  },
+  {
+    "title": "Jobit",
+    "description": "Job Finding Application",
+    "project": "/JoBit.svg",
+    "bg": "#0BAB7C"
+  },
+  {
+    "title": "HipNode",
+    "description": "Social Platform for Developers",
+    "project": "/HipNode.svg",
+    "bg": "#FF6934"
+  },
+  {
+    "title": "Trip Guide",
+    "description": "Crowdfunding Application",
+    "project": "/Filmpire.svg",
+    "bg": "#316BFF"
+  },
+  {
+    "title": "Virtue",
+    "description": "Booking Platform",
+    "project": "/Virtue.svg",
+    "bg": "#4ACD8D"
+  },
+  {
+    "title": "Filmpire",
+    "description": "AI-Powered Movie Application",
+    "project": "/Filmpire.svg",
+    "bg": "#DB202C"
+  }
+]
