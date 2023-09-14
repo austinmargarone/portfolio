@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Slack",
+    "body": "Product Design - 4 Years Experince",
+    "tech1": "Nodejs, MongoDB",
+    "image": "/Slack.svg"
+  },
+  {
+    "title": "Firefox",
+    "body": "Sr. UI Design - 4 Years Experince",
+    "tech1": "Nodejs, MongoDB",
+    "image": "/Slack.svg"
+  },
+  {
+    "title": "Digital Ocean",
+    "body": "UI & Motion Designer - 4 Years Experince",
+    "tech1": "Nodejs, MongoDB",
+    "image": "/Ocean.svg"
+  },
+  {
+    "title": "Slack",
+    "body": "Product Design - 4 Years Experince",
+    "tech1": "Nodejs, MongoDB",
+    "image": "/Chimp.svg"
+  }
+]
