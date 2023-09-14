@@ -1,4 +1,5 @@
 import Contact from "@/components/Contact";
+import Projects from "@/components/casestudies/Projects";
 import React from "react";
 
 const page = () => {
@@ -15,7 +16,9 @@ const page = () => {
             clients overcome challenges, innovate, and achieve their goals
           </p>
         </header>
-        <main></main>
+        <main>
+          <Projects />
+        </main>
         <section>
           <Contact />
         </section>

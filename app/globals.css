@@ -419,4 +419,18 @@
     padding: 3rem 1.5rem;
     gap: 0.625rem;
   }
+
+  .casemain {
+    padding: 3rem 1.5rem;
+    gap: 1.25rem;
+  }
+
+  .projectstitlelg {
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105%; /* 2.1rem */
+    letter-spacing: -0.01rem;
+  }
 }
