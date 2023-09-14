@@ -27,7 +27,7 @@ const Navbar = () => {
             </li>
             <li>
               <button>
-                <Link href="/casestudies">Case Studies</Link>
+                <Link href="/portfolio">Portfolio</Link>
               </button>
             </li>
             <li>
