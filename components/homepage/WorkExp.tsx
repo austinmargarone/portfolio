@@ -66,17 +66,17 @@ const WorkExp = (props: Props) => {
           <WorkExpCard
             title={"Firefox"}
             body={"Sr. UI Design - 4 Years Experince"}
-            image={"Firefox.svg"}
+            image={"/Firefox.svg"}
           />
           <WorkExpCard
             title={"Digital Ocean"}
             body={"UI & Motion Designer - 4 Years Experince"}
-            image={"Ocean.svg"}
+            image={"/Ocean.svg"}
           />
           <WorkExpCard
             title={"Mailchimp"}
             body={"UI Designer - 4 Years Experince"}
-            image={"Chimp.svg"}
+            image={"/Chimp.svg"}
           />
         </div>
       </div>

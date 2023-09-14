@@ -14,17 +14,10 @@ const About = () => {
           <div>
             <Image
               className="shrink-0 rounded-[1rem]"
-<<<<<<< HEAD
               src="/Avatar.svg"
               width={328}
               height={328}
               alt="Avatar"
-=======
-              src="/Headshot.jpg"
-              width={328}
-              height={328}
-              alt="Headshot"
->>>>>>> 18a9869d0d7611dc363c69d07e0251e22a9bb1ce
             />
           </div>
           <div className="flex gap-[1rem]">
@@ -91,17 +84,10 @@ const About = () => {
             <div className="mx-[1.62rem]">
               <Image
                 className="rounded-[1rem]"
-<<<<<<< HEAD
                 src="/Avatar.svg"
                 width={1450}
                 height={1450}
                 alt="Avatar"
-=======
-                src="/Headshot.jpg"
-                width={1450}
-                height={1450}
-                alt="Headshot"
->>>>>>> 18a9869d0d7611dc363c69d07e0251e22a9bb1ce
               />
             </div>
             <div>
