@@ -13,6 +13,7 @@ const config: Config = {
       blue: "#0252CD",
       blue1: "#428DFF",
       yellow: "#FFBE62",
+      green: "#0BAB7C",
       white: "#FFFFFF",
       white1: "#F3F8FF",
       slate: "#6F74A7",

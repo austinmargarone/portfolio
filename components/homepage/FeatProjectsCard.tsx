@@ -4,8 +4,6 @@ import Image from "next/image";
 type Props = {};
 
 const FeatProjectsCard = (props: Props) => {
-  const bgColor = `bg-${props.bg}`;
-
   return (
     <div className="mx-auto flex h-[32.125rem] w-[21.6rem] flex-col rounded-[1rem] bg-slate md:h-[27.75rem] md:w-full md:flex-row">
       <div className="ml-[1.5rem] flex flex-col md:ml-[6.75rem] ">

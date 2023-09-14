@@ -15,31 +15,37 @@ const page = () => {
             title={"Morrent"}
             description={"Car Rental Application"}
             project={"/Carrent.svg"}
+            bg={"blue"}
           />
           <Projects
             title={"Jobit"}
             description={"Job Finding Application"}
             project={"JoBit.svg"}
+            bg={"yellow"}
           />
           <Projects
             title={"HipNode"}
             description={"Social Platform for Developers"}
             project={"HipNode.svg"}
+            bg={"white1"}
           />
           <Projects
             title={"Trip Guide "}
             description={"Crowdfunding Application"}
             project={"/Filmpire.svg"}
+            bg={"blue1"}
           />
           <Projects
             title={"Virtue"}
             description={"Booking Platform"}
             project={"/Virtue.svg"}
+            bg={"yellow"}
           />
           <Projects
             title={"Filmpire"}
             description={"AI-Powered Movie Application"}
             project={"Filmpire.svg"}
+            bg={"white1"}
           />
         </main>
         <section>
