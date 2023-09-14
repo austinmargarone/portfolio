@@ -1,0 +1,20 @@
+{
+  "images": [
+    "/js.svg",
+    "/react.svg",
+    "Redux.svg",
+    "Next.svg",
+    "ts.svg",
+    "html.svg",
+    "css.svg",
+    "sass.svg",
+    "Material.svg",
+    "tailwind.svg",
+    "Motion.svg",
+    "git.svg",
+    "github.svg",
+    "nodejs.svg",
+    "ex.svg",
+    "mongodb.svg"
+  ]
+}

@@ -11,9 +11,27 @@ const FeaturedProjects = () => {
           Featured <span className="underline-magic w-fit">Projects</span>
         </h2>
         <div className="flex flex-col gap-[2.25rem] md:gap-[3rem]">
-          <FeatProjectsCard />
-          <FeatProjectsCard />
-          <FeatProjectsCard />
+          <FeatProjectsCard
+            title={"Morrent - A Car Rental Application"}
+            tech={"ReactJS, Next.js"}
+            tech1={"Nodejs, MongoDB"}
+            link={""}
+            bg={"blue"}
+          />
+          <FeatProjectsCard
+            title={"JobIT - A Job Finding Application"}
+            tech={"ReactJS, Next.js"}
+            tech1={"Nodejs, MongoDB"}
+            link={""}
+            bg={"black"}
+          />
+          <FeatProjectsCard
+            title={"Hipnode - A Social Media Application"}
+            tech={"ReactJS, Next.js"}
+            tech1={"Nodejs, MongoDB"}
+            link={""}
+            bg={"yellow"}
+          />
         </div>
         <div>
           <div className="hidden justify-center md:flex">
