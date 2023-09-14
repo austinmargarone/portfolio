@@ -1,5 +1,5 @@
 import About from "@/components/homepage/About";
-import Contact from "@/components/homepage/Contact";
+import Contact from "@/components/Contact";
 import FeaturedProjects from "@/components/homepage/FeaturedProjects";
 import Hero from "@/components/homepage/Hero";
 import MySkills from "@/components/homepage/MySkills";

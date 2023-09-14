@@ -1,4 +1,6 @@
-import Contact from "@/components/homepage/Contact";
+import Contact from "@/components/Contact";
+import Heading from "@/components/casestudies/Heading";
+import Projects from "@/components/casestudies/Projects";
 import React from "react";
 
 const page = () => {
@@ -13,7 +15,7 @@ const page = () => {
             title={"Morrent"}
             description={"Car Rental Application"}
             project={"/Carrent.svg"}
-            bg={"bgRed"}
+            bg={""}
           />
           <Projects
             title={"Jobit"}
