@@ -1,9 +1,7 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
 
-type Props = { title: string; body: string; image: string };
-
-const Services = (props: Props) => {
+const Services = () => {
   return (
     <section className="services md:serviceslg mx-auto mb-[3rem] flex w-fit flex-col justify-center py-[3rem] md:mb-[4.5rem]  md:max-w-[60rem] xl:max-w-[100rem]">
       <div className="services1 md:services1lg flex flex-col md:w-fit">

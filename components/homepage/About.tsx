@@ -14,10 +14,10 @@ const About = () => {
           <div>
             <Image
               className="shrink-0 rounded-[1rem]"
-              src="/Headshot.jpg"
+              src="/Avatar.svg"
               width={328}
               height={328}
-              alt="Headshot"
+              alt="Avatar"
             />
           </div>
           <div className="flex gap-[1rem]">
@@ -84,10 +84,10 @@ const About = () => {
             <div className="mx-[1.62rem]">
               <Image
                 className="rounded-[1rem]"
-                src="/Headshot.jpg"
+                src="/Avatar.svg"
                 width={1450}
                 height={1450}
-                alt="Headshot"
+                alt="Avatar"
               />
             </div>
             <div>
