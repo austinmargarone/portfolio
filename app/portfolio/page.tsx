@@ -14,32 +14,32 @@ const page = () => {
           <Projects
             title={"Morrent"}
             description={"Car Rental Application"}
-            project={""}
+            project={"/Carrent.svg"}
           />
           <Projects
             title={"Jobit"}
             description={"Job Finding Application"}
-            project={""}
+            project={"JoBit.svg"}
           />
           <Projects
             title={"HipNode"}
             description={"Social Platform for Developers"}
-            project={""}
+            project={"HipNode.svg"}
           />
           <Projects
             title={"Trip Guide "}
             description={"Crowdfunding Application"}
-            project={""}
+            project={"/Filmpire.svg"}
           />
           <Projects
             title={"Virtue"}
             description={"Booking Platform"}
-            project={""}
+            project={"/Virtue.svg"}
           />
           <Projects
             title={"Filmpire"}
             description={"AI-Powered Movie Application"}
-            project={""}
+            project={"Filmpire.svg"}
           />
         </main>
         <section>
