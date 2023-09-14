@@ -15,7 +15,7 @@ const page = () => {
             title={"Morrent"}
             description={"Car Rental Application"}
             project={"/Carrent.svg"}
-            bg={"bgRed"}
+            bg={""}
           />
           <Projects
             title={"Jobit"}
