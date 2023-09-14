@@ -403,4 +403,20 @@
     background-color: #ffbe62;
     z-index: -1;
   }
+
+  /* Case Studies */
+
+  .casetitle {
+    text-align: center;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 3.01875rem */
+    letter-spacing: -0.02625rem;
+  }
+
+  .casehead {
+    padding: 3rem 1.5rem;
+    gap: 0.625rem;
+  }
 }
