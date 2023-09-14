@@ -9,12 +9,11 @@ type Props = {
 };
 
 const Projects = (props: Props) => {
-  const bgColor = `bg-${props.bg}`;
-
   return (
     <>
       <div
-        className={`${bgColor} casemain mx-auto flex w-[21.5625rem] shrink-0 flex-col rounded-[.62725rem] border border-black bg-blue1 md:w-[34.375rem]`}
+        style={{ backgroundColor: props.bg }}
+        className="casemain mx-auto flex w-[21.5625rem] shrink-0 flex-col rounded-[.62725rem] border border-black bg-blue1 md:w-[34.375rem]"
       >
         <h4 className="boldp md:projectstitlelg flex justify-center dark:text-white">
           {props.title}
