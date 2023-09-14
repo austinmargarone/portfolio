@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Morrent - A Car Rental Application",
     "tech": "ReactJS, Next.js",
     "tech1": "Nodejs, MongoDB",
@@ -7,6 +8,7 @@
     "bg": "blue"
   },
   {
+    "id": 2,
     "title": "JobIT - A Job Finding Application",
     "tech": "ReactJS, Next.js",
     "tech1": "Nodejs, MongoDB",
@@ -14,6 +16,7 @@
     "bg": "black"
   },
   {
+    "id": 3,
     "title": "Hipnode - A Social Media Application",
     "tech": "ReactJS, Next.js",
     "tech1": "Nodejs, MongoDB",

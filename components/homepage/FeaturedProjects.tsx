@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "next/image";
-
+import featured from "constants/featured.json";
 import FeatProjectsCard from "./FeatProjectsCard";
 
 const FeaturedProjects = () => {
+  const data = JSON.parse(JSON.stringify(featured));
+
   return (
     <section className="mx-auto flex w-fit flex-col justify-center pt-[3rem] md:max-w-[60rem] xl:max-w-[80rem]">
       <div className="my-[3rem] flex flex-col gap-[2.25rem] md:my-[4.5rem] md:gap-[3rem]">
@@ -11,27 +13,32 @@ const FeaturedProjects = () => {
           Featured <span className="underline-magic w-fit">Projects</span>
         </h2>
         <div className="flex flex-col gap-[2.25rem] md:gap-[3rem]">
-          <FeatProjectsCard
-            title={"Morrent - A Car Rental Application"}
-            tech={"ReactJS, Next.js"}
-            tech1={"Nodejs, MongoDB"}
-            link={""}
-            bg={"blue"}
-          />
-          <FeatProjectsCard
-            title={"JobIT - A Job Finding Application"}
-            tech={"ReactJS, Next.js"}
-            tech1={"Nodejs, MongoDB"}
-            link={""}
-            bg={"black"}
-          />
-          <FeatProjectsCard
-            title={"Hipnode - A Social Media Application"}
-            tech={"ReactJS, Next.js"}
-            tech1={"Nodejs, MongoDB"}
-            link={""}
-            bg={"yellow"}
-          />
+          {data.slice(0, 4).map((FeaturedCardProps: featured) => (
+            <div key={FeaturedCardProps._id}>
+              <FeatProjectsCard
+                title={FeaturedCardProps.title}
+                tech={FeaturedCardProps.tech}
+                tech1={FeaturedCardProps.tech1}
+                link={FeaturedCardProps.link}
+                bg={FeaturedCardProps.bg}
+              />
+            </div>
+          ))}
+        </div>
+        <div className="flex flex-col gap-[2.25rem] md:gap-[3rem]">
+          {featured.map(featured => (
+            return (
+            <div key={featured.id}>
+              <FeatProjectsCard
+                title={featured.title}
+                tech={featured.tech}
+                tech1={featured.tech1}
+                link={featured.link}
+                bg={featured.bg}
+              />
+            </div>
+            )
+          ))}
         </div>
         <div>
           <div className="hidden justify-center md:flex">
