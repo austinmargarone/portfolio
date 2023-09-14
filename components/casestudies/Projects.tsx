@@ -1,12 +1,19 @@
 import Image from "next/image";
+import { title } from "process";
 import React from "react";
 
-const Projects = () => {
+type Props = {
+  title: string;
+  description: string;
+  project: string;
+};
+
+const Projects = (props: Props) => {
   return (
     <>
       <div className="casemain mx-auto flex w-[21.5625rem] shrink-0 flex-col rounded-[.62725rem] border border-black bg-blue1 md:w-[34.375rem]">
         <h4 className="boldp md:projectstitlelg flex justify-center dark:text-white">
-          Morrent
+          {title}
         </h4>
         <section className="mx-auto flex">
           <div>
@@ -14,20 +21,15 @@ const Projects = () => {
               src="/Computer.svg"
               width={290}
               height={165}
-              alt="Arrow Right"
+              alt="Computer"
             />
           </div>
           <div className="absolute pl-[1.45rem] pt-[.5rem]">
-            <Image
-              src="/Carrent.svg"
-              width={239}
-              height={134}
-              alt="Arrow Right"
-            />
+            <Image src={project} width={239} height={134} alt="Project Image" />
           </div>
         </section>
         <p className="smallreg md:regp flex justify-center dark:text-white1">
-          Car Rental Application
+          {description}
         </p>
       </div>
     </>

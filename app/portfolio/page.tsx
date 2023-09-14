@@ -11,12 +11,36 @@ const page = () => {
           <Heading />
         </div>
         <main className="casemain md:casemainlg mx-auto flex flex-col md:flex-row md:flex-wrap">
-          <Projects />
-          <Projects />
-          <Projects />
-          <Projects />
-          <Projects />
-          <Projects />
+          <Projects
+            title={"Morrent"}
+            description={"Car Rental Application"}
+            project={""}
+          />
+          <Projects
+            title={"Jobit"}
+            description={"Job Finding Application"}
+            project={""}
+          />
+          <Projects
+            title={"HipNode"}
+            description={"Social Platform for Developers"}
+            project={""}
+          />
+          <Projects
+            title={"Trip Guide "}
+            description={"Crowdfunding Application"}
+            project={""}
+          />
+          <Projects
+            title={"Virtue"}
+            description={"Booking Platform"}
+            project={""}
+          />
+          <Projects
+            title={"Filmpire"}
+            description={"AI-Powered Movie Application"}
+            project={""}
+          />
         </main>
         <section>
           <Contact />
