@@ -1,6 +1,7 @@
 import React from "react";
 import WorkExpCard from "./WorkExpCard";
 import Image from "next/image";
+import { JSM } from "@/components/svg";
 
 type Props = {};
 
@@ -59,24 +60,25 @@ const WorkExp = (props: Props) => {
         </div>
         <div className="flex flex-col gap-[1rem] md:ml-[1.62rem] md:gap-[2.19rem]">
           <WorkExpCard
-            title={"Slack"}
-            body={"Product Design - 4 Years Experince"}
-            image={"/Slack.svg"}
+            title={"Flower City Virtual Tours LLC"}
+            body={"Full Stack engineer"}
+            image={"/FCVT.svg"}
           />
           <WorkExpCard
-            title={"Firefox"}
-            body={"Sr. UI Design - 4 Years Experince"}
-            image={"/Firefox.svg"}
+            title={"Flower City Virtual Tours LLC"}
+            body={"Managing-Member"}
+            image={"/FCVT.svg"}
+          />
+
+          <WorkExpCard
+            title={"JS Mastery"}
+            body={"Enrolled i the JSM Masterclass"}
+            image={"/jsm-logo.svg"}
           />
           <WorkExpCard
-            title={"Digital Ocean"}
-            body={"UI & Motion Designer - 4 Years Experince"}
-            image={"/Ocean.svg"}
-          />
-          <WorkExpCard
-            title={"Mailchimp"}
-            body={"UI Designer - 4 Years Experince"}
-            image={"/Chimp.svg"}
+            title={"CodeCademy"}
+            body={"Completed curriculum from CodeCademy"}
+            image={"/codecademy.svg"}
           />
         </div>
       </div>
