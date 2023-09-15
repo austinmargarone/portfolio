@@ -59,24 +59,24 @@ const WorkExp = (props: Props) => {
         </div>
         <div className="flex flex-col gap-[1rem] md:ml-[1.62rem] md:gap-[2.19rem]">
           <WorkExpCard
-            title={"Flower City Virtual Tours LLC"}
-            body={"Full Stack engineer"}
+            title={"Flower City Virtual Tours"}
+            body={"Full Stack Engineer"}
             image={"/FCVT.svg"}
           />
           <WorkExpCard
-            title={"Flower City Virtual Tours LLC"}
+            title={"Flower City Virtual Tours"}
             body={"Managing-Member"}
             image={"/FCVT.svg"}
           />
 
           <WorkExpCard
             title={"JS Mastery"}
-            body={"Enrolled i the JSM Masterclass"}
+            body={"Enrolled In The JSM Masterclass"}
             image={"/jsm-logo.svg"}
           />
           <WorkExpCard
             title={"CodeCademy"}
-            body={"Completed curriculum from CodeCademy"}
+            body={"Completed Front-End Engineer Career Path"}
             image={"/codecademy.svg"}
           />
         </div>
