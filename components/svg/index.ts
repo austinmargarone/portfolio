@@ -1,1 +1,2 @@
-export { default as Css } from "./css.svg";
+export { default as ArrowLeft } from "./arrow-left.svg";
+export { default as ArrowRight } from "./arrow-right.svg";
