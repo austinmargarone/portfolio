@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { Css } from "@/components/svg";
 
 const About = () => {
   return (
@@ -11,6 +12,9 @@ const About = () => {
       </div>
       <div className="md:hidden">
         <div className="flex gap-[2rem]">
+          <div>
+            <Css />
+          </div>
           <div>
             <Image
               className="shrink-0 rounded-[1rem]"
