@@ -1,7 +1,6 @@
 import React from "react";
 import WorkExpCard from "./WorkExpCard";
 import Image from "next/image";
-import { JSM } from "@/components/svg";
 
 type Props = {};
 
