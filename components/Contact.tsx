@@ -20,9 +20,9 @@ const Contact = () => {
           <h4 className="contacttext mx-[1rem] mb-[1rem] mt-[4.87rem]">
             Have a project in mind that requires technical expertise?
           </h4>
-          <button className="contactbtn mx-auto">
+          <button className="contactbtn mx-auto dark:bg-blue1">
             <p className="contactbtntext">Get in Touch with Me</p>
-            <Image src="/Arrow2.svg" width={14} height={0} alt="Ellipse" />
+            <Image src="/Arrow1.svg" width={14} height={0} alt="Ellipse" />
           </button>
         </div>
       </div>
@@ -42,7 +42,7 @@ const Contact = () => {
             <div className=" mt-[10.69rem] flex">
               <button className="contactbtnlg flex dark:bg-blue1">
                 <p className="boldbody text-white">Get In Touch With Me</p>
-                <Image src="/Arrow2.svg" width={16} height={0} alt="Ellipse" />
+                <Image src="/Arrow1.svg" width={16} height={0} alt="Ellipse" />
               </button>
             </div>
           </div>
