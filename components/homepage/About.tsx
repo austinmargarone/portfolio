@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { ArrowLeft, ArrowRight } from "@/components/svg";
 
 const About = () => {
   return (
@@ -22,22 +23,24 @@ const About = () => {
           </div>
           <div className="flex gap-[1rem]">
             <div className="circle dark:border-darkbg dark:bg-darkbg2">
-              <Image
-                className="shrink-0 rounded-[1rem]"
-                src="/arrow-left.svg"
-                width={20}
-                height={20}
-                alt="Arrow Left"
-              />
+              <div className="shrink-0">
+                <ArrowLeft
+                  className="stroke-black dark:stroke-white"
+                  width={20}
+                  height={20}
+                  alt="Arrow Left"
+                />
+              </div>
             </div>
             <div className="circle dark:border-darkbg dark:bg-darkbg2">
-              <Image
-                className="shrink-0 rounded-[1rem]"
-                src="/arrow-right.svg"
-                width={20}
-                height={20}
-                alt="Arrow Right"
-              />
+              <div className="shrink-0 ">
+                <ArrowRight
+                  className="stroke-black dark:stroke-white"
+                  width={20}
+                  height={20}
+                  alt="Arrow Right"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -72,13 +75,14 @@ const About = () => {
       <div className="mt-[4rem] hidden md:block">
         <div className="flex">
           <div className="circlelg mt-[6rem] flex dark:border-darkbg dark:bg-darkbg2">
-            <Image
-              className="shrink-0 rounded-[1rem]"
-              src="/arrow-left.svg"
-              width={24}
-              height={24}
-              alt="Arrow Left"
-            />
+            <div className="shrink-0 ">
+              <ArrowLeft
+                className="stroke-black dark:stroke-white"
+                width={20}
+                height={20}
+                alt="Arrow Left"
+              />
+            </div>
           </div>
           <div className="flex ">
             <div className="mx-[1.62rem]">
@@ -119,13 +123,14 @@ const About = () => {
             </div>
           </div>
           <div className="circlelg mt-[6rem] dark:border-darkbg dark:bg-darkbg2">
-            <Image
-              className="shrink-0 rounded-[1rem]"
-              src="/arrow-right.svg"
-              width={24}
-              height={24}
-              alt="Arrow Right"
-            />
+            <div className="shrink-0 ">
+              <ArrowRight
+                className="stroke-black dark:stroke-white"
+                width={20}
+                height={20}
+                alt="Arrow Right"
+              />
+            </div>
           </div>
         </div>
       </div>

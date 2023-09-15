@@ -1,6 +1,6 @@
 import React from "react";
 import WorkExpCard from "./WorkExpCard";
-import Image from "next/image";
+import { EcIn, LineExp, EcOut } from "@/components/svg";
 
 type Props = {};
 
@@ -17,18 +17,21 @@ const WorkExp = (props: Props) => {
             and achievements in my career.
           </p>
           <div className="flex shrink-0 md:hidden">
-            <Image src="/Lineexp.svg" width={211} height={1} alt="Line" />
             <div className="flex">
-              <Image
-                className="stroke-1"
-                src="/Ellipseout.svg"
+              <LineExp
+                className="w-[211px] stroke-white dark:stroke-black"
+                alt="Line"
+              />
+            </div>
+            <div className="flex">
+              <EcIn
+                className="stroke-white stroke-1 dark:stroke-black"
                 width={58}
                 height={58}
                 alt="Eclipesout"
               />
-              <Image
-                className="absolute ml-3 mt-3 flex"
-                src="/Ellipsein.svg"
+              <EcOut
+                className="absolute ml-3 mt-3 flex fill-white dark:fill-black"
                 width={34}
                 height={34}
                 alt="Eclipesin"
@@ -37,18 +40,21 @@ const WorkExp = (props: Props) => {
           </div>
           <div className="hidden md:flex">
             <div className="flex shrink-0">
-              <Image src="/Lineexp.svg" width={286} height={1} alt="Line" />
+              <div className="bottom flex">
+                <LineExp
+                  className="w-[286px] stroke-white dark:stroke-black"
+                  alt="Line"
+                />
+              </div>
               <div className="flex">
-                <Image
-                  className="stroke-1"
-                  src="/Ellipseout.svg"
+                <EcIn
+                  className="stroke-white dark:stroke-black"
                   width={70}
                   height={70}
                   alt="Eclipesout"
                 />
-                <Image
-                  className="absolute ml-3 mt-3 flex"
-                  src="/Ellipsein.svg"
+                <EcOut
+                  className="absolute ml-3 mt-3 flex fill-white dark:fill-black"
                   width={44}
                   height={44}
                   alt="Eclipesin"
@@ -59,24 +65,25 @@ const WorkExp = (props: Props) => {
         </div>
         <div className="flex flex-col gap-[1rem] md:ml-[1.62rem] md:gap-[2.19rem]">
           <WorkExpCard
-            title={"Slack"}
-            body={"Product Design - 4 Years Experince"}
-            image={"/Slack.svg"}
+            title={"Flower City Virtual Tours"}
+            body={"Full Stack Engineer"}
+            image={"/FCVT.svg"}
           />
           <WorkExpCard
-            title={"Firefox"}
-            body={"Sr. UI Design - 4 Years Experince"}
-            image={"/Firefox.svg"}
+            title={"Flower City Virtual Tours"}
+            body={"Managing-Member"}
+            image={"/FCVT.svg"}
+          />
+
+          <WorkExpCard
+            title={"JS Mastery"}
+            body={"Enrolled In The JSM Masterclass"}
+            image={"/jsm-logo.svg"}
           />
           <WorkExpCard
-            title={"Digital Ocean"}
-            body={"UI & Motion Designer - 4 Years Experince"}
-            image={"/Ocean.svg"}
-          />
-          <WorkExpCard
-            title={"Mailchimp"}
-            body={"UI Designer - 4 Years Experince"}
-            image={"/Chimp.svg"}
+            title={"CodeCademy"}
+            body={"Completed Front-End Engineer Career Path"}
+            image={"/codecademy.svg"}
           />
         </div>
       </div>
