@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import FeatProjectsCard from "./FeatProjectsCard";
+import Link from "next/link";
 
 const FeaturedProjects = () => {
   return (
@@ -35,17 +36,21 @@ const FeaturedProjects = () => {
         </div>
         <div>
           <div className="hidden justify-center md:flex">
-            <button className="projectbutton1 flex dark:bg-blue1">
-              <p className="boldbody flex text-white">See More Case Studies</p>
-              <div className="flex shrink-0">
-                <Image
-                  src="/Arrow1.svg"
-                  width={16}
-                  height={0}
-                  alt="Arrow Right"
-                />
-              </div>
-            </button>
+            <Link href="/portfolio">
+              <button className="projectbutton1 flex dark:bg-blue1">
+                <p className="boldbody flex text-white">
+                  See More Case Studies
+                </p>
+                <div className="flex shrink-0">
+                  <Image
+                    src="/Arrow1.svg"
+                    width={16}
+                    height={0}
+                    alt="Arrow Right"
+                  />
+                </div>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

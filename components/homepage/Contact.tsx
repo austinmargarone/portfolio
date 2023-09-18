@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Contact = () => {
@@ -40,10 +41,17 @@ const Contact = () => {
               Have a project in mind that requires technical expertise?
             </h2>
             <div className=" mt-[10.69rem] flex">
-              <button className="contactbtnlg flex dark:bg-blue1">
-                <p className="boldbody text-white">Get In Touch With Me</p>
-                <Image src="/Arrow2.svg" width={16} height={0} alt="Ellipse" />
-              </button>
+              <Link href="/contact">
+                <button className="contactbtnlg flex dark:bg-blue1">
+                  <p className="boldbody text-white">Get In Touch With Me</p>
+                  <Image
+                    src="/Arrow2.svg"
+                    width={16}
+                    height={0}
+                    alt="Ellipse"
+                  />
+                </button>
+              </Link>
             </div>
           </div>
         </div>

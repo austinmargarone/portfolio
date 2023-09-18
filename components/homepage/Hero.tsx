@@ -1,11 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import Email from "./Email";
 
-type Props = {};
-
-const Hero = (props: Props) => {
+const Hero = () => {
   return (
-    <div className=" mx-auto flex w-fit flex-col justify-center bg-white1 pb-[2rem] pt-[3rem] dark:bg-darkbg md:w-full md:max-w-[80rem] md:flex-row xl:max-w-[110rem]">
+    <div className=" mx-auto flex w-fit flex-col justify-center bg-white1 pb-[2rem] pt-[3rem] dark:bg-darkbg md:w-full md:max-w-[80rem] md:flex-row xl:max-w-[100rem]">
       <div className="mx-auto flex flex-col md:w-1/2">
         <h4 className="title mb-[1.25rem] text-blue dark:text-blue1 md:mb-[1.69rem]">
           HI, I AM AUSTIN
@@ -22,21 +22,12 @@ const Hero = (props: Props) => {
           to excellence
         </h4>
         <div className="flex flex-col md:flex-row md:gap-[1.13rem]">
-          <button className="herobtn md:herobtnlg mb-[.88rem] flex rounded-[379.77006rem] bg-blue dark:bg-blue1 md:mb-0">
-            <p className="herotext text-white md:text-[1.125rem]">My Work</p>
-          </button>
-          <div className="herocopy md:herocopylg mb-[1.69rem] flex bg-white dark:bg-darkbg2 md:mb-0 md:w-fit">
-            <p className="herocopytext text-slate dark:text-white1">
-              austin@fcvt.dev
-            </p>
-            <Image
-              className="shrink-0"
-              src="/Frame.svg"
-              width={16}
-              height={16}
-              alt="Copy"
-            />
-          </div>
+          <Link href="/portfolio">
+            <button className="herobtn md:herobtnlg mb-[.88rem] flex rounded-[379.77006rem] bg-blue dark:bg-blue1 md:mb-0">
+              <p className="herotext text-white md:text-[1.125rem]">My Work</p>
+            </button>
+          </Link>
+          <Email />
         </div>
       </div>
       <div className="heroimg md:heroimglg md:w-1/2 md:flex-row">
