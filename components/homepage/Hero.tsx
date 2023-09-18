@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="heroimg md:heroimglg md:w-1/2 md:flex-row">
-        <Image src="/Hero.svg" width={757} height={541} alt="Hero computers" />
+        <Image src="/Hero.svg" width={757} height={541} alt="Hero computers" priority/>
       </div>
     </div>
   );
