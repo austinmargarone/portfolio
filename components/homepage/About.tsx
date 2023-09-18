@@ -15,10 +15,10 @@ const About = () => {
           <div>
             <Image
               className="shrink-0 rounded-[1rem]"
-              src="/Avatar.svg"
+              src="/Adrian.svg"
               width={328}
               height={328}
-              alt="Avatar"
+              alt="Headshit"
             />
           </div>
           <div className="flex gap-[1rem]">
@@ -56,18 +56,19 @@ const About = () => {
           </div>
           <div>
             <p className="regbody mb-[1.5rem] self-stretch text-black dark:text-white">
-              He was very knowledgeable about what he was doing and provided a
-              high level of service. I could not have asked for more. I will
-              definitely be using him in the future, and would highly recommend
-              him to anyone considering his services!
+              I have had the pleasure of working with Adrian as a Software
+              Developer and can confidently say that he is a valuable asset to
+              any team. He is highly skilled in ReactJS, NextJS, Javascript,
+              Material UI, Tailwind CSS, Redux, and GitHub, and consistently
+              delivers high-quality code.
             </p>
           </div>
           <div>
             <p className="boldbody self-stretch text-black dark:text-white1">
-              - Austin Margarone
+              — Adrian Hajdin
             </p>
             <p className="regbody self-stretch text-slate	dark:text-white">
-              Managing-Member of FC Virtual Tours
+              Founder & CEO at JS Mastery
             </p>
           </div>
         </div>
@@ -88,10 +89,10 @@ const About = () => {
             <div className="mx-[1.62rem]">
               <Image
                 className="rounded-[1rem]"
-                src="/Avatar.svg"
+                src="/Adrian.svg"
                 width={1450}
                 height={1450}
-                alt="Avatar"
+                alt="Headshot"
               />
             </div>
             <div>
@@ -106,18 +107,19 @@ const About = () => {
               </div>
               <div>
                 <p className="regbase mb-[2rem] text-slate dark:text-white">
-                  Austin was very knowledgeable about what he was doing and
-                  provided a high level of service. I could not have asked for
-                  more. I will definitely be using him in the future, and would
-                  highly recommend him to anyone considering his services!
+                  I have had the pleasure of working with Austin as a Software
+                  Developer and can confidently say that he is a valuable asset
+                  to any team. He is highly skilled in ReactJS, NextJS,
+                  Javascript, Material UI, Tailwind CSS, Redux, and GitHub, and
+                  consistently delivers high-quality code.
                 </p>
               </div>
               <div>
                 <p className="boldbody mb-[.25rem] self-stretch text-black dark:text-white1">
-                  - Austin Margarone
+                  — Adrian Hajdin
                 </p>
                 <p className="regbody self-stretch text-slate	dark:text-white">
-                  Managing-Member of FC Virtual Tours
+                  Founder & CEO at JS Mastery
                 </p>
               </div>
             </div>

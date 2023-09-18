@@ -40,7 +40,7 @@ const WorkExp = (props: Props) => {
           </div>
           <div className="hidden md:flex">
             <div className="flex shrink-0">
-              <div className="bottom flex">
+              <div className="flex">
                 <LineExp
                   className="w-[286px] stroke-white dark:stroke-black"
                   alt="Line"
