@@ -6,7 +6,7 @@ type Props = {};
 const Hero = (props: Props) => {
   return (
     <div className=" mx-auto flex w-fit flex-col justify-center bg-white1 pb-[2rem] pt-[3rem] dark:bg-darkbg md:w-full md:max-w-[80rem] md:flex-row xl:max-w-[110rem]">
-      <div className="mx-auto flex flex-col border md:w-1/2">
+      <div className="mx-auto flex flex-col md:w-1/2">
         <h4 className="title mb-[1.25rem] text-blue dark:text-blue1 md:mb-[1.69rem]">
           HI, I AM AUSTIN
         </h4>
@@ -39,7 +39,7 @@ const Hero = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className="heroimg md:heroimglg border md:w-1/2 md:flex-row">
+      <div className="heroimg md:heroimglg md:w-1/2 md:flex-row">
         <Image src="/Hero.svg" width={757} height={541} alt="Hero computers" />
       </div>
     </div>
