@@ -43,8 +43,8 @@ const FeatProjectsCard = (props: Props) => {
           />
         </div>
       </div>
-      <div className="mx-auto mt-[1.49rem] flex flex-col overflow-hidden md:ml-[2.27rem]">
-        <div className="relative left-1 my-auto hidden w-auto max-w-[695px] md:flex">
+      <div className="mx-auto mt-[1.49rem] flex flex-col overflow-hidden md:ml-[2.27rem] md:mt-[7rem] xl:mt-[3.88rem]">
+        <div className="relative left-1 hidden w-auto max-w-[695px] md:flex">
           <Image
             src="/Display.svg"
             width={701}

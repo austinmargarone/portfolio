@@ -22,7 +22,7 @@ const Hero = () => {
           to excellence
         </h4>
         <div className="flex flex-col md:flex-row md:gap-[1.13rem]">
-          <Link href="/portfolio">
+          <Link href="/casestudies">
             <button className="herobtn md:herobtnlg mb-[.88rem] flex rounded-[379.77006rem] bg-blue dark:bg-blue1 md:mb-0">
               <p className="herotext text-white md:text-[1.125rem]">My Work</p>
             </button>
@@ -31,7 +31,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="heroimg md:heroimglg md:w-1/2 md:flex-row">
-        <Image src="/Hero.svg" width={757} height={541} alt="Hero computers" priority/>
+        <Image
+          src="/Hero.svg"
+          width={757}
+          height={541}
+          alt="Hero computers"
+          priority
+        />
       </div>
     </div>
   );
