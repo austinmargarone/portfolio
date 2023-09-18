@@ -17,7 +17,7 @@ const WorkExp = (props: Props) => {
             and achievements in my career.
           </p>
           <div className="flex shrink-0 md:hidden">
-            <div className="flex">
+            <div className="flex pt-[1.25rem]">
               <LineExp
                 className="w-[211px] stroke-white dark:stroke-black"
                 alt="Line"
@@ -39,8 +39,8 @@ const WorkExp = (props: Props) => {
             </div>
           </div>
           <div className="hidden md:flex">
-            <div className="flex shrink-0">
-              <div className="flex">
+            <div className="flex shrink-0 content-center">
+              <div className="flex pt-[1.52rem]">
                 <LineExp
                   className="w-[286px] stroke-white dark:stroke-black"
                   alt="Line"
