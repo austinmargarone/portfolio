@@ -11,12 +11,56 @@ export default function ContactForm() {
     handleSubmit,
     formState: { errors, isSubmitting },
     reset,
+    setError,
   } = useForm<SignUpSchema>({
     resolver: zodResolver(signUpSchema),
   });
 
   const onSubmit = async (data: SignUpSchema) => {
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      body: JSON.stringify({
+        name: data.name,
+        email: data.email,
+      }),
+      headers: {
+        "content-Type": "application/json",
+      },
+    });
+
+    const responseData = await response.json();
+    if (!response.ok) {
+      alert("Submitting form failed!");
+      return;
+    }
+
+    if (responseData.errors) {
+      const errors = responseData.errors;
+      if (errors.name) {
+        setError("name", {
+          type: "server",
+          message: errors.name,
+        });
+      } else if (errors.email) {
+        setError("email", {
+          type: "server",
+          message: errors.email,
+        });
+      } else if (errors.description) {
+        setError("description", {
+          type: "server",
+          message: errors.description,
+        });
+      } else if (errors.phone) {
+        setError("phone", {
+          type: "server",
+          message: errors.phone,
+        });
+      } else {
+        alert("Something went wrong!");
+      }
+      reset();
+    }
   };
 
   return (
