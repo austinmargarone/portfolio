@@ -5,7 +5,7 @@ type Props = {};
 
 const MySkills = (props: Props) => {
   return (
-    <section className="mx-auto flex w-fit flex-col justify-center pb-[2rem] pt-[3rem] md:max-w-[65rem] md:flex-row xl:max-w-[90rem]">
+    <section className="mx-auto flex w-fit flex-col justify-center pb-[2rem] pt-[3rem] xs:max-w-[21.5rem] ss:max-w-[25rem] sm:max-w-[40rem] md:max-w-[65rem] md:flex-row xl:max-w-[90rem]">
       <div className="skills md:skillslg flex bg-white dark:bg-darkbg2">
         <h2 className="underline-magic mb-[2.5rem] flex w-fit text-center dark:text-white">
           My Skills
