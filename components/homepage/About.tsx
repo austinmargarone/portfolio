@@ -4,9 +4,9 @@ import { ArrowLeft, ArrowRight } from "@/components/svg";
 
 const About = () => {
   return (
-    <div className="about md:aboutlg mx-auto my-[3rem] border bg-white1 dark:bg-darkbg xs:max-w-[25rem] sm:max-w-[42rem] md:w-fit md:max-w-[75rem] xl:max-w-[80rem]">
+    <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 dark:bg-darkbg xs:max-w-[25rem] sm:max-w-[42rem] md:w-fit md:max-w-[75rem] xl:max-w-[80rem]">
       <div className="flex w-full">
-        <h2 className="mx-auto w-full border dark:text-white">
+        <h2 className="mx-auto w-full dark:text-white">
           <span className="underline-magic w-fit">Testimonials</span>
         </h2>
       </div>
