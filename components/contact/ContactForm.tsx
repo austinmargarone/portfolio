@@ -93,7 +93,7 @@ export default function ContactForm() {
     <>
       <form
         onSubmit={(handleSubmit(onSubmit), sendEmail)}
-        className="mx-auto flex min-w-[24.5625rem] flex-col gap-[1.25rem] px-[1.5rem] py-[3rem]"
+        className="mx-auto flex min-w-[24.5625rem] flex-col gap-[1.25rem] px-[1.5rem] py-[3rem] md:mx-0 lg:w-[37.5rem] xl:w-[50.3rem]"
         ref={form}
       >
         <div>
@@ -101,7 +101,7 @@ export default function ContactForm() {
           <input
             {...register("name")}
             type="name"
-            className="textbox h-[3.5rem] min-w-[21.5625rem] md:h-[5rem] md:w-[47.6875rem]"
+            className="textbox h-[3.5rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="user_name"
             required
           />
@@ -114,7 +114,7 @@ export default function ContactForm() {
           <input
             {...register("email")}
             type="email"
-            className="textbox h-[3.75rem] min-w-[21.5625rem] md:h-[5rem] md:w-[47.6875rem]"
+            className="textbox h-[3.75rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="user_email"
           />
         </div>
@@ -123,7 +123,7 @@ export default function ContactForm() {
           <input
             {...register("phone")}
             type="phone"
-            className="textbox h-[3.75rem] min-w-[21.5625rem] md:h-[5rem] md:w-[47.6875rem]"
+            className="textbox h-[3.75rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="user_phone"
           />
         </div>
@@ -134,18 +134,20 @@ export default function ContactForm() {
           <input
             {...register("description")}
             type="description"
-            className="textbox min-h-[11.875rem] min-w-[21.5625rem] md:w-[47.6875rem]"
+            className="textbox min-h-[11.875rem] min-w-[21.5625rem] pl-3 md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="user_message"
           />
         </div>
-        <button
-          disabled={isSubmitting}
-          type="submit"
-          className="flex h-[3.75rem] w-full justify-center gap-[.42194rem] rounded-[379.77006rem] bg-blue px-[0.50638rem] py-[0.84394rem] disabled:bg-blue1"
-          value="Send"
-        >
-          <p className="smallbold my-auto flex text-white	">Send</p>
-        </button>
+        <div className="justify-end md:flex">
+          <button
+            disabled={isSubmitting}
+            type="submit"
+            className="md:send flex h-[3.75rem] w-full justify-center gap-[.42194rem] rounded-[379.77006rem] bg-blue px-[0.50638rem] py-[0.84394rem] disabled:bg-blue1"
+            value="Send"
+          >
+            <p className="smallbold my-auto flex	text-white">Send</p>
+          </button>
+        </div>
       </form>
     </>
   );
