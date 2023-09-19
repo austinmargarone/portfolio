@@ -293,6 +293,14 @@
     letter-spacing: -0.02rem;
   }
 
+  .projecttitlelg {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 3.45rem */
+    letter-spacing: -0.03rem;
+  }
+
   .projectbutton {
     display: flex;
     padding: 0.625rem;
