@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import useThemeState from "@/store/themeStore";
+import { Resume } from "@/components/svg";
 
 const Navbar = () => {
   const { theme, toggleTheme } = useThemeState();
@@ -37,8 +38,8 @@ const Navbar = () => {
             </li>
             <li>
               <button className="flex content-center gap-[.1875rem]">
-                <Image
-                  src="/Download.svg"
+                <Resume
+                  className="fill-black dark:fill-white"
                   width={20}
                   height={20}
                   alt="Download"

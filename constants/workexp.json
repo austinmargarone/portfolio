@@ -1,26 +1,26 @@
 [
   {
-    "title": "Slack",
-    "body": "Product Design - 4 Years Experince",
-    "tech1": "Nodejs, MongoDB",
-    "image": "/Slack.svg"
+    "id": "1",
+    "title": "Flower City Virtual Tours",
+    "body": "Full Stack Engineer",
+    "image": "/FCVT.svg"
   },
   {
-    "title": "Firefox",
-    "body": "Sr. UI Design - 4 Years Experince",
-    "tech1": "Nodejs, MongoDB",
-    "image": "/Slack.svg"
+    "id": "2",
+    "title": "Flower City Virtual Tours",
+    "body": "Managing-Member",
+    "image": "/FCVT.svg"
   },
   {
-    "title": "Digital Ocean",
-    "body": "UI & Motion Designer - 4 Years Experince",
-    "tech1": "Nodejs, MongoDB",
-    "image": "/Ocean.svg"
+    "id": "3",
+    "title": "JS Mastery",
+    "body": "Enrolled In The JSM Masterclass",
+    "image": "/jsm-logo.svg"
   },
   {
-    "title": "Slack",
-    "body": "Product Design - 4 Years Experince",
-    "tech1": "Nodejs, MongoDB",
-    "image": "/Chimp.svg"
+    "id": "4",
+    "title": "CodeCademy",
+    "body": "Completed Front-End Engineer Career Path",
+    "image": "/codecademy.svg"
   }
 ]

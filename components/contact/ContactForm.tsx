@@ -28,6 +28,7 @@ export default function ContactForm() {
         "template_msyezf2",
         form.current,
         "a6KAejDLpv4NVCoDA"
+
       )
       .then(
         (result) => {
@@ -94,6 +95,7 @@ export default function ContactForm() {
       <form
         onSubmit={(handleSubmit(onSubmit), sendEmail)}
         className="mx-auto flex min-w-[24.5625rem] flex-col gap-[1.25rem] px-[1.5rem] py-[3rem] md:mx-0 lg:w-[37.5rem] xl:w-[50.3rem]"
+
         ref={form}
       >
         <div>
@@ -104,6 +106,7 @@ export default function ContactForm() {
             className="textbox h-[3.5rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="user_name"
             required
+
           />
           {errors.name && (
             <p className="text-blue">{`${errors.name.message}`}</p>
@@ -115,6 +118,7 @@ export default function ContactForm() {
             {...register("email")}
             type="email"
             className="textbox h-[3.75rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+
             name="user_email"
           />
         </div>
@@ -124,11 +128,13 @@ export default function ContactForm() {
             {...register("phone")}
             type="phone"
             className="textbox h-[3.75rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+
             name="user_phone"
           />
         </div>
         <div>
           <p className="regp w-[21.5625rem] md:w-[47.6875rem]">
+
             Write something about your project goals and timeframe
           </p>
           <input
@@ -148,6 +154,7 @@ export default function ContactForm() {
             <p className="smallbold my-auto flex	text-white">Send</p>
           </button>
         </div>
+
       </form>
     </>
   );
