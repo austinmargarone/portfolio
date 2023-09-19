@@ -471,4 +471,11 @@
     align-items: flex-start;
     gap: 1.25rem;
   }
+
+  /* contact */
+  .textbox {
+    border-radius: 0.625rem;
+    border: 1px solid #cce1ff;
+    background: var(--white-800, #f3f8ff);
+  }
 }

@@ -12,10 +12,10 @@ const page = () => {
         </section>
         <section className="flex flex-col">
           <div className="flex">
-            <ContactInfo />
+            <ContactForm />
           </div>
           <div className="flex">
-            <ContactForm />
+            <ContactInfo />
           </div>
         </section>
       </div>
