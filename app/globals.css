@@ -651,6 +651,51 @@
     background: var(--white-800, #f3f8ff);
   }
 
+  .p8 {
+    display: flex;
+    padding: 2.25rem 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.25rem;
+  }
+
+  .p8lg {
+    display: flex;
+    padding: 4.5rem 17.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    background: var(--white-800, #f3f8ff);
+  }
+
+  .p8btn {
+    display: flex;
+    padding: 0.75rem 6.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5625rem;
+    border-radius: 1.75506rem;
+    border: 0.802px solid var(--accent-primary-light, #0252cd);
+    background: var(--accent-primary-light, #0252cd);
+  }
+
+  .p8btntext {
+    color: var(--white-900, #fff);
+    text-align: center;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%;
+  }
+
+  .p8shadow {
+    border-radius: 1.00294rem;
+    background: var(--white-900, #fff);
+    box-shadow: 0px 0.80233px 16.04651px 0px #e0ecff;
+  }
+
   /* Contact */
 
   .contactinfo {

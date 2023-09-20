@@ -8,6 +8,7 @@ import Statement from "@/components/projects/Statement";
 import Design from "@/components/projects/Design";
 import MyProcess from "@/components/projects/MyProcess";
 import Challenges from "@/components/projects/Challenges";
+import OtherCases from "@/components/projects/OtherCases";
 
 const page = () => {
   return (
@@ -37,7 +38,9 @@ const page = () => {
         <section>
           <Challenges />
         </section>
-        <section></section>
+        <section>
+          <OtherCases />
+        </section>
         <section>
           <Contact />
         </section>
