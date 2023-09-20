@@ -611,6 +611,46 @@
     align-items: center;
   }
 
+  .p7 {
+    display: flex;
+    padding: 2.25rem 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .p7lg {
+    display: flex;
+    padding: 4.5rem 17.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.875rem;
+  }
+
+  .p7bg {
+    display: flex;
+    padding: 1.5rem 0.875rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    border-radius: 0.625rem;
+    background: var(--white-800, #f3f8ff);
+  }
+
+  .p7bglg {
+    display: flex;
+    padding: 2.25rem 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.875rem;
+    border-radius: 0.625rem;
+    background: var(--white-800, #f3f8ff);
+  }
+
   /* Contact */
 
   .contactinfo {
