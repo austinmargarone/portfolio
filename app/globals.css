@@ -533,4 +533,22 @@
     line-height: 105%; /* 1.8375rem */
     letter-spacing: -0.00875rem;
   }
+
+  .p4 {
+    display: flex;
+    padding: 2.25rem 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+  }
+
+  .p4lg {
+    display: flex;
+    padding: 4.5rem 17.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+  }
 }
