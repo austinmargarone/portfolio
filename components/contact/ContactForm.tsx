@@ -12,16 +12,13 @@ export default function ContactForm() {
     handleSubmit,
     formState: { errors, isSubmitting },
     reset,
-    setError,
   } = useForm<SignUpSchema>({
     resolver: zodResolver(signUpSchema),
   });
 
   const form = useRef(null);
 
-  const sendEmail = (e: any) => {
-    e.preventDefault();
-
+  const sendEmail = () => {
     emailjs
       .sendForm(
         process.env.NEXT_PUBLIC_SERVICE_ID!,
@@ -33,7 +30,6 @@ export default function ContactForm() {
         (result) => {
           console.log(result.text);
           console.log("Sent!");
-          e.target.reset();
         },
         (error) => {
           console.log(error.text);
@@ -43,56 +39,14 @@ export default function ContactForm() {
   };
 
   const onSubmit = async (data: SignUpSchema) => {
-    const response = await fetch("/api/contact", {
-      method: "POST",
-      body: JSON.stringify({
-        name: data.name,
-        email: data.email,
-      }),
-      headers: {
-        "content-Type": "application/json",
-      },
-    });
-
-    const responseData = await response.json();
-    if (!response.ok) {
-      alert("Submitting form failed!");
-      return;
-    }
-
-    if (responseData.errors) {
-      const errors = responseData.errors;
-      if (errors.name) {
-        setError("name", {
-          type: "server",
-          message: errors.name,
-        });
-      } else if (errors.email) {
-        setError("email", {
-          type: "server",
-          message: errors.email,
-        });
-      } else if (errors.description) {
-        setError("description", {
-          type: "server",
-          message: errors.description,
-        });
-      } else if (errors.phone) {
-        setError("phone", {
-          type: "server",
-          message: errors.phone,
-        });
-      } else {
-        alert("Something went wrong!");
-      }
-      reset();
-    }
+    sendEmail();
+    reset();
   };
 
   return (
     <>
       <form
-        onSubmit={(handleSubmit(onSubmit), sendEmail)}
+        onSubmit={handleSubmit(onSubmit)}
         className="mx-auto flex min-w-[24.5625rem] flex-col gap-[1.25rem] px-[1.5rem] py-[3rem] md:mx-0 lg:w-[37.5rem] xl:w-[50.3rem]"
         ref={form}
       >
@@ -102,7 +56,7 @@ export default function ContactForm() {
             {...register("name")}
             type="name"
             className="textbox h-[3.5rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
-            name="user_name"
+            name="name"
             required
           />
           {errors.name && (
@@ -115,7 +69,7 @@ export default function ContactForm() {
             {...register("email")}
             type="email"
             className="textbox h-[3.75rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
-            name="user_email"
+            name="email"
           />
         </div>
         <div>
@@ -124,7 +78,7 @@ export default function ContactForm() {
             {...register("phone")}
             type="phone"
             className="textbox h-[3.75rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
-            name="user_phone"
+            name="phone"
           />
         </div>
         <div>
@@ -135,7 +89,7 @@ export default function ContactForm() {
             {...register("description")}
             type="description"
             className="textbox min-h-[11.875rem] min-w-[21.5625rem] pl-3 md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
-            name="user_message"
+            name="description"
           />
         </div>
         <div className="justify-end md:flex">
