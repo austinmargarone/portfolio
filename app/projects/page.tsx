@@ -1,11 +1,12 @@
 import Contact from "@/components/Contact";
 import Image from "next/image";
 import React from "react";
-import { Cars } from "@/components/svg";
 import Hero from "@/components/projects/Hero";
 import MyRole from "@/components/projects/MyRole";
 import Description from "@/components/projects/Description";
 import Statement from "@/components/projects/Statement";
+import Design from "@/components/projects/Design";
+import MyProcess from "@/components/projects/MyProcess";
 
 const page = () => {
   return (
@@ -26,8 +27,12 @@ const page = () => {
         <section>
           <Statement />
         </section>
-        <section></section>
-        <section></section>
+        <section>
+          <Design />
+        </section>
+        <section>
+          <MyProcess />
+        </section>
         <section></section>
         <section></section>
         <section>
