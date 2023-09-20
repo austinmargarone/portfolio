@@ -1,5 +1,4 @@
 import Contact from "@/components/Contact";
-import Image from "next/image";
 import React from "react";
 import Hero from "@/components/projects/Hero";
 import MyRole from "@/components/projects/MyRole";
@@ -13,7 +12,7 @@ import OtherCases from "@/components/projects/OtherCases";
 const page = () => {
   return (
     <>
-      <div>
+      <div className="mx-auto xs:max-w-[22.5rem] ss:max-w-[30rem] sm:max-w-[40rem] md:max-w-[60rem] xl:max-w-[80rem]">
         <section>
           <Hero />
         </section>
