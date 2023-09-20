@@ -5,8 +5,17 @@ type Props = {};
 
 const OtherCasesCard = (props: Props) => {
   return (
-    <div className="p8shadow dark:p8shadowdark mt-[1.5rem] w-[429px] pb-[1.5rem]">
-      <div>
+    <div className="p8shadow dark:p8shadowdark mt-[1.5rem] w-[365px] pb-[1.5rem] lg:w-[429px]">
+      <div className="flex lg:hidden">
+        <Image
+          className="rounded-t-[1.25rem]"
+          src="/Jobit.svg"
+          width={365}
+          height={186}
+          alt="Jobit"
+        />
+      </div>
+      <div className="hidden lg:block">
         <Image
           className="rounded-t-[1.25rem]"
           src="/Jobit.svg"
