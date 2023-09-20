@@ -518,7 +518,7 @@
     flex-wrap: wrap;
   }
 
-  .p3techsmall {
+  .projectsmalltitle {
     color: var(--accent-primary-light, #0252cd);
     font-size: 0.75rem;
     font-style: normal;
@@ -526,12 +526,20 @@
     line-height: 145%;
   }
 
-  .p3tech {
+  .projecttitle {
     font-size: 1.75rem;
     font-style: normal;
     font-weight: 600;
     line-height: 105%; /* 1.8375rem */
     letter-spacing: -0.00875rem;
+  }
+
+  .projecttext {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    color: var(--white-500, #6f74a7);
   }
 
   .p4 {
@@ -550,5 +558,23 @@
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
+  }
+
+  .p5 {
+    display: flex;
+    padding: 2.25rem 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .p5lg {
+    display: flex;
+    padding: 4.5rem 17.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
   }
 }

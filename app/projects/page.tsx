@@ -1,7 +1,7 @@
 import Contact from "@/components/Contact";
 import Image from "next/image";
 import React from "react";
-import { ArrowRight1, Globe, Github } from "@/components/svg";
+import { ArrowRight1, Globe, Github, Cars } from "@/components/svg";
 import SkillTile from "@/components/projects/SkillTile";
 
 const page = () => {
@@ -69,7 +69,7 @@ const page = () => {
           </div>
         </section>
         <section className="p4 md:p4lg">
-          <p>
+          <p className="projecttext">
             Morent, a cutting-edge car rental application that was developed
             using the MERN stack. The app boasts a dynamic homepage that
             showcases featured vehicles, along with convenient pickup & drop-off
@@ -90,7 +90,24 @@ const page = () => {
             make renting a car a breeze.
           </p>
         </section>
-        <section></section>
+        <section className="p5 md:p5lg">
+          <div>
+            <p className="projectsmalltitle mb-[.56rem]">Problem</p>
+            <h4 className="projecttitle">Problem Statement</h4>
+          </div>
+          <div>
+            <p className="projecttext my-[1.5rem]">
+              One of the main problems that people face when looking to rent a
+              car is the hassle of finding a reliable and user-friendly platform
+              to search for and book rental cars. In addition, car owners who
+              want to rent out their vehicles often struggle to find a suitable
+              platform to list their cars and manage their rentals.
+            </p>
+          </div>
+          <div>
+            <Cars />
+          </div>
+        </section>
         <section></section>
         <section></section>
         <section></section>
