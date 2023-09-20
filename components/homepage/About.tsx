@@ -4,13 +4,13 @@ import { ArrowLeft, ArrowRight } from "@/components/svg";
 
 const About = () => {
   return (
-    <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 dark:bg-darkbg md:w-fit md:max-w-[75rem] xl:max-w-[80rem] ">
-      <div>
-        <h2 className="dark:text-white">
+    <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 dark:bg-darkbg xs:max-w-[25rem] sm:max-w-[42rem] md:w-fit md:max-w-[75rem] xl:max-w-[80rem]">
+      <div className="flex w-full">
+        <h2 className="mx-auto w-full dark:text-white">
           <span className="underline-magic w-fit">Testimonials</span>
         </h2>
       </div>
-      <div className="md:hidden">
+      <div className="sm:hidden">
         <div className="flex gap-[2rem]">
           <div>
             <Image
@@ -73,7 +73,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="mt-[4rem] hidden md:block">
+      <div className="mt-[4rem] hidden sm:block">
         <div className="flex">
           <div className="circlelg mt-[6rem] flex dark:border-darkbg dark:bg-darkbg2">
             <div className="shrink-0 ">

@@ -6,11 +6,11 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <div className="mx-auto md:max-w-[60rem] xl:max-w-[90rem]">
+      <div className="mx-auto sm:max-w-[50rem] md:max-w-[90rem]">
         <div>
           <Heading />
         </div>
-        <main className="casemain md:casemainlg mx-auto flex flex-col md:flex-row md:flex-wrap">
+        <main className="casemain md:casemainlg mx-auto flex flex-col sm:flex-row sm:flex-wrap">
           <Projects
             title={"Morrent"}
             description={"Car Rental Application"}
