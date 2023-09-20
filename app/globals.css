@@ -678,7 +678,6 @@
     display: flex;
     padding: 2.25rem 1.5rem;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     gap: 2.25rem;
   }
@@ -687,8 +686,6 @@
     display: flex;
     padding: 4.5rem 17.5rem;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 2.5rem;
     background: var(--white-800, #f3f8ff);
   }
@@ -717,6 +714,12 @@
     border-radius: 1.00294rem;
     background: var(--white-900, #fff);
     box-shadow: 0px 0.80233px 16.04651px 0px #e0ecff;
+  }
+
+  .p8shadowdark {
+    border-radius: 1.25rem;
+    background: var(--black-300, #192333);
+    box-shadow: 0px 3px 30px 0px #1f2c41;
   }
 
   /* Contact */
