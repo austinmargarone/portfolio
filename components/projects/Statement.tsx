@@ -1,5 +1,6 @@
 import React from "react";
 import { Cars } from "../svg";
+import Image from "next/image";
 
 type Props = {};
 
@@ -23,8 +24,14 @@ const Statement = (props: Props) => {
           list their cars and manage their rentals.
         </p>
       </div>
-      <div>
-        <Cars />
+      <div className="mx-auto">
+        <Image
+          className="w-[348px] md:w-[879px]"
+          src="/Car.png"
+          width={348}
+          height={363}
+          alt="Computer"
+        />
       </div>
     </section>
   );
