@@ -4,3 +4,6 @@ export { default as Resume } from "./Resume.svg";
 export { default as LineExp } from "./Lineexp.svg";
 export { default as EcOut } from "./Ellipseout.svg";
 export { default as EcIn } from "./Ellipsein.svg";
+export { default as ArrowRight1 } from "./ArrowRight1.svg";
+export { default as Globe } from "./Globe.svg";
+export { default as Github } from "./Github.svg";
