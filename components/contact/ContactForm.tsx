@@ -24,10 +24,10 @@ export default function ContactForm() {
 
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID!,
-        process.env.REACT_APP_TEMPLATE_ID!,
+        process.env.NEXT_PUBLIC_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_TEMPLATE_ID!,
         form.current!,
-        process.env.REACT_APP_PUBLIC_ID
+        process.env.NEXT_PUBLIC_PUBLIC_ID
       )
       .then(
         (result) => {
