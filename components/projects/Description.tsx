@@ -5,7 +5,7 @@ type Props = {};
 const Description = (props: Props) => {
   return (
     <section className="p4 md:p4lg">
-      <p className="projecttext">
+      <p className="projecttext md:regp dark:text-white1">
         Morent, a cutting-edge car rental application that was developed using
         the MERN stack. The app boasts a dynamic homepage that showcases
         featured vehicles, along with convenient pickup & drop-off location
