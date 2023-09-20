@@ -17,17 +17,17 @@ export default function ContactForm() {
     resolver: zodResolver(signUpSchema),
   });
 
-  const form = useRef();
+  const form = useRef(null);
 
   const sendEmail = (e: any) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        process.env.SERVICE_ID,
-        process.env.TEMPLATE_ID,
-        form.current,
-        process.env.PUBLIC_KEY
+        process.env.NEXT_PUBLIC_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_TEMPLATE_ID!,
+        form.current!,
+        process.env.NEXT_PUBLIC_PUBLIC_ID
       )
       .then(
         (result) => {
@@ -93,7 +93,7 @@ export default function ContactForm() {
     <>
       <form
         onSubmit={(handleSubmit(onSubmit), sendEmail)}
-        className="mx-auto"
+        className="mx-auto flex min-w-[24.5625rem] flex-col gap-[1.25rem] px-[1.5rem] py-[3rem] md:mx-0 lg:w-[37.5rem] xl:w-[50.3rem]"
         ref={form}
       >
         <div>
@@ -101,8 +101,9 @@ export default function ContactForm() {
           <input
             {...register("name")}
             type="name"
-            className="rounded border px-4 py-2 md:h-[5rem] md:w-[47.6875rem]"
+            className="textbox h-[3.5rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="user_name"
+            required
           />
           {errors.name && (
             <p className="text-blue">{`${errors.name.message}`}</p>
@@ -113,7 +114,7 @@ export default function ContactForm() {
           <input
             {...register("email")}
             type="email"
-            className="rounded border px-4 py-2 md:h-[5rem] md:w-[47.6875rem]"
+            className="textbox h-[3.75rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="user_email"
           />
         </div>
@@ -122,29 +123,31 @@ export default function ContactForm() {
           <input
             {...register("phone")}
             type="phone"
-            className="rounded border px-4 py-2 md:h-[5rem] md:w-[47.6875rem]"
+            className="textbox h-[3.75rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="user_phone"
           />
         </div>
         <div>
-          <p className="regp">
+          <p className="regp w-[21.5625rem] md:w-[47.6875rem]">
             Write something about your project goals and timeframe
           </p>
           <input
             {...register("description")}
             type="description"
-            className="rounded border px-4 py-2 md:h-[11.875rem] md:w-[47.6875rem]"
+            className="textbox min-h-[11.875rem] min-w-[21.5625rem] pl-3 md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="user_message"
           />
         </div>
-        <button
-          disabled={isSubmitting}
-          type="submit"
-          className="bg-blue disabled:bg-blue1"
-          value="Send"
-        >
-          Send
-        </button>
+        <div className="justify-end md:flex">
+          <button
+            disabled={isSubmitting}
+            type="submit"
+            className="md:send flex h-[3.75rem] w-full justify-center gap-[.42194rem] rounded-[379.77006rem] bg-blue px-[0.50638rem] py-[0.84394rem] disabled:bg-blue1"
+            value="Send"
+          >
+            <p className="smallbold my-auto flex	text-white">Send</p>
+          </button>
+        </div>
       </form>
     </>
   );
