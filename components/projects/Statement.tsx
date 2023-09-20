@@ -6,12 +6,16 @@ type Props = {};
 const Statement = (props: Props) => {
   return (
     <section className="p5 md:p5lg">
-      <div>
-        <p className="projectsmalltitle mb-[.56rem]">Problem</p>
-        <h4 className="projecttitle">Problem Statement</h4>
+      <div className="">
+        <p className="projectsmalltitle md:smallbold mb-[.56rem] dark:text-blue1">
+          Problem
+        </p>
+        <h4 className="projecttitle md:ptitle2 dark:text-white">
+          Problem Statement
+        </h4>
       </div>
       <div>
-        <p className="projecttext my-[1.5rem]">
+        <p className="projecttext md:regp my-[1.5rem] dark:text-white1">
           One of the main problems that people face when looking to rent a car
           is the hassle of finding a reliable and user-friendly platform to
           search for and book rental cars. In addition, car owners who want to

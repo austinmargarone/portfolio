@@ -483,6 +483,14 @@
     letter-spacing: -0.04rem;
   }
 
+  .ptitle2 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105%; /* 2.1rem */
+    letter-spacing: -0.01rem;
+  }
+
   .p1smalltitlelg {
     font-size: 1.25rem;
     font-style: normal;
@@ -582,7 +590,6 @@
     display: flex;
     padding: 2.25rem 1.5rem;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     gap: 1.5rem;
   }
@@ -591,8 +598,6 @@
     display: flex;
     padding: 4.5rem 17.5rem;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 1.875rem;
   }
 

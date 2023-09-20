@@ -8,6 +8,7 @@ import Design from "@/components/projects/Design";
 import MyProcess from "@/components/projects/MyProcess";
 import Challenges from "@/components/projects/Challenges";
 import OtherCases from "@/components/projects/OtherCases";
+import TechStack from "@/components/projects/TechStack";
 
 const page = () => {
   return (
@@ -19,7 +20,9 @@ const page = () => {
         <section>
           <MyRole />
         </section>
-
+        <section>
+          <TechStack />
+        </section>
         <section>
           <Description />
         </section>
