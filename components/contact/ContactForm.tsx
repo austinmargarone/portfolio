@@ -26,7 +26,7 @@ export default function ContactForm() {
       .sendForm(
         "service_l76u8u8",
         "template_msyezf2",
-        form.current,
+        form.current!,
         "a6KAejDLpv4NVCoDA"
 
       )
