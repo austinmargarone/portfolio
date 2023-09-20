@@ -12,16 +12,14 @@ import OtherCases from "@/components/projects/OtherCases";
 const page = () => {
   return (
     <>
-      <div className="mx-auto xs:max-w-[22.5rem] ss:max-w-[30rem] sm:max-w-[40rem] md:max-w-[60rem] xl:max-w-[80rem]">
+      <div className="mx-auto xs:max-w-[22.5rem] ss:max-w-[30rem] sm:max-w-[45rem] md:max-w-[70rem] lg:max-w-[80rem] xl:max-w-[90rem]">
         <section>
           <Hero />
         </section>
         <section>
           <MyRole />
         </section>
-        <section>
-          <MyRole />
-        </section>
+
         <section>
           <Description />
         </section>
