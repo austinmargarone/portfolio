@@ -1,13 +1,23 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import useThemeState from "@/store/themeStore";
 import { Resume } from "@/components/svg";
 
 const Navbar = () => {
   const { theme, toggleTheme } = useThemeState();
+  // const [navbar, setNavbar] = useState(false);
+  // const { theme, toggleTheme } = useThemeState();
+  const toggleMenu = () => {
+    setExpanded(!expanded);
+  };
+  const [expanded, setExpanded] = useState(false);
+  // const [isVisible, setIsVisible] = useState(false);
 
+  // const toggleVisibility = () => {
+  //   setIsVisible(!isVisible);
+  // };
   return (
     <main className="bg-white1 dark:bg-darkbg">
       <div className="mx-auto flex justify-between py-[1.31rem] md:pt-[2.25rem] xl:max-w-[120rem]">
@@ -16,9 +26,69 @@ const Navbar = () => {
             A
           </p>
         </div>
-        <div className="mr-[1.5rem] flex md:mr-[5.31rem] md:hidden">
-          <Image src="/Nav.svg" alt="Nav" width={24} height={24} />
+        {/* Mobile Nav */}
+        <button className="flex md:hidden" onClick={toggleTheme}>
+          {theme === "dark" ? (
+            <Image src="/Union.svg" width={20} height={20} alt="Light Mode" />
+          ) : (
+            <Image src="/Moon.svg" width={20} height={20} alt="Dark Mode" />
+          )}
+        </button>
+        {/* Hamburg */}
+        <div className="flex md:hidden" onClick={toggleMenu}>
+          <div className="mr-[1.2rem]">
+            <Image src="/Nav.svg" alt="Nav" width={24} height={24} />
+          </div>
         </div>
+        {/*  Open Menu */}
+        {expanded && (
+          <div className="fixed left-0 top-0 z-10 h-screen w-screen bg-darkbg dark:bg-grey">
+            <div className="m-5 flex h-3/4 flex-col gap-5 rounded-[.33rem] bg-white1 dark:bg-darkbg2">
+              <header className="flex w-full flex-row justify-between border-b">
+                <div className="ml-7 mt-4 font-bold text-blue">
+                  My Portfolio
+                </div>
+                <div className="mr-7 mt-4">
+                  <button onClick={toggleMenu}>
+                    <Image src="/Nav.svg" alt="Nav" width={24} height={24} />
+                  </button>
+                </div>
+              </header>
+              <div className="mx-auto">
+                <ul className="flex flex-col gap-[2.25rem] text-black">
+                  <li>
+                    <button>
+                      <Link href="/">Home</Link>
+                    </button>
+                  </li>
+                  <li>
+                    <button>
+                      <Link href="/casestudies">Case Studies</Link>
+                    </button>
+                  </li>
+                  <li>
+                    <button>
+                      <Link href="/contact">Contact</Link>
+                    </button>
+                  </li>
+                  <li>
+                    <button className="flex content-center gap-[.1875rem]">
+                      <Resume
+                        className="fill-black dark:fill-white"
+                        width={20}
+                        height={20}
+                        alt="Download"
+                      />
+
+                      <Link href="/resume">Resume</Link>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        )}
+        {/* Mobile Nav End */}
         <div className="mr-[1.5rem] hidden items-center md:mr-[5.31rem] md:block">
           <ul className="flex gap-[2.25rem] dark:text-white1">
             <li>
