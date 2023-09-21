@@ -1,7 +1,7 @@
 import React from "react";
 import SkillTile from "./SkillTile";
 
-type Props = {};
+type Props = { imageUrl: string };
 
 const MySkills = (props: Props) => {
   return (
