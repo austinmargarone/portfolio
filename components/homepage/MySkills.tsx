@@ -1,5 +1,6 @@
 import React from "react";
 import SkillTile from "./SkillTile";
+import { CSSIcon, HTMLIcon, TSIcon } from "@/components/svg";
 
 type Props = {};
 
@@ -27,6 +28,9 @@ const MySkills = (props: Props) => {
           <SkillTile imageUrl="nodejs.svg" />
           <SkillTile imageUrl="ex.svg" />
           <SkillTile imageUrl="mongodb.svg" />
+        </div>
+        <div className="h-[10rem] w-[10rem] fill-yellow">
+          <CSSIcon className="h-[10rem] w-[10rem] fill-yellow" />
         </div>
       </div>
     </section>
