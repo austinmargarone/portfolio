@@ -5,6 +5,10 @@
 /* Globals */
 
 @layer base {
+  .sectionShrink > section {
+    @apply;
+  }
+
   h1 {
     font-size: 4rem;
     font-style: normal;

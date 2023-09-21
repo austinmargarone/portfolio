@@ -13,7 +13,7 @@ import TechStack from "@/components/projects/TechStack";
 const page = () => {
   return (
     <>
-      <div className="mx-auto xs:max-w-[25rem] ss:max-w-[32rem] sm:max-w-[45rem] md:max-w-[70rem] lg:max-w-[80rem] xl:max-w-[90rem]">
+      <div className="[&>section]xs:max-w-[25rem] [&>section]ss:max-w-[32rem] [&>section]sm:max-w-[45rem] [&>section]lg:max-w-[80rem] [&>section]xl:max-w-[90rem] [&>section]md:max-w-[70rem]">
         <section>
           <Hero />
         </section>
@@ -29,9 +29,9 @@ const page = () => {
         <section>
           <Statement />
         </section>
-        <section>
+        <div>
           <Design />
-        </section>
+        </div>
         <section>
           <MyProcess />
         </section>
