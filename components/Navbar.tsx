@@ -7,17 +7,11 @@ import { Resume, Nav, Moon, Union } from "@/components/svg";
 
 const Navbar = () => {
   const { theme, toggleTheme } = useThemeState();
-  // const [navbar, setNavbar] = useState(false);
-  // const { theme, toggleTheme } = useThemeState();
+
   const toggleMenu = () => {
     setExpanded(!expanded);
   };
   const [expanded, setExpanded] = useState(false);
-  // const [isVisible, setIsVisible] = useState(false);
-
-  // const toggleVisibility = () => {
-  //   setIsVisible(!isVisible);
-  // };
   return (
     <main className="bg-white1 dark:bg-darkbg">
       <div className="mx-auto flex justify-between py-[1.31rem] md:pt-[2.25rem] xl:max-w-[120rem]">
@@ -95,7 +89,10 @@ const Navbar = () => {
                 <div className="mx-auto">
                   <ul className="flex flex-col gap-[2.25rem] text-black sm:gap-[3.5rem]">
                     <li>
-                      <button className="w-[10rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]">
+                      <button
+                        onClick={toggleMenu}
+                        className="w-[10rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]"
+                      >
                         <Link
                           className="boldbody sm:boldp text-white1 underline"
                           href="/"
@@ -105,7 +102,10 @@ const Navbar = () => {
                       </button>
                     </li>
                     <li>
-                      <button className="w-[10rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]">
+                      <button
+                        onClick={toggleMenu}
+                        className="w-[10rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]"
+                      >
                         <Link
                           className="boldbody sm:boldp text-white1 underline"
                           href="/casestudies"
@@ -115,7 +115,10 @@ const Navbar = () => {
                       </button>
                     </li>
                     <li>
-                      <button className="w-[10rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]">
+                      <button
+                        onClick={toggleMenu}
+                        className="w-[10rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]"
+                      >
                         <Link
                           className="boldbody sm:boldp text-white1 underline"
                           href="/contact"
@@ -125,7 +128,10 @@ const Navbar = () => {
                       </button>
                     </li>
                     <li>
-                      <button className="flex w-[10rem] content-center justify-center gap-[.1875rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]">
+                      <button
+                        onClick={toggleMenu}
+                        className="flex w-[10rem] content-center justify-center gap-[.1875rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]"
+                      >
                         <Resume
                           className="my-auto fill-white"
                           width={20}
