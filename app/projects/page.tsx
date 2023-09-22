@@ -13,7 +13,7 @@ import TechStack from "@/components/projects/TechStack";
 const page = () => {
   return (
     <>
-      <div className="[&>section]xs:max-w-[25rem] [&>section]ss:max-w-[32rem] [&>section]sm:max-w-[45rem] [&>section]lg:max-w-[80rem] [&>section]xl:max-w-[90rem] [&>section]md:max-w-[70rem]">
+      <div className="[&>section]:xs:max-w-[35rem] [&>section]:ss:max-w-[45rem] [&>section]:sm:max-w-[60rem] [&>section]:md:max-w-[80rem] [&>section]:lg:max-w-[100rem] [&>section]:xl:max-w-[115rem]">
         <section>
           <Hero />
         </section>
