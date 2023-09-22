@@ -18,7 +18,6 @@ export { default as TailwindIcon } from "./Tailwind.svg";
 export { default as GitIcon } from "./git.svg";
 export { default as GitHubIcon } from "./github.svg";
 export { default as GitHubIcon2 } from "./githubIcon.svg";
-
 export { default as MongodbIcon } from "./mongodb.svg";
 export { default as ExpressIcon } from "./ex.svg";
 export { default as NodeIcon } from "./nodejs.svg";
@@ -30,4 +29,9 @@ export { default as Union } from "./Union.svg";
 export { default as Level } from "./Level.svg";
 export { default as Pointer } from "./Pointer.svg";
 export { default as SEO } from "./seo.svg";
+export { default as Def } from "./def.svg";
+export { default as Deploy } from "./deploy.svg";
+export { default as Design } from "./design.svg";
+export { default as Dev } from "./dev.svg";
+export { default as Plan } from "./plan.svg";
 export { default as Code } from "./Code.svg";

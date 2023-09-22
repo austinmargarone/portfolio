@@ -1,5 +1,6 @@
 import React from "react";
 import ProcessTiles from "./ProcessTiles";
+import { Def, Design, Plan, Dev, Deploy } from "../svg";
 
 type Props = {};
 
@@ -15,11 +16,11 @@ const MyProcess = (props: Props) => {
         </h4>
       </div>
       <div className="p6gap md:p6gaplg mx-auto">
-        <ProcessTiles />
-        <ProcessTiles />
-        <ProcessTiles />
-        <ProcessTiles />
-        <ProcessTiles />
+        <ProcessTiles ProcessImage={Def} title={"Definition"} />
+        <ProcessTiles ProcessImage={Design} title={"Design"} />
+        <ProcessTiles ProcessImage={Plan} title={"Planning"} />
+        <ProcessTiles ProcessImage={Dev} title={"Development"} />
+        <ProcessTiles ProcessImage={Deploy} title={"Deployment"} />
       </div>
     </section>
   );

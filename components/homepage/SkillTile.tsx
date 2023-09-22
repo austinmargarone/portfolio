@@ -13,7 +13,7 @@ const SkillTile = ({ StackImage }: { StackImage: any }) => {
       </div>
       <div className="m-auto flex shrink-0 md:hidden">
         <StackImage
-          className="fill-grey group-hover:fill-blue"
+          className="justify-center	 grayscale group-hover:grayscale-0"
           width={25}
           height={25}
           alt="Stack Image"

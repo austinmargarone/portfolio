@@ -1,6 +1,6 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
-import { Code, Level, Pointer, SEO } from "../svg";
+import { Level, Pointer, SEO, Code } from "../svg";
 
 const Services = () => {
   return (
