@@ -1,5 +1,6 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
+import { Level } from "../svg";
 
 const Services = () => {
   return (
@@ -15,28 +16,28 @@ const Services = () => {
             body={
               "Implement tracking & analytics tools to monitor website performance & improve SEO."
             }
-            image={"/seo.svg"}
+            ServiceImage={Level}
           />
           <ServiceCard
             title={"Front-End Dev"}
             body={
               "Front-end dev includes creating the user interface and interactive elements of websites and apps."
             }
-            image={"/Pointer.svg"}
+            ServiceImage={Level}
           />
           <ServiceCard
             title={"Back-End Dev"}
             body={
               "Front-end includes creating the user interface and interactive elements of websites and apps."
             }
-            image={"/Code.svg"}
+            ServiceImage={Level}
           />
           <ServiceCard
             title={"Web Optimization"}
             body={
               "Web optimization focuses on improving website performance for a smoother user experience"
             }
-            image={"/Level.svg"}
+            ServiceImage={Level}
           />
         </div>
       </div>
