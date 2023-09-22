@@ -4,3 +4,6 @@ export { default as Resume } from "./Resume.svg";
 export { default as LineExp } from "./Lineexp.svg";
 export { default as EcOut } from "./Ellipseout.svg";
 export { default as EcIn } from "./Ellipsein.svg";
+export { default as Nav } from "./Nav.svg";
+export { default as Moon } from "./Moon.svg";
+export { default as Union } from "./Union.svg";

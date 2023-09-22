@@ -1,13 +1,17 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import useThemeState from "@/store/themeStore";
-import { Resume } from "@/components/svg";
+import { Resume, Nav, Moon, Union } from "@/components/svg";
 
 const Navbar = () => {
   const { theme, toggleTheme } = useThemeState();
 
+  const toggleMenu = () => {
+    setExpanded(!expanded);
+  };
+  const [expanded, setExpanded] = useState(false);
   return (
     <main className="bg-white1 dark:bg-darkbg">
       <div className="mx-auto flex justify-between py-[1.31rem] md:pt-[2.25rem] xl:max-w-[120rem]">
@@ -16,9 +20,140 @@ const Navbar = () => {
             A
           </p>
         </div>
-        <div className="mr-[1.5rem] flex md:mr-[5.31rem] md:hidden">
-          <Image src="/Nav.svg" alt="Nav" width={24} height={24} />
+        {/* Mobile Nav */}
+        <button className="flex md:hidden" onClick={toggleTheme}>
+          {theme === "dark" ? (
+            <Union
+              className="dark:fill-blue1"
+              width={20}
+              height={20}
+              alt="Light Mode"
+            />
+          ) : (
+            <Moon
+              className="fill-blue"
+              width={20}
+              height={20}
+              alt="Dark Mode"
+            />
+          )}
+        </button>
+        {/* Hamburg */}
+        <div className="flex md:hidden" onClick={toggleMenu}>
+          <div className="mr-[1.2rem]">
+            <Nav
+              className="fill-blue dark:fill-blue1"
+              alt="Nav"
+              width={24}
+              height={24}
+            />
+          </div>
         </div>
+        {/*  Open Menu */}
+        {expanded && (
+          <div className="flex md:hidden">
+            <div className="fixed left-0 top-0 z-10 h-screen w-screen bg-darkbg dark:bg-grey ">
+              <div className="m-5 flex h-3/4 flex-col gap-5 rounded-[.33rem] bg-white1 dark:bg-darkbg2">
+                <header className="flex w-full flex-row justify-between border-b border-blue dark:border-blue1">
+                  <div className="ml-7 mt-4 font-bold text-blue dark:text-blue1">
+                    My Portfolio
+                  </div>
+                  <button className="my-auto" onClick={toggleTheme}>
+                    {theme === "dark" ? (
+                      <Union
+                        className="dark:fill-blue1"
+                        width={20}
+                        height={20}
+                        alt="Light Mode"
+                      />
+                    ) : (
+                      <Moon
+                        className="fill-blue"
+                        width={20}
+                        height={20}
+                        alt="Dark Mode"
+                      />
+                    )}
+                  </button>
+                  <div className="mr-7 mt-4">
+                    <button onClick={toggleMenu}>
+                      <Nav
+                        className="fill-blue dark:fill-blue1"
+                        alt="Nav"
+                        width={24}
+                        height={24}
+                      />
+                    </button>
+                  </div>
+                </header>
+                <div className="mx-auto">
+                  <ul className="flex flex-col gap-[2.25rem] text-black sm:gap-[3.5rem]">
+                    <li>
+                      <button
+                        onClick={toggleMenu}
+                        className="w-[10rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]"
+                      >
+                        <Link
+                          className="boldbody sm:boldp text-white1 underline"
+                          href="/"
+                        >
+                          Home
+                        </Link>
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={toggleMenu}
+                        className="w-[10rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]"
+                      >
+                        <Link
+                          className="boldbody sm:boldp text-white1 underline"
+                          href="/casestudies"
+                        >
+                          Case Studies
+                        </Link>
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={toggleMenu}
+                        className="w-[10rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]"
+                      >
+                        <Link
+                          className="boldbody sm:boldp text-white1 underline"
+                          href="/contact"
+                        >
+                          Contact
+                        </Link>
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={toggleMenu}
+                        className="flex w-[10rem] content-center justify-center gap-[.1875rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]"
+                      >
+                        <Resume
+                          className="my-auto fill-white"
+                          width={20}
+                          height={20}
+                          alt="Download"
+                        />
+
+                        <Link
+                          className="boldbody sm:boldp text-white1 underline"
+                          href="/resume"
+                        >
+                          Resume
+                        </Link>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+        {/* Mobile Nav End */}
         <div className="mr-[1.5rem] hidden items-center md:mr-[5.31rem] md:block">
           <ul className="flex gap-[2.25rem] dark:text-white1">
             <li>
