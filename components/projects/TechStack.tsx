@@ -1,5 +1,21 @@
 import React from "react";
 import SkillTile from "./SkillTile";
+import {
+  ReactIcon,
+  ReduxIcon,
+  NextIcon,
+  TSIcon,
+  HTMLIcon,
+  CSSIcon,
+  SassIcon,
+  TailwindIcon,
+  MotionIcon,
+  GitIcon,
+  GitHubIcon,
+  NodeIcon,
+  ExpressIcon,
+  MongodbIcon,
+} from "../svg";
 
 type Props = {};
 
@@ -15,20 +31,20 @@ const TechStack = (props: Props) => {
         </h4>
       </div>
       <div className="tiles flex">
-        <SkillTile />
-        <SkillTile />
-        <SkillTile />
-        <SkillTile />
-        <SkillTile />
-        <SkillTile />
-        <SkillTile />
-        <SkillTile />
-        <SkillTile />
-        <SkillTile />
-        <SkillTile />
-        <SkillTile />
-        <SkillTile />
-        <SkillTile />
+        <SkillTile StackImage={ReactIcon} />
+        <SkillTile StackImage={ReduxIcon} />
+        <SkillTile StackImage={NextIcon} />
+        <SkillTile StackImage={TSIcon} />
+        <SkillTile StackImage={HTMLIcon} />
+        <SkillTile StackImage={CSSIcon} />
+        <SkillTile StackImage={SassIcon} />
+        <SkillTile StackImage={TailwindIcon} />
+        <SkillTile StackImage={MotionIcon} />
+        <SkillTile StackImage={GitIcon} />
+        <SkillTile StackImage={GitHubIcon} />
+        <SkillTile StackImage={NodeIcon} />
+        <SkillTile StackImage={ExpressIcon} />
+        <SkillTile StackImage={MongodbIcon} />
       </div>
     </section>
   );

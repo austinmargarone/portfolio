@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRight1, Globe, Github } from "@/components/svg";
+import { ArrowRight1, Globe, GitHubIcon } from "@/components/svg";
 import Image from "next/image";
 
 type Props = {};
@@ -30,7 +30,7 @@ const Hero = (props: Props) => {
           <ArrowRight1 className="my-auto h-[24px] w-[24px] stroke-blue dark:stroke-blue1" />
         </div>
         <div className="flex gap-[.18rem]">
-          <Github className="my-auto h-[18px] w-[18px] fill-blue dark:fill-blue1 md:h-[20px] md:w-[20px]" />
+          <GitHubIcon className="my-auto h-[18px] w-[18px] fill-blue dark:fill-blue1 md:h-[20px] md:w-[20px]" />
           <p className="smallbold md:boldp text-blue dark:text-blue1">
             Demo Site
           </p>
