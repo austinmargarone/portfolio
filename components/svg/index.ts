@@ -25,4 +25,7 @@ export { default as Globe } from "./Globe.svg";
 export { default as Github } from "./Github.svg";
 export { default as Nav } from "./Nav.svg";
 export { default as Moon } from "./Moon.svg";
-export { default as Union } from "./Union.svg";
+export { default as Level } from "./Level.svg";
+export { default as Pointer } from "./Pointer.svg";
+export { default as SEO } from "./seo.svg";
+export { default as Code } from "./Code.svg";
