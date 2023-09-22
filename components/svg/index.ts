@@ -17,6 +17,8 @@ export { default as MaterialIcon } from "./Material.svg";
 export { default as TailwindIcon } from "./Tailwind.svg";
 export { default as GitIcon } from "./git.svg";
 export { default as GitHubIcon } from "./github.svg";
+export { default as GitHubIcon2 } from "./githubIcon.svg";
+
 export { default as MongodbIcon } from "./mongodb.svg";
 export { default as ExpressIcon } from "./ex.svg";
 export { default as NodeIcon } from "./nodejs.svg";

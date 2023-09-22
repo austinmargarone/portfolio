@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { GitHubIcon2 } from "./svg";
 
 type Props = {};
 
@@ -17,7 +18,7 @@ const Footer = (props: Props) => {
           <Image src="/Social.svg" width={24} height={4} alt="Social Link" />
         </div>
         <div>
-          <Image src="/GitHub.svg" width={24} height={24} alt="Github Link" />
+          <GitHubIcon2 width={24} height={24} alt="Github Link" />
         </div>
       </div>
     </section>
