@@ -6,7 +6,7 @@ type Props = {};
 const OtherCases = (props: Props) => {
   return (
     <div>
-      <div className="p8 md:p8lg mx-auto dark:bg-darkbg">
+      <div className="p8 md:p8lg mx-auto dark:bg-darkbg md:px-[8rem] lg:px-[11rem] xl:px-[17.5rem]">
         <div className="mb-[.75rem]">
           <p className="projectsmalltitle md:smallbold mb-[.56rem] dark:text-blue1">
             Projects
