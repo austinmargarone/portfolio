@@ -51,7 +51,7 @@ export default function ContactForm() {
         ref={form}
       >
         <div>
-          <p className="regp">What is your name?</p>
+          <p className="regp dark:text-white">What is your name?</p>
           <input
             {...register("name")}
             type="name"
@@ -64,7 +64,7 @@ export default function ContactForm() {
           )}
         </div>
         <div>
-          <p className="regp">What is your email?</p>
+          <p className="regp dark:text-white">What is your email?</p>
           <input
             {...register("email")}
             type="email"
@@ -73,7 +73,7 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <p className="regp">What is your phone number?</p>
+          <p className="regp dark:text-white">What is your phone number?</p>
           <input
             {...register("phone")}
             type="phone"
@@ -82,7 +82,7 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <p className="regp w-[21.5625rem] md:w-[47.6875rem]">
+          <p className="regp w-[21.5625rem] dark:text-white md:w-[47.6875rem]">
             Write something about your project goals and timeframe
           </p>
           <input

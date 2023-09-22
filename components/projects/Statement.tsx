@@ -1,5 +1,4 @@
 import React from "react";
-import { Cars } from "../svg";
 import Image from "next/image";
 
 type Props = {};
