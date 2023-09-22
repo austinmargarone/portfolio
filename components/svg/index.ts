@@ -14,7 +14,7 @@ export { default as CSSIcon } from "./css.svg";
 export { default as SassIcon } from "./sass.svg";
 export { default as MotionIcon } from "./Motion.svg";
 export { default as MaterialIcon } from "./Material.svg";
-export { default as TailwindIcon } from "./tailwind.svg";
+export { default as TailwindIcon } from "./Tailwind.svg";
 export { default as GitIcon } from "./git.svg";
 export { default as GitHubIcon } from "./github.svg";
 export { default as MongodbIcon } from "./mongodb.svg";
