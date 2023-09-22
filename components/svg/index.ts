@@ -7,3 +7,6 @@ export { default as EcIn } from "./Ellipsein.svg";
 export { default as ArrowRight1 } from "./ArrowRight1.svg";
 export { default as Globe } from "./Globe.svg";
 export { default as Github } from "./Github.svg";
+export { default as Nav } from "./Nav.svg";
+export { default as Moon } from "./Moon.svg";
+export { default as Union } from "./Union.svg";
