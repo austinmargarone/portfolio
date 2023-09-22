@@ -687,7 +687,7 @@
 
   .p8lg {
     display: flex;
-    padding: 4.5rem 5rem;
+    padding: 4.5rem 17.5rem;
     flex-direction: column;
     gap: 2.5rem;
     background: var(--white-800, #f3f8ff);

@@ -189,15 +189,15 @@ const Navbar = () => {
             <li>
               <button onClick={toggleTheme}>
                 {theme === "dark" ? (
-                  <Image
-                    src="/Union.svg"
+                  <Union
+                    className="dark:fill-blue1"
                     width={20}
                     height={20}
                     alt="Light Mode"
                   />
                 ) : (
-                  <Image
-                    src="/Moon.svg"
+                  <Moon
+                    className="fill-blue"
                     width={20}
                     height={20}
                     alt="Dark Mode"
