@@ -10,7 +10,7 @@ const page = () => {
         <div>
           <Heading />
         </div>
-        <main className="casemain md:casemainlg mx-auto flex flex-col sm:flex-row sm:flex-wrap">
+        <main className="casemain sm:casemainlg mx-auto flex flex-col sm:flex-row sm:flex-wrap">
           <Projects
             title={"Morrent"}
             description={"Car Rental Application"}
@@ -48,7 +48,7 @@ const page = () => {
             bg={"#DB202C"}
           />
         </main>
-        <section>
+        <section className="mt-[1.25rem] sm:pt-[1.95rem]">
           <Contact />
         </section>
       </div>
