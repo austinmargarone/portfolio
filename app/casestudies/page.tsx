@@ -12,6 +12,17 @@ const page = () => {
         </div>
         <main className="casemain sm:casemainlg mx-auto flex flex-col sm:flex-row sm:flex-wrap">
           <Projects
+            params={{
+              project: "",
+            }}
+          />
+          <Projects
+            params={{
+              project: "",
+            }}
+          />
+
+          {/* <Projects
             title={"Morrent"}
             description={"Car Rental Application"}
             project={"/Carrent.svg"}
@@ -46,7 +57,7 @@ const page = () => {
             description={"AI-Powered Movie Application"}
             project={"Filmpire.svg"}
             bg={"#DB202C"}
-          />
+          /> */}
         </main>
         <section className="mt-[1.25rem] sm:pt-[1.95rem]">
           <Contact />
