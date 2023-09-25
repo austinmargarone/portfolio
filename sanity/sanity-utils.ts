@@ -1,7 +1,7 @@
 import { createClient, groq } from "next-sanity";
 import { apiVersion, dataset, projectId } from "./env";
-import { Cases, Project } from "@/types/Project";
-import cases from "./schemas/cases-schema";
+import { Project } from "@/types/Project";
+import { Cases } from "@/types/Cases";
 
 export async function getProjects(): Promise<Project[]> {
   const client = createClient({

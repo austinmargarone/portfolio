@@ -11,17 +11,6 @@ const page = () => {
           <Heading />
         </div>
         <main className="casemain sm:casemainlg mx-auto flex flex-col sm:flex-row sm:flex-wrap">
-          <Projects
-            params={{
-              project: "",
-            }}
-          />
-          <Projects
-            params={{
-              project: "",
-            }}
-          />
-
           {/* <Projects
             title={"Morrent"}
             description={"Car Rental Application"}
