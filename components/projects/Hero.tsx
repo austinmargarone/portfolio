@@ -1,8 +1,16 @@
 import React from "react";
 import { ArrowRight1, Globe, GitHubIcon } from "@/components/svg";
 import Image from "next/image";
+import Link from "next/link";
+import project from "@/sanity/schemas/project-schema";
 
-type Props = { title: string };
+type Props = {
+  title: string;
+  desktop_image: string;
+  mobile_image: string;
+  demo_site: string;
+  source_code: string;
+};
 
 const Hero = (props: Props) => {
   return (
@@ -20,20 +28,24 @@ const Hero = (props: Props) => {
         <Image src="/Morrent.svg" width={742} height={350} alt="Computer" />
       </div>
       <div className="flex gap-[2.5625rem]">
-        <div className="flex content-center gap-[.18rem]">
-          <Globe className="my-auto flex h-[18px] w-[18px] fill-blue dark:fill-blue1 md:h-[20px] md:w-[20px]" />
-          <p className="smallbold md:boldp text-blue dark:text-blue1 ">
-            Demo Site
-          </p>
-          <ArrowRight1 className="my-auto h-[24px] w-[24px] stroke-blue dark:stroke-blue1" />
-        </div>
-        <div className="flex gap-[.18rem]">
-          <GitHubIcon className="my-auto h-[18px] w-[18px] fill-blue dark:fill-blue1 md:h-[20px] md:w-[20px]" />
-          <p className="smallbold md:boldp text-blue dark:text-blue1">
-            Demo Site
-          </p>
-          <ArrowRight1 className="my-auto h-[24px] w-[24px] stroke-blue dark:stroke-blue1" />
-        </div>
+        <Link href={props.demo_site}>
+          <div className="flex content-center gap-[.18rem]">
+            <Globe className="my-auto flex h-[18px] w-[18px] fill-blue dark:fill-blue1 md:h-[20px] md:w-[20px]" />
+            <p className="smallbold md:boldp text-blue dark:text-blue1 ">
+              Demo Site
+            </p>
+            <ArrowRight1 className="my-auto h-[24px] w-[24px] stroke-blue dark:stroke-blue1" />
+          </div>
+        </Link>
+        <Link href={props.source_code}>
+          <div className="flex gap-[.18rem]">
+            <GitHubIcon className="my-auto h-[18px] w-[18px] fill-blue dark:fill-blue1 md:h-[20px] md:w-[20px]" />
+            <p className="smallbold md:boldp text-blue dark:text-blue1">
+              Demo Site
+            </p>
+            <ArrowRight1 className="my-auto h-[24px] w-[24px] stroke-blue dark:stroke-blue1" />
+          </div>
+        </Link>
       </div>
     </section>
   );

@@ -22,7 +22,13 @@ export default async function Project({ params }: Props) {
     <>
       <div className="[&>section]:xs:max-w-[35rem] [&>section]:ss:max-w-[45rem] [&>section]:sm:max-w-[60rem] [&>section]:md:max-w-[80rem] [&>section]:lg:max-w-[100rem] [&>section]:xl:max-w-[115rem]">
         <section>
-          <Hero title={project.title} />
+          <Hero
+            title={project.title}
+            desktop_image={project.desktop_image}
+            mobile_image={project.mobile_image}
+            demo_site={project.demo_site}
+            source_code={project.source_code}
+          />
         </section>
         <section>
           <MyRole />

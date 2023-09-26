@@ -39,7 +39,7 @@ export async function getProject(slug: string): Promise<Project> {
       "desktop_image": image.asset->url,
       "mobile_image": image.asset->url,
       demo_site,
-      source_cod,
+      source_code,
       my_role,
       start_date,
       end_date,

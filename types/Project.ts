@@ -10,7 +10,7 @@ export type Project = {
   desktop_image: string;
   mobile_image: string;
   demo_site: string;
-  source_cod: string;
+  source_code: string;
   my_role: string;
   start_date: string;
   end_date: string;
