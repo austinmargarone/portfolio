@@ -7,5 +7,5 @@ type Props = {
 export default async function Project({ params }: Props) {
   const slug = params.project;
   const project = await getProject(slug);
-  return <div>{project._id}</div>;
+  return <div>{project.title}</div>;
 }

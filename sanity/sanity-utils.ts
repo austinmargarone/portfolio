@@ -13,6 +13,7 @@ export async function getCases(): Promise<Cases[]> {
     groq`*[_type == "cases"]{
         _id,
         title,
+        "slug": slug.current,
         description,
         "image": image.asset->url,
         bg
