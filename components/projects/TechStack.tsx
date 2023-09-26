@@ -17,7 +17,7 @@ import {
   MongodbIcon,
 } from "../svg";
 
-type Props = {};
+type Props = { tech_stack: string };
 
 const TechStack = (props: Props) => {
   return (

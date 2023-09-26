@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-type Props = {};
+type Props = { problem: string; place_image: string };
 
 const Statement = (props: Props) => {
   return (
@@ -16,14 +16,11 @@ const Statement = (props: Props) => {
       </div>
       <div>
         <p className="projecttext md:regp my-[1.5rem] dark:text-white1">
-          One of the main problems that people face when looking to rent a car
-          is the hassle of finding a reliable and user-friendly platform to
-          search for and book rental cars. In addition, car owners who want to
-          rent out their vehicles often struggle to find a suitable platform to
-          list their cars and manage their rentals.
+          {props.problem}
         </p>
       </div>
       <div className="mx-auto">
+        {props.place_image}
         <Image
           className="w-[348px] md:w-[879px]"
           src="/Car.png"

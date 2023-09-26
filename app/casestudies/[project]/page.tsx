@@ -31,25 +31,35 @@ export default async function Project({ params }: Props) {
           />
         </section>
         <section>
-          <MyRole />
+          <MyRole
+            my_role={project.my_role}
+            start_date={project.start_date}
+            end_date={project.end_date}
+          />
         </section>
         <section>
-          <TechStack />
+          <TechStack tech_stack={project.tech_stack} />
         </section>
         <section>
-          <Description />
+          <Description description={project.description} />
         </section>
         <section>
-          <Statement />
+          <Statement
+            problem={project.problem}
+            place_image={project.place_image}
+          />
         </section>
         <div>
-          <Design />
+          <Design design_image={project.design_image} />
         </div>
         <section>
           <MyProcess />
         </section>
         <section>
-          <Challenges />
+          <Challenges
+            challenge_array={project.challenge_array}
+            learnings_array={project.learnings_array}
+          />
         </section>
         <section>
           <OtherCases />

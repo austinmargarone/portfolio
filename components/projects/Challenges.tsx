@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
+type Props = { challenge_array: string; learnings_array: string };
 
 const Challenges = (props: Props) => {
   return (
@@ -26,11 +26,7 @@ const Challenges = (props: Props) => {
                 alt="Challenges"
               />
             </div>
-            <div className="w-[100%]">
-              Gained extensive knowledge of full authentication and
-              authorization implementation, including the use of
-              industry-standard security protocols such as JSON Web Tokens.
-            </div>
+            <div className="w-[100%]">{props.challenge_array}</div>
           </div>
           <div className="mb-[1.25rem] flex">
             <div className="w-[2.5rem] pt-[0.38rem]">
@@ -73,11 +69,7 @@ const Challenges = (props: Props) => {
             <div className="w-[2.5rem] pt-[0.38rem]">
               <Image src="/tick.svg" width={20} height={20} alt="Tick" />
             </div>
-            <div className="w-[100%]">
-              Gained extensive knowledge of full authentication and
-              authorization implementation, including the use of
-              industry-standard security protocols such as JSON Web Tokens.
-            </div>
+            <div className="w-[100%]">{props.learnings_array}</div>
           </div>
           <div className="mb-[1.25rem] flex">
             <div className="w-[2.5rem] pt-[0.38rem]">

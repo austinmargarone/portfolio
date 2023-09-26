@@ -81,8 +81,12 @@ const project = {
     {
       name: "description",
       title: "Description",
-      type: "array",
-      of: [{ type: "block" }],
+      type: "string",
+    },
+    {
+      name: "problem",
+      title: "Problem Statement",
+      type: "string",
     },
     {
       name: "place_image",
