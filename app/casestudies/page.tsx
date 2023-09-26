@@ -5,6 +5,7 @@ import Image from "next/image";
 
 export default async function sanity() {
   const cases = await getCases();
+
   return (
     <div className="mx-auto xs:max-w-[21.5rem] ss:max-w-[25rem] sm:max-w-[40rem] md:max-w-[40rem] lg:max-w-[77rem] ">
       <div>
@@ -14,7 +15,9 @@ export default async function sanity() {
         {cases.map((cases) => (
           <div key={cases._id}>
             <div className="w-[21.5625rem] sm:mb-[2.5rem] sm:w-[34.375rem]">
-              <div className=" mx-auto flex shrink-0 flex-col rounded-[.62725rem] border border-black bg-blue1 pb-[.32rem] pt-[2.83rem] sm:h-[20.8rem] sm:pt-[4.25rem]">
+              <div
+                className={`${cases.bg} mx-auto flex shrink-0 flex-col rounded-[.62725rem] border border-black  pb-[.32rem] pt-[2.83rem] sm:h-[20.8rem] sm:pt-[4.25rem]`}
+              >
                 <div className="mx-auto flex sm:hidden">
                   <div>
                     <Image
