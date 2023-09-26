@@ -111,39 +111,10 @@ const project = {
       ],
     },
     {
-      name: "challenge_one",
-      title: "Challenge one",
-      type: "string",
-    },
-    {
-      name: "challenge_two",
-      title: "Challenge Two",
-      type: "string",
-    },
-    {
-      name: "challenge_three",
-      title: "Challenge Three",
-      type: "string",
-    },
-    {
-      name: "learnings_one",
-      title: "Learnings one",
-      type: "string",
-    },
-    {
-      name: "learnings_two",
-      title: "Learnings Two",
-      type: "string",
-    },
-    {
-      name: "learnings_three",
-      title: "Learnings Three",
-      type: "string",
-    },
-    {
-      name: "learnings_four",
-      title: "Learnings Four",
-      type: "string",
+      name: "challenges_array",
+      title: "Challenges Array",
+      type: "array",
+      of: [{ type: "string" }],
     },
     {
       name: "learnings_array",

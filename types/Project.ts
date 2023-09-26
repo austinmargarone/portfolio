@@ -18,11 +18,6 @@ export type Project = {
   description: PortableTextBlock[];
   place_image: string;
   design_image: string;
-  challenge_one: string;
-  challenge_two: string;
-  challenge_three: string;
-  learnings_one: string;
-  learnings_two: string;
-  learnings_three: string;
-  learnings_four: string;
+  challenge_array: string;
+  learnings_array: string;
 };

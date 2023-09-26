@@ -47,13 +47,9 @@ export async function getProject(slug: string): Promise<Project> {
       description,
       "place_image": image.asset->url,
       "design_image": image.asset->url,
-      challenge_one,
-      challenge_two,
-      challenge_three,
-      learnings_one,
-      learnings_two,
-      learnings_three,
-      learnings_four
+      challenge_array,
+      learnings_array,
+
     }`,
     { slug }
   );
