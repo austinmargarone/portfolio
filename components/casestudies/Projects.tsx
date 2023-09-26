@@ -1,5 +1,4 @@
 import { getCases } from "@/sanity/sanity-utils";
-import cases from "@/sanity/schemas/cases-schema";
 import Image from "next/image";
 import React from "react";
 
