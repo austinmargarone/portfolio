@@ -22,23 +22,3 @@ export default async function sanity() {
     </div>
   );
 }
-
-// const page = () => {
-//   return (
-//     <>
-//       <div className="mx-auto sm:max-w-[50rem] md:max-w-[90rem]">
-//         <div>
-//           <Heading />
-//         </div>
-//         <main className="casemain sm:casemainlg mx-auto flex flex-col sm:flex-row sm:flex-wrap">
-
-//         </main>
-//         <section className="mt-[1.25rem] sm:pt-[1.95rem]">
-//           <Contact />
-//         </section>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default page;

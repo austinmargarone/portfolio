@@ -2,7 +2,6 @@ import React from "react";
 import { ArrowRight1, Globe, GitHubIcon } from "@/components/svg";
 import Image from "next/image";
 import Link from "next/link";
-import project from "@/sanity/schemas/project-schema";
 
 type Props = {
   title: string;
