@@ -145,6 +145,12 @@ const project = {
       title: "Learnings Four",
       type: "string",
     },
+    {
+      name: "learnings_array",
+      title: "Learnings Array",
+      type: "array",
+      of: [{ type: "string" }],
+    },
   ],
 };
 

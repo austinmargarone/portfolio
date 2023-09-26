@@ -4,5 +4,6 @@ export type Cases = {
   title: string;
   description: string;
   image: string;
+  case_study: string;
   bg: string;
 };

@@ -16,6 +16,7 @@ export async function getCases(): Promise<Cases[]> {
         "slug": slug.current,
         description,
         "image": image.asset->url,
+        case_study,
         bg
     }`
   );
@@ -43,7 +44,7 @@ export async function getProject(slug: string): Promise<Project> {
       start_date,
       end_date,
       "tech_stack" : image.asset->url,
-      description: PortableTextBlock[];,
+      description,
       "place_image": image.asset->url,
       "design_image": image.asset->url,
       challenge_one,
@@ -53,6 +54,7 @@ export async function getProject(slug: string): Promise<Project> {
       learnings_two,
       learnings_three,
       learnings_four
-    }`
+    }`,
+    { slug }
   );
 }

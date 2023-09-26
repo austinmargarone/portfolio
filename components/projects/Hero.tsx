@@ -2,7 +2,7 @@ import React from "react";
 import { ArrowRight1, Globe, GitHubIcon } from "@/components/svg";
 import Image from "next/image";
 
-type Props = {};
+type Props = { title: string };
 
 const Hero = (props: Props) => {
   return (
@@ -11,9 +11,7 @@ const Hero = (props: Props) => {
         <h4 className="title md:p1smalltitlelg mx-auto mb-[.62rem] text-blue dark:text-blue1 md:mb-[1.69rem]">
           Web Dev Project
         </h4>
-        <h1 className="pheading md:p1titlelg dark:text-white">
-          Morrent - A Car Rental Website
-        </h1>
+        <h1 className="pheading md:p1titlelg dark:text-white">{props.title}</h1>
       </div>
       <div className="my-[1.5rem] flex sm:hidden">
         <Image src="/Morrent.svg" width={345} height={163} alt="Computer" />
