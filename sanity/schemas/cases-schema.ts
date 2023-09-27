@@ -14,6 +14,12 @@ const cases = {
       type: "string",
     },
     {
+      name: "slug",
+      title: "Slug",
+      type: "slug",
+      options: { source: "title" },
+    },
+    {
       name: "image",
       title: "Image",
       type: "image",

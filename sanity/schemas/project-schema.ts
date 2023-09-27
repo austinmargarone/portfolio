@@ -12,7 +12,7 @@ const project = {
       name: "slug",
       title: "Slug",
       type: "slug",
-      options: { source: "name" },
+      options: { source: "title" },
     },
     {
       name: "desktop_image",
@@ -67,7 +67,7 @@ const project = {
     },
     {
       name: "tech_stack",
-      title: "Tech Stack",
+      title: "Tech Image",
       type: "image",
       options: { hotspot: true },
       fields: [
@@ -89,10 +89,17 @@ const project = {
       type: "string",
     },
     {
-      name: "image",
+      name: "place_image",
       title: "Place Image",
       type: "image",
       options: { hotspot: true },
+      fields: [
+        {
+          name: "alt",
+          title: "Alt",
+          type: "string",
+        },
+      ],
     },
     {
       name: "design_image",
@@ -108,7 +115,7 @@ const project = {
       ],
     },
     {
-      name: "challenges_array",
+      name: "challenge_array",
       title: "Challenges Array",
       type: "array",
       of: [{ type: "string" }],

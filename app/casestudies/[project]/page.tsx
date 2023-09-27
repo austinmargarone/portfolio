@@ -11,6 +11,7 @@ import Challenges from "@/components/projects/Challenges";
 import OtherCases from "@/components/projects/OtherCases";
 import TechStack from "@/components/projects/TechStack";
 
+export const revalidate = 1;
 type Props = {
   params: { project: string };
 };
@@ -63,7 +64,7 @@ export default async function Project({ params }: Props) {
           />
         </section>
         <section>
-          <OtherCases />
+          <OtherCases slug={slug} />
         </section>
         <section>
           <Contact />

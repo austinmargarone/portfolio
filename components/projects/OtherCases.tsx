@@ -2,9 +2,10 @@ import React from "react";
 import OtherCasesCard from "./OtherCasesCard";
 import { getCases } from "@/sanity/sanity-utils";
 
-export default async function OtherCases() {
+export default async function OtherCases({ slug }: { slug: string }) {
   const cases = await getCases();
-
+  const filterCases = cases.filter((project) => slug !== project.slug);
+  console.log(filterCases);
   return (
     <div>
       <div className="p8 md:p8lg mx-auto dark:bg-darkbg md:px-[8rem] lg:px-[11rem] xl:px-[17.5rem]">
@@ -17,9 +18,12 @@ export default async function OtherCases() {
           </h4>
         </div>
         <div className="mx-auto flex flex-col justify-center gap-[1.5rem] md:flex-row">
-          {cases.map((cases, index) => (
-            <OtherCasesCard {...cases} key={cases._id} />
-          ))}
+          {cases
+            .filter((project) => slug !== project.slug)
+            .slice(-2)
+            .map((cases, index) => (
+              <OtherCasesCard {...cases} key={cases._id} />
+            ))}
         </div>
       </div>
     </div>
