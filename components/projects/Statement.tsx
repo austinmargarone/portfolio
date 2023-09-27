@@ -22,7 +22,7 @@ const Statement = (props: Props) => {
       <div className="mx-auto">
         <Image
           className="w-[348px] md:w-[879px]"
-          src="/Car.png"
+          src={props.place_image}
           width={348}
           height={363}
           alt="Computer"
