@@ -1,15 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
-type Props = {};
-
-const OtherCasesCard = (props: Props) => {
+export default async function Projects(cases: any) {
   return (
     <div className="p8shadow dark:p8shadowdark mt-[1.5rem] w-[365px] pb-[1.5rem] lg:w-[429px]">
       <div className="flex lg:hidden">
         <Image
           className="rounded-t-[1.25rem]"
-          src="/Jobit.svg"
+          src={cases.image}
           width={365}
           height={186}
           alt="Jobit"
@@ -18,24 +17,23 @@ const OtherCasesCard = (props: Props) => {
       <div className="hidden lg:block">
         <Image
           className="rounded-t-[1.25rem]"
-          src="/Jobit.svg"
+          src={cases.image}
           width={429}
           height={232}
           alt="Jobit"
         />
       </div>
       <div className="mx-[1.2rem] mt-[1.5rem]">
-        <h4 className="boldp text-blue dark:text-blue1">Jobit</h4>
+        <h4 className="boldp text-blue dark:text-blue1">{cases.title}</h4>
         <p className="regp mb-[.87rem] mt-[.4rem] text-slate dark:text-white1">
-          Jobit, a web app made with React and JSearch API, links developers to
-          millions of job openings. It offers easy job search by...
+          {cases.description}
         </p>
-        <button className="p8btn mx-[.rem] w-full dark:bg-blue1">
-          <p className="p8btntext">See Case Study</p>
-        </button>
+        <Link href={cases.case_study}>
+          <button className="p8btn mx-[.rem] w-full dark:bg-blue1">
+            <p className="p8btntext">See Case Study</p>
+          </button>
+        </Link>
       </div>
     </div>
   );
-};
-
-export default OtherCasesCard;
+}

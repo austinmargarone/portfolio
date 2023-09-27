@@ -20,7 +20,6 @@ const Statement = (props: Props) => {
         </p>
       </div>
       <div className="mx-auto">
-        {props.place_image}
         <Image
           className="w-[348px] md:w-[879px]"
           src="/Car.png"
