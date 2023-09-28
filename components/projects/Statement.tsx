@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-type Props = { problem: string; place_image: string };
+type Props = { problem: string; accent: string };
 
 const Statement = (props: Props) => {
   return (
@@ -22,7 +22,7 @@ const Statement = (props: Props) => {
       <div className="mx-auto">
         <Image
           className="w-[348px] md:w-[879px]"
-          src={props.place_image}
+          src={props.accent}
           width={348}
           height={363}
           alt="Computer"

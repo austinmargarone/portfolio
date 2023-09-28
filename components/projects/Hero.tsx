@@ -5,8 +5,8 @@ import Link from "next/link";
 
 type Props = {
   title: string;
-  desktop_image: string;
-  mobile_image: string;
+  desktop: string;
+  mobile: string;
   demo_site: string;
   source_code: string;
 };

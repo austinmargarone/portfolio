@@ -19,15 +19,14 @@ type Props = {
 export default async function Project({ params }: Props) {
   const slug = params.project;
   const project = await getProject(slug);
-  console.log(project);
   return (
     <>
       <div className="[&>section]:xs:max-w-[35rem] [&>section]:ss:max-w-[45rem] [&>section]:sm:max-w-[60rem] [&>section]:md:max-w-[80rem] [&>section]:lg:max-w-[100rem] [&>section]:xl:max-w-[115rem]">
         <section>
           <Hero
             title={project.title}
-            desktop_image={project.desktop_image}
-            mobile_image={project.mobile_image}
+            desktop={project.desktop}
+            mobile={project.mobile}
             demo_site={project.demo_site}
             source_code={project.source_code}
           />
@@ -40,27 +39,24 @@ export default async function Project({ params }: Props) {
           />
         </section>
         <section>
-          <TechStack tech_stack={project.tech_stack} />
+          <TechStack tech={project.tech} />
         </section>
         <section>
           <Description description={project.description} />
         </section>
         <section>
-          <Statement
-            problem={project.problem}
-            place_image={project.place_image}
-          />
+          <Statement problem={project.problem} accent={project.accent} />
         </section>
         <div>
-          <Design design_image={project.design_image} />
+          <Design design={project.design} />
         </div>
         <section>
           <MyProcess />
         </section>
         <section>
           <Challenges
-            challenge_array={project.challenge_array}
-            learnings_array={project.learnings_array}
+            challenges={project.challenges}
+            learnings={project.learnings}
           />
         </section>
         <section>

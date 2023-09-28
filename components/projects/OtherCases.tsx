@@ -4,8 +4,7 @@ import { getCases } from "@/sanity/sanity-utils";
 
 export default async function OtherCases({ slug }: { slug: string }) {
   const cases = await getCases();
-  const filterCases = cases.filter((project) => slug !== project.slug);
-  console.log(filterCases);
+
   return (
     <div>
       <div className="p8 md:p8lg mx-auto dark:bg-darkbg md:px-[8rem] lg:px-[11rem] xl:px-[17.5rem]">

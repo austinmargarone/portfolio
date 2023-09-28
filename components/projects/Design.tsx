@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-type Props = { design_image: string };
+type Props = { design: string };
 
 const Design = (props: Props) => {
   return (
@@ -11,6 +11,7 @@ const Design = (props: Props) => {
           High-Fidelity Figma Design
         </h4>
         <div className="relative left-0 h-[13.08294rem] w-full sm:h-[20rem] md:h-[28rem] lg:h-[38rem] xl:h-[47.9375rem]">
+          {/* {props.design} */}
           <Image
             src="/Figma.svg"
             fill={true}

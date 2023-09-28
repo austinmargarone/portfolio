@@ -35,8 +35,8 @@ export async function getProject(slug: string): Promise<Project> {
       title,
       "slug": slug.current,
       url,
-      "desktop_image": image.asset->url,
-      "mobile_image": image.asset->url,
+      "desktop": image.asset->url,
+      "mobile": image.asset->url,
       demo_site,
       source_code,
       my_role,
@@ -44,10 +44,10 @@ export async function getProject(slug: string): Promise<Project> {
       end_date,
       "tech_stack": image.asset->url,
       description,
-      "place_image": image.asset->url,
-      "design_image": image.asset->url,
-      challenge_array,
-      learnings_array,
+      "place": image.asset->url,
+      "design": image.asset->url,
+      challenges
+      learnings,
 
     }`,
     { slug }

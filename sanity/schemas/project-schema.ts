@@ -15,7 +15,7 @@ const project = {
       options: { source: "title" },
     },
     {
-      name: "desktop_image",
+      name: "desktop",
       title: "Desktop Image",
       type: "image",
       options: { hotspot: true },
@@ -28,7 +28,7 @@ const project = {
       ],
     },
     {
-      name: "mobile_image",
+      name: "mobile",
       title: "Mobile Image",
       type: "image",
       options: { hotspot: true },
@@ -66,7 +66,7 @@ const project = {
       type: "string",
     },
     {
-      name: "tech_stack",
+      name: "tech",
       title: "Tech Image",
       type: "image",
       options: { hotspot: true },
@@ -89,7 +89,7 @@ const project = {
       type: "string",
     },
     {
-      name: "place_image",
+      name: "accent",
       title: "Place Image",
       type: "image",
       options: { hotspot: true },
@@ -102,7 +102,7 @@ const project = {
       ],
     },
     {
-      name: "design_image",
+      name: "design",
       title: "Design Image",
       type: "image",
       options: { hotspot: true },
@@ -115,13 +115,13 @@ const project = {
       ],
     },
     {
-      name: "challenge_array",
+      name: "challenges",
       title: "Challenges Array",
       type: "array",
       of: [{ type: "string" }],
     },
     {
-      name: "learnings_array",
+      name: "learnings",
       title: "Learnings Array",
       type: "array",
       of: [{ type: "string" }],
