@@ -47,7 +47,7 @@ export async function getProject(slug: string): Promise<Project> {
       problem,
       "accent": image.asset->url,
       "design": image.asset->url,
-      challenges
+      challenges,
       learnings,
     }`,
     { slug }
