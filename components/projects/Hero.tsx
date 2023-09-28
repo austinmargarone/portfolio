@@ -21,10 +21,22 @@ const Hero = (props: Props) => {
         <h1 className="pheading md:p1titlelg dark:text-white">{props.title}</h1>
       </div>
       <div className="my-[1.5rem] flex sm:hidden">
-        <Image src="/Morrent.svg" width={345} height={163} alt="Computer" />
+        <Image
+          src={props.desktop}
+          width={345}
+          height={163}
+          alt="Computer"
+          quality={100}
+        />
       </div>
       <div className="my-[1.5rem] hidden sm:block">
-        <Image src="/Morrent.svg" width={742} height={350} alt="Computer" />
+        <Image
+          src={props.desktop}
+          width={742}
+          height={350}
+          alt="Computer"
+          quality={100}
+        />
       </div>
       <div className="flex gap-[2.5625rem]">
         <Link href={props.demo_site}>

@@ -11,6 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@hookform/resolvers": "^3.3.1",
+    "@sanity/client": "^6.4.12",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.16.7",
     "@types/node": "20.5.9",
@@ -24,6 +25,7 @@
     "eslint-plugin-tailwindcss": "^3.13.0",
     "next": "13.4.19",
     "next-sanity": "^5.5.4",
+    "next-sanity-image": "^6.1.0",
     "next-themes": "^0.2.1",
     "postcss": "8.4.29",
     "prettier": "^3.0.3",

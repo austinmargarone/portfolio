@@ -20,13 +20,14 @@ const Statement = (props: Props) => {
         </p>
       </div>
       <div className="mx-auto">
-        {/* <Image
+        <Image
           className="w-[348px] md:w-[879px]"
           src={props.accent}
           width={348}
           height={363}
           alt="Computer"
-        /> */}
+          quality={100}
+        />
       </div>
     </section>
   );
