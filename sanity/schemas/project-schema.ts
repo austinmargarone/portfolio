@@ -28,19 +28,6 @@ const project = {
       ],
     },
     {
-      name: "mobile",
-      title: "Mobile",
-      type: "image",
-      options: { hotspot: true },
-      fields: [
-        {
-          name: "alt",
-          title: "Alt",
-          type: "string",
-        },
-      ],
-    },
-    {
       name: "demo_site",
       title: "Demo Site",
       type: "url",
@@ -67,14 +54,23 @@ const project = {
     },
     {
       name: "tech",
-      title: "Tech",
-      type: "image",
-      options: { hotspot: true },
-      fields: [
+      title: "Tech Images",
+      type: "array",
+      of: [
         {
-          name: "alt",
-          title: "Alt",
-          type: "string",
+          type: "tech",
+        },
+        {
+          title: "URL",
+          name: "urlObject",
+          type: "object",
+          fields: [
+            {
+              title: "URL",
+              name: "urlField",
+              type: "url",
+            },
+          ],
         },
       ],
     },

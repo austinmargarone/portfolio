@@ -14,7 +14,7 @@ const Challenges = (props: Props) => {
           Challenges & Learnings
         </h4>
       </div>
-      <div className="p7bg md:p7bglg dark:bg-darkbg">
+      <div className="p7bg md:p7bglg w-full dark:bg-darkbg">
         <h4 className="boldbody text-red">CHALLENGES</h4>
         <div className="smallreg md:regbody text-slate dark:text-white1">
           <div className="mb-[1.25rem] flex">
@@ -26,7 +26,7 @@ const Challenges = (props: Props) => {
                 alt="Challenges"
               />
             </div>
-            {/* <div className="w-[100%]">{props.challenges[0]}</div> */}
+            <div className="w-[100%]">{props.challenges[0]}</div>
           </div>
           <div className="mb-[1.25rem] flex">
             <div className="w-[2.5rem] pt-[0.38rem]">
@@ -37,13 +37,7 @@ const Challenges = (props: Props) => {
                 alt="Challenges"
               />
             </div>
-            <div className="w-[100%] pt-[0.38rem]">
-              We conducted brainstorming and carefully weighed our options
-              before making a decision. Furthermore, using NextJS was a new
-              experience for us, and we encountered difficulties while
-              implementing its features. Finally, we had to work under time
-              constraints, which added pressure to the project.
-            </div>
+            <div className="w-[100%] pt-[0.38rem]">{props.challenges[1]}</div>
           </div>
           <div className="flex">
             <div className="w-[2.5rem] pt-[0.38rem]">
@@ -54,50 +48,36 @@ const Challenges = (props: Props) => {
                 alt="Challenges"
               />
             </div>
-            <div className="w-[100%]">
-              However, we collaborated effectively to overcome these obstacles
-              and ultimately delivered a high-quality product within the given
-              timeline.
-            </div>
+            <div className="w-[100%]">{props.challenges[2]}</div>
           </div>
         </div>
       </div>
-      <div className="p7bg md:p7bglg dark:bg-darkbg">
+      <div className="p7bg md:p7bglg w-full dark:bg-darkbg">
         <h4 className="boldbody text-green">LEARNINGS</h4>
         <div className="smallreg md:regbody text-slate dark:text-white1">
           <div className="mb-[1.25rem] flex">
             <div className="w-[2.5rem] pt-[0.38rem]">
               <Image src="/tick.svg" width={20} height={20} alt="Tick" />
             </div>
-            {/* <div className="w-[100%]">{props.learnings[0]}</div> */}
+            <div className="w-[100%]">{props.learnings[0]}</div>
           </div>
           <div className="mb-[1.25rem] flex">
             <div className="w-[2.5rem] pt-[0.38rem]">
               <Image src="/tick.svg" width={20} height={20} alt="Tick" />
             </div>
-            <div className="w-[100%]">
-              Sharpened my backend skills, specifically in optimizing database
-              queries, improving performance, and handling server-side logic.
-            </div>
+            <div className="w-[100%]">{props.learnings[1]}</div>
           </div>
           <div className="mb-[1.25rem] flex">
             <div className="w-[2.5rem] pt-[0.38rem]">
               <Image src="/tick.svg" width={20} height={20} alt="Tick" />
             </div>
-            <div className="w-[100%]">
-              Learned how to properly handle files, including file upload,
-              storage, and retrieval, ensuring that the apps data is organized &
-              easily accessible while keeping it secure.
-            </div>
+            <div className="w-[100%]">{props.learnings[2]}</div>
           </div>
           <div className="flex">
             <div className="w-[2.5rem] pt-[0.38rem]">
               <Image src="/tick.svg" width={20} height={20} alt="Tick" />
             </div>
-            <div className="w-[100%]">
-              Acquired proficiency in NextJS and implemented various features
-              utilizing industry-standard best practices.
-            </div>
+            <div className="w-[100%]">{props.learnings[3]}</div>
           </div>
         </div>
       </div>

@@ -6,7 +6,6 @@ import Link from "next/link";
 type Props = {
   title: string;
   desktop: string;
-  mobile: string;
   demo_site: string;
   source_code: string;
 };
@@ -20,23 +19,25 @@ const Hero = (props: Props) => {
         </h4>
         <h1 className="pheading md:p1titlelg dark:text-white">{props.title}</h1>
       </div>
-      <div className="my-[1.5rem] flex sm:hidden">
-        <Image
-          src={props.desktop}
-          width={345}
-          height={163}
-          alt="Computer"
-          quality={100}
-        />
-      </div>
-      <div className="my-[1.5rem] hidden sm:block">
-        <Image
-          src={props.desktop}
-          width={742}
-          height={350}
-          alt="Computer"
-          quality={100}
-        />
+      <div className="mx-auto">
+        <div className="my-[1.5rem] hidden sm:block">
+          <Image
+            src={props.desktop}
+            width={742}
+            height={350}
+            alt="Desktop View"
+            quality={100}
+          />
+        </div>
+        <div className="my-[1.5rem] flex sm:hidden">
+          <Image
+            src={props.desktop}
+            width={345}
+            height={163}
+            alt="Desktop View"
+            quality={100}
+          />
+        </div>
       </div>
       <div className="flex gap-[2.5625rem]">
         <Link href={props.demo_site}>

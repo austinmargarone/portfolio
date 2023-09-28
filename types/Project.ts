@@ -5,7 +5,6 @@ export type Project = {
   slug: string;
   url: string;
   desktop: string;
-  mobile: string;
   demo_site: string;
   source_code: string;
   my_role: string;

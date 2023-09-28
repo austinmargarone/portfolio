@@ -36,7 +36,6 @@ export async function getProject(slug: string): Promise<Project> {
       "slug": slug.current,
       url,
       "desktop": desktop.asset->url,
-      "mobile": mobile.asset->url,
       demo_site,
       source_code,
       my_role,
