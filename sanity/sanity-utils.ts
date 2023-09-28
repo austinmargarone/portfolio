@@ -42,13 +42,13 @@ export async function getProject(slug: string): Promise<Project> {
       my_role,
       start_date,
       end_date,
-      "tech_stack": image.asset->url,
+      "tech": image.asset->url,
       description,
-      "place": image.asset->url,
+      problem,
+      "accent": image.asset->url,
       "design": image.asset->url,
       challenges
       learnings,
-
     }`,
     { slug }
   );

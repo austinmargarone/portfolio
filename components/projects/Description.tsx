@@ -6,7 +6,7 @@ const Description = (props: Props) => {
   return (
     <section className="p4 md:p4lg">
       <p className="projecttext md:regp dark:text-white1">
-        {/* {props.description} */}
+        {props.description}
       </p>
     </section>
   );
