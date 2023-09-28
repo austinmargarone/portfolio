@@ -1,0 +1,20 @@
+export type Project = {
+  _id: string;
+  _createdAt: Date;
+  title: string;
+  slug: string;
+  url: string;
+  desktop: string;
+  demo_site: string;
+  source_code: string;
+  my_role: string;
+  start_date: string;
+  end_date: string;
+  tech: string;
+  description: string;
+  problem: string;
+  accent: string;
+  design: string;
+  challenges: string;
+  learnings: string;
+};

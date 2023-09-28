@@ -17,7 +17,7 @@ import {
   MongodbIcon,
 } from "../svg";
 
-type Props = {};
+type Props = { tech: any };
 
 const TechStack = (props: Props) => {
   return (
@@ -31,6 +31,7 @@ const TechStack = (props: Props) => {
         </h4>
       </div>
       <div className="tiles flex">
+        {/* <SkillTile tech={props.tech} /> */}
         <SkillTile StackImage2={ReactIcon} />
         <SkillTile StackImage2={ReduxIcon} />
         <SkillTile StackImage2={NextIcon} />

@@ -1,6 +1,6 @@
 import React from "react";
 
-type Props = {};
+type Props = { my_role: string; start_date: string; end_date: string };
 
 const MyRole = (props: Props) => {
   return (
@@ -9,19 +9,19 @@ const MyRole = (props: Props) => {
         <p className="md:boldbody smallbold mb-[.62rem] dark:text-slate">
           My Role
         </p>
-        <p className="md:boldbase boldp dark:text-white">Software Engineer</p>
+        <p className="md:boldbase boldp dark:text-white">{props.my_role}</p>
       </div>
       <div>
         <p className="md:boldbody smallbold mb-[.62rem] dark:text-slate">
           Start Date
         </p>
-        <p className="md:boldbase boldp dark:text-white">02/03/2023</p>
+        <p className="md:boldbase boldp dark:text-white">{props.start_date}</p>
       </div>
       <div>
         <p className="md:boldbody smallbold mb-[.62rem] dark:text-slate">
           End Date
         </p>
-        <p className="md:boldbase boldp dark:text-white">02/03/2023</p>
+        <p className="md:boldbase boldp dark:text-white">{props.end_date}</p>
       </div>
     </section>
   );

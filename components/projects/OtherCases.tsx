@@ -1,9 +1,10 @@
 import React from "react";
 import OtherCasesCard from "./OtherCasesCard";
+import { getCases } from "@/sanity/sanity-utils";
 
-type Props = {};
+export default async function OtherCases({ slug }: { slug: string }) {
+  const cases = await getCases();
 
-const OtherCases = (props: Props) => {
   return (
     <div>
       <div className="p8 md:p8lg mx-auto dark:bg-darkbg md:px-[8rem] lg:px-[11rem] xl:px-[17.5rem]">
@@ -16,12 +17,14 @@ const OtherCases = (props: Props) => {
           </h4>
         </div>
         <div className="mx-auto flex flex-col justify-center gap-[1.5rem] md:flex-row">
-          <OtherCasesCard />
-          <OtherCasesCard />
+          {cases
+            .filter((project) => slug !== project.slug)
+            .slice(-2)
+            .map((cases, index) => (
+              <OtherCasesCard {...cases} key={cases._id} />
+            ))}
         </div>
       </div>
     </div>
   );
-};
-
-export default OtherCases;
+}

@@ -1,59 +1,24 @@
-import Contact from "@/components/Contact";
 import Heading from "@/components/casestudies/Heading";
 import Projects from "@/components/casestudies/Projects";
-import React from "react";
+import Contact from "@/components/Contact";
+import { getCases } from "@/sanity/sanity-utils";
 
-const page = () => {
+export default async function sanity() {
+  const cases = await getCases();
+
   return (
-    <>
-      <div className="mx-auto sm:max-w-[50rem] md:max-w-[90rem]">
-        <div>
-          <Heading />
-        </div>
-        <main className="casemain sm:casemainlg mx-auto flex flex-col sm:flex-row sm:flex-wrap">
-          <Projects
-            title={"Morrent"}
-            description={"Car Rental Application"}
-            project={"/Carrent.svg"}
-            bg={""}
-          />
-          <Projects
-            title={"Jobit"}
-            description={"Job Finding Application"}
-            project={"JoBit.svg"}
-            bg={"#0BAB7C"}
-          />
-          <Projects
-            title={"HipNode"}
-            description={"Social Platform for Developers"}
-            project={"HipNode.svg"}
-            bg={"#FF6934"}
-          />
-          <Projects
-            title={"Trip Guide "}
-            description={"Crowdfunding Application"}
-            project={"/Filmpire.svg"}
-            bg={"#316BFF"}
-          />
-          <Projects
-            title={"Virtue"}
-            description={"Booking Platform"}
-            project={"/Virtue.svg"}
-            bg={"#4ACD8D"}
-          />
-          <Projects
-            title={"Filmpire"}
-            description={"AI-Powered Movie Application"}
-            project={"Filmpire.svg"}
-            bg={"#DB202C"}
-          />
-        </main>
-        <section className="mt-[1.25rem] sm:pt-[1.95rem]">
-          <Contact />
-        </section>
+    <div className="mx-auto xs:max-w-[28rem] sm:max-w-[50rem] md:max-w-[50rem] lg:max-w-[90rem] ">
+      <div>
+        <Heading />
       </div>
-    </>
+      <div className="casemain sm:casemainlg mx-auto flex flex-col sm:flex-row sm:flex-wrap">
+        {cases.map((cases, index) => (
+          <Projects {...cases} key={cases._id} />
+        ))}
+      </div>
+      <section className="mt-[1.25rem] sm:pt-[1.95rem]">
+        <Contact />
+      </section>
+    </div>
   );
-};
-
-export default page;
+}
