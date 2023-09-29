@@ -19,7 +19,7 @@ const TechStack = (props: Props) => {
           <div className="m-auto hidden shrink-0 md:flex">
             <Image
               className="justify-center	 grayscale group-hover:grayscale-0"
-              src={props.tech[0]}
+              src={props.tech[1]}
               width={50}
               height={50}
               alt="Stack Image"
@@ -28,7 +28,7 @@ const TechStack = (props: Props) => {
           <div className="m-auto flex shrink-0 md:hidden">
             <Image
               className="justify-center	 grayscale group-hover:grayscale-0"
-              src={props.tech[0]}
+              src={props.tech[1]}
               width={25}
               height={25}
               alt="Stack Image"
