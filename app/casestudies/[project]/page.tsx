@@ -11,6 +11,7 @@ import Challenges from "@/components/projects/Challenges";
 import OtherCases from "@/components/projects/OtherCases";
 import TechStack from "@/components/projects/TechStack";
 
+export const dynamic = "force-dynamic";
 export const revalidate = 1;
 type Props = {
   params: { project: string };

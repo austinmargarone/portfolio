@@ -3,6 +3,8 @@ import Projects from "@/components/casestudies/Projects";
 import Contact from "@/components/Contact";
 import { getCases } from "@/sanity/sanity-utils";
 
+export const dynamic = "force-dynamic";
+
 export const revalidate = 1;
 
 export default async function sanity() {
