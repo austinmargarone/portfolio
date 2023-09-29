@@ -55,13 +55,22 @@ const project = {
     {
       name: "tech",
       title: "Tech",
-      type: "image",
-      options: { hotspot: true },
-      fields: [
+      type: "array",
+      of: [
         {
-          name: "alt",
-          title: "Alt",
-          type: "string",
+          type: "image",
+        },
+        {
+          title: "URL",
+          name: "urlObject",
+          type: "object",
+          fields: [
+            {
+              title: "URL",
+              name: "urlField",
+              type: "url",
+            },
+          ],
         },
       ],
     },
