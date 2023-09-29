@@ -41,7 +41,7 @@ export async function getProject(slug: string): Promise<Project> {
       my_role,
       start_date,
       end_date,
-      "tech": tech.asset->url,
+      "tech": tech[].asset->url,
       description,
       problem,
       "accent": accent.asset->url,
