@@ -16,7 +16,7 @@ const FeaturedProjects = () => {
             title={"Morrent - A Car Rental Application"}
             tech={"ReactJS, Next.js"}
             tech1={"Nodejs, MongoDB"}
-            link={"http://localhost:3000/casestudies/morrent"}
+            link={"/casestudies/morrent"}
             bg={"bg-blue1"}
             featuredImage={"/Morrent.png"}
           />
@@ -24,7 +24,7 @@ const FeaturedProjects = () => {
             title={"JobIT - A Job Finding Application"}
             tech={"ReactJS, Next.js"}
             tech1={"TypeScript, Nodejs"}
-            link={"http://localhost:3000/casestudies/jobit"}
+            link={"/casestudies/jobit"}
             bg={"bg-darkbg"}
             featuredImage={"/JobIt.png"}
           />
@@ -32,7 +32,7 @@ const FeaturedProjects = () => {
             title={"Filmpire - A Movie Search Application"}
             tech={"ReactJS, Tailwind"}
             tech1={"JavaScript, Nodejs"}
-            link={"http://localhost:3000/casestudies/filmpire"}
+            link={"/casestudies/filmpire"}
             bg={"bg-red"}
             featuredImage={"/Filmpire.png"}
           />
