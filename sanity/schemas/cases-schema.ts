@@ -35,7 +35,7 @@ const cases = {
     {
       name: "case_study",
       title: "Case Study",
-      type: "url",
+      type: "string",
     },
     {
       name: "bg",
