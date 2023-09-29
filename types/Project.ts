@@ -10,7 +10,7 @@ export type Project = {
   my_role: string;
   start_date: string;
   end_date: string;
-  tech: string;
+  tech: string[];
   description: string;
   problem: string;
   accent: string;

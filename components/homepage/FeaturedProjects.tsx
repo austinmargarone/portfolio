@@ -17,7 +17,7 @@ const FeaturedProjects = () => {
             tech={"ReactJS, Next.js"}
             tech1={"Nodejs, MongoDB"}
             link={"http://localhost:3000/casestudies/morrent"}
-            bg={"blue1"}
+            bg={"bg-blue1"}
             featuredImage={"/Morrent.png"}
           />
           <FeatProjectsCard
@@ -25,7 +25,7 @@ const FeaturedProjects = () => {
             tech={"ReactJS, Next.js"}
             tech1={"TypeScript, Nodejs"}
             link={"http://localhost:3000/casestudies/jobit"}
-            bg={"darkbg"}
+            bg={"bg-darkbg"}
             featuredImage={"/JobIt.png"}
           />
           <FeatProjectsCard
@@ -33,7 +33,7 @@ const FeaturedProjects = () => {
             tech={"ReactJS, Tailwind"}
             tech1={"JavaScript, Nodejs"}
             link={"http://localhost:3000/casestudies/filmpire"}
-            bg={"blue"}
+            bg={"bg-red"}
             featuredImage={"/Filmpire.png"}
           />
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import SkillTile from "./SkillTile";
 
-type Props = { tech: string };
+type Props = { tech: string[] };
 
 const TechStack = (props: Props) => {
   return (
