@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { GitHubIcon2 } from "../svg";
+import Link from "next/link";
 
 const ContactInfo = () => {
   return (
@@ -9,31 +10,39 @@ const ContactInfo = () => {
         <div className="flex flex-col">
           <p className="regp md:regbase flex dark:text-white">My Socials</p>
           <div className="flex gap-[2.25rem] pl-[2.5rem] pt-[.88rem] md:hidden">
-            <div>
-              <Image
-                src="/Social.svg"
-                width={24}
-                height={24}
-                alt="Social Link"
-              />
-            </div>
-            <div>
-              <GitHubIcon2 width={24} height={24} alt="Github Link" />
-            </div>
-          </div>
-          <div className="hidden  md:block">
-            <div className="flex gap-[2.25rem] pl-[2.5rem] pt-[.88rem]">
+            <Link href="https://www.linkedin.com/in/austin-margarone/">
               <div>
                 <Image
                   src="/Social.svg"
-                  width={30}
-                  height={30}
+                  width={24}
+                  height={24}
                   alt="Social Link"
                 />
               </div>
+            </Link>
+            <Link href="https://github.com/austinmargarone">
               <div>
-                <GitHubIcon2 width={30} height={30} alt="Github Link" />
+                <GitHubIcon2 width={24} height={24} alt="Github Link" />
               </div>
+            </Link>
+          </div>
+          <div className="hidden  md:block">
+            <div className="flex gap-[2.25rem] pl-[2.5rem] pt-[.88rem]">
+              <Link href="https://www.linkedin.com/in/austin-margarone/">
+                <div>
+                  <Image
+                    src="/Social.svg"
+                    width={30}
+                    height={30}
+                    alt="Social Link"
+                  />
+                </div>
+              </Link>
+              <Link href="https://github.com/austinmargarone">
+                <div>
+                  <GitHubIcon2 width={30} height={30} alt="Github Link" />
+                </div>
+              </Link>
             </div>
           </div>
         </div>

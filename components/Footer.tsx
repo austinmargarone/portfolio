@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { GitHubIcon2 } from "./svg";
+import Link from "next/link";
 
 type Props = {};
 
@@ -14,9 +15,11 @@ const Footer = (props: Props) => {
         </h1>
       </div>
       <div className="flex content-center justify-center gap-[1.5rem]  md:pt-[2rem]">
-        <div>
-          <Image src="/Social.svg" width={24} height={4} alt="Social Link" />
-        </div>
+        <Link href="https://www.linkedin.com/in/austin-margarone/">
+          <div>
+            <Image src="/Social.svg" width={24} height={4} alt="Social Link" />
+          </div>
+        </Link>
         <div>
           <GitHubIcon2 width={24} height={24} alt="Github Link" />
         </div>
