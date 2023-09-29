@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Footer from "@/components/Footer";
 import ThemeProvider from "@/providers/ThemeProvider";
+import { Analytics } from "@vercel/analytics/react";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -32,6 +33,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
