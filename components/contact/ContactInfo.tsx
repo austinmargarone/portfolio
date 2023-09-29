@@ -10,7 +10,10 @@ const ContactInfo = () => {
         <div className="flex flex-col">
           <p className="regp md:regbase flex dark:text-white">My Socials</p>
           <div className="flex gap-[2.25rem] pl-[2.5rem] pt-[.88rem] md:hidden">
-            <Link href="https://www.linkedin.com/in/austin-margarone/">
+            <Link
+              href="https://www.linkedin.com/in/austin-margarone/"
+              target="_blank"
+            >
               <div>
                 <Image
                   src="/Social.svg"
@@ -20,7 +23,7 @@ const ContactInfo = () => {
                 />
               </div>
             </Link>
-            <Link href="https://github.com/austinmargarone">
+            <Link href="https://github.com/austinmargarone" target="_blank">
               <div>
                 <GitHubIcon2 width={24} height={24} alt="Github Link" />
               </div>
@@ -28,7 +31,10 @@ const ContactInfo = () => {
           </div>
           <div className="hidden  md:block">
             <div className="flex gap-[2.25rem] pl-[2.5rem] pt-[.88rem]">
-              <Link href="https://www.linkedin.com/in/austin-margarone/">
+              <Link
+                href="https://www.linkedin.com/in/austin-margarone/"
+                target="_blank"
+              >
                 <div>
                   <Image
                     src="/Social.svg"
@@ -38,7 +44,7 @@ const ContactInfo = () => {
                   />
                 </div>
               </Link>
-              <Link href="https://github.com/austinmargarone">
+              <Link href="https://github.com/austinmargarone" target="_blank">
                 <div>
                   <GitHubIcon2 width={30} height={30} alt="Github Link" />
                 </div>

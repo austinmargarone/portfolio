@@ -14,7 +14,7 @@ const TechStack = (props: Props) => {
           Tech Stack
         </h4>
       </div>
-      <div className="tiles flex">
+      <div className="tiles mx-auto flex w-[98%] justify-center">
         {props?.tech?.map((tech: string) => (
           <SkillTile prop={tech} key={tech} />
         ))}

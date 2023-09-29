@@ -128,24 +128,26 @@ const Navbar = () => {
                       </button>
                     </li>
                     <li>
-                      <button
-                        onClick={toggleMenu}
-                        className="flex w-[10rem] content-center justify-center gap-[.1875rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]"
+                      <Link
+                        href="https://www.linkedin.com/in/austin-margarone/"
+                        target="_blank"
                       >
-                        <Resume
-                          className="my-auto fill-white"
-                          width={20}
-                          height={20}
-                          alt="Download"
-                        />
-
-                        <Link
-                          className="boldbody sm:boldp text-white1 underline"
-                          href="/resume"
+                        <button
+                          onClick={toggleMenu}
+                          className="flex w-[10rem] content-center justify-center gap-[.1875rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]"
                         >
-                          Resume
-                        </Link>
-                      </button>
+                          <Resume
+                            className="my-auto fill-white"
+                            width={20}
+                            height={20}
+                            alt="Download"
+                          />
+
+                          <p className="boldbody sm:boldp text-white1 underline">
+                            Resume
+                          </p>
+                        </button>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -172,16 +174,20 @@ const Navbar = () => {
               </button>
             </li>
             <li>
-              <button className="flex content-center gap-[.1875rem]">
-                <Resume
-                  className="fill-black dark:fill-white"
-                  width={20}
-                  height={20}
-                  alt="Download"
-                />
-
-                <Link href="/resume">Resume</Link>
-              </button>
+              <Link
+                href="https://www.linkedin.com/in/austin-margarone/"
+                target="_blank"
+              >
+                <button className="flex content-center gap-[.1875rem]">
+                  <Resume
+                    className="fill-black dark:fill-white"
+                    width={20}
+                    height={20}
+                    alt="Download"
+                  />
+                  <p>Resume</p>
+                </button>
+              </Link>
             </li>
             <li>
               <Image src="/Line.svg" width={2} height={0} alt="Divider" />

@@ -15,14 +15,19 @@ const Footer = (props: Props) => {
         </h1>
       </div>
       <div className="flex content-center justify-center gap-[1.5rem]  md:pt-[2rem]">
-        <Link href="https://www.linkedin.com/in/austin-margarone/">
+        <Link
+          href="https://www.linkedin.com/in/austin-margarone/"
+          target="_blank"
+        >
           <div>
             <Image src="/Social.svg" width={24} height={4} alt="Social Link" />
           </div>
         </Link>
-        <div>
-          <GitHubIcon2 width={24} height={24} alt="Github Link" />
-        </div>
+        <Link href="https://github.com/austinmargarone" target="_blank">
+          <div>
+            <GitHubIcon2 width={24} height={24} alt="Github Link" />
+          </div>
+        </Link>
       </div>
     </section>
   );
