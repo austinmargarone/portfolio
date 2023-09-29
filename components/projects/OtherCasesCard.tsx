@@ -4,7 +4,7 @@ import React from "react";
 
 export default async function Projects(cases: any) {
   return (
-    <div className="p8shadow dark:p8shadowdark mt-[1.5rem] w-[365px] pb-[1.5rem] lg:w-[429px]">
+    <div className="p8shadow dark:p8shadowdark sm:[365px] mt-[1.5rem] w-[325px] pb-[1.5rem] lg:w-[429px]">
       <div className="flex lg:hidden">
         <Image
           className="rounded-t-[1.25rem]"

@@ -4,7 +4,6 @@ import Contact from "@/components/Contact";
 import { getCases } from "@/sanity/sanity-utils";
 
 export const dynamic = "force-dynamic";
-
 export const revalidate = 1;
 
 export default async function sanity() {
@@ -15,7 +14,7 @@ export default async function sanity() {
       <div>
         <Heading />
       </div>
-      <div className="casemain sm:casemainlg mx-auto flex flex-col sm:flex-row sm:flex-wrap">
+      <div className="mx-auto flex flex-col sm:flex-row sm:flex-wrap">
         {cases.map((cases, index) => (
           <Projects {...cases} key={cases._id} />
         ))}

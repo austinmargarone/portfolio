@@ -15,6 +15,6 @@ export type Project = {
   problem: string;
   accent: string;
   design: string;
-  challenges: string;
-  learnings: string;
+  challenges: string[];
+  learnings: string[];
 };
