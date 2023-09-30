@@ -14,12 +14,12 @@ export default async function sanity() {
       <div>
         <Heading />
       </div>
-      <div className="mx-auto flex flex-col sm:flex-row sm:flex-wrap">
+      <div className="mx-auto flex flex-col gap-[2.5rem] sm:flex-row sm:flex-wrap">
         {cases.map((cases, index) => (
           <Projects {...cases} key={cases._id} />
         ))}
       </div>
-      <section className="mt-[1.25rem] sm:pt-[1.95rem]">
+      <section className="mt-[2.5rem] sm:pt-[1.95rem]">
         <Contact />
       </section>
     </div>
