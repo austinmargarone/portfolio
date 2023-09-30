@@ -40,7 +40,7 @@ const Hero = (props: Props) => {
         </div>
       </div>
       <div className="flex gap-[2.5625rem]">
-        <Link href={props.demo_site}>
+        <Link href={props.demo_site} target="_blank">
           <div className="flex content-center gap-[.18rem]">
             <Globe className="my-auto flex h-[18px] w-[18px] fill-blue dark:fill-blue1 md:h-[20px] md:w-[20px]" />
             <p className="smallbold md:boldp text-blue dark:text-blue1 ">
@@ -49,11 +49,11 @@ const Hero = (props: Props) => {
             <ArrowRight1 className="my-auto h-[24px] w-[24px] stroke-blue dark:stroke-blue1" />
           </div>
         </Link>
-        <Link href={props.source_code}>
+        <Link href={props.source_code} target="_blank">
           <div className="flex gap-[.18rem]">
             <GitHubIcon className="my-auto h-[18px] w-[18px] fill-blue dark:fill-blue1 md:h-[20px] md:w-[20px]" />
             <p className="smallbold md:boldp text-blue dark:text-blue1">
-              Demo Site
+              Source Code
             </p>
             <ArrowRight1 className="my-auto h-[24px] w-[24px] stroke-blue dark:stroke-blue1" />
           </div>

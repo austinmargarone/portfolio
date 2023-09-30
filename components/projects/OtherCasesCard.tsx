@@ -23,13 +23,15 @@ export default async function Projects(cases: any) {
           alt="Jobit"
         />
       </div>
-      <div className="mx-[1.2rem] mt-[1.5rem]">
-        <h4 className="boldp text-blue dark:text-blue1">{cases.title}</h4>
-        <p className="regp mb-[.87rem] mt-[.4rem] text-slate dark:text-white1">
+      <div className="mt-[1.5rem]">
+        <h4 className="boldp ml-[1rem] text-blue dark:text-blue1">
+          {cases.title}
+        </h4>
+        <p className="regp mb-[.87rem] ml-[1rem] mt-[.4rem] text-slate dark:text-white1">
           {cases.description}
         </p>
         <Link href={cases.case_study}>
-          <button className="p8btn mx-[.rem] w-full dark:bg-blue1">
+          <button className="p8btn mx-auto dark:bg-blue1">
             <p className="p8btntext">See Case Study</p>
           </button>
         </Link>

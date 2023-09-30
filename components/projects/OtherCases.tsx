@@ -16,7 +16,7 @@ export default async function OtherCases({ slug }: { slug: string }) {
             Other Case Studies
           </h4>
         </div>
-        <div className="mx-auto flex flex-col justify-center gap-[1.5rem] md:flex-row">
+        <div className="mx-auto flex flex-col justify-center gap-[1.5rem] sm:flex-row">
           {cases
             .filter((project) => slug !== project.slug)
             .slice(-2)
