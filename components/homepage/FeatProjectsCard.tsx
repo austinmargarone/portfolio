@@ -22,10 +22,10 @@ const FeatProjectsCard = (props: Props) => {
         </h3>
         <div className="my-[1.88rem] flex gap-[1.25rem] md:mb-[3.13rem] md:mt-[1.44rem]">
           <button className="projectbutton flex bg-yellow">
-            <p className="smallreg font-bold text-black">{props.tech}</p>
+            <p className="smallreg text-black md:font-bold">{props.tech}</p>
           </button>
           <button className="projectbutton bg-yellow">
-            <p className="smallreg font-bold text-black">{props.tech1}</p>
+            <p className="smallreg text-black md:font-bold">{props.tech1}</p>
           </button>
         </div>
         <div className="flex">

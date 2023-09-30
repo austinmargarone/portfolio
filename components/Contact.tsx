@@ -21,10 +21,12 @@ const Contact = () => {
           <h4 className="contacttext mx-[1rem] mb-[1rem] mt-[4.87rem]">
             Have a project in mind that requires technical expertise?
           </h4>
-          <button className="contactbtn mx-auto dark:bg-blue1">
-            <p className="contactbtntext">Get in Touch with Me</p>
-            <Image src="/Arrow1.svg" width={14} height={0} alt="Ellipse" />
-          </button>
+          <Link href="/contact">
+            <button className="contactbtn mx-auto dark:bg-blue1">
+              <p className="contactbtntext">Get in Touch with Me</p>
+              <Image src="/Arrow1.svg" width={14} height={0} alt="Ellipse" />
+            </button>
+          </Link>
         </div>
       </div>
       {/* Desktop */}

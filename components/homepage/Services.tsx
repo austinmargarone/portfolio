@@ -4,7 +4,7 @@ import { Level, Pointer, SEO, Code } from "../svg";
 
 const Services = () => {
   return (
-    <section className="services md:serviceslg mx-auto mb-[3rem] flex w-fit flex-col justify-center py-[3rem] xs:max-w-[25rem] sm:max-w-[42rem] md:mb-[4.5rem] md:h-[30rem] md:max-w-[100rem] xl:max-w-[100rem]">
+    <section className="services md:serviceslg mx-auto mb-[3rem] flex w-fit flex-col justify-center py-[3rem] xs:max-w-[25rem] sm:max-w-[42rem] md:mb-[4.5rem] md:h-full md:max-w-[100rem] xl:max-w-[100rem]">
       <div className="services1 md:services1lg flex flex-col md:w-fit">
         <h2 className="dark:text-white">
           What <span className="underline-magic w-fit">Service</span> Do I

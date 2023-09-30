@@ -5,7 +5,7 @@ import Email from "./Email";
 
 const Hero = () => {
   return (
-    <div className=" mx-auto flex w-fit flex-col justify-center bg-white1 pb-[2rem] pt-[3rem] dark:bg-darkbg xs:max-w-[21.5rem] ss:max-w-[25rem] sm:max-w-[30rem] md:w-full md:max-w-[80rem] md:flex-row xl:max-w-[100rem]">
+    <div className="mx-[1rem] flex w-fit flex-col justify-center bg-white1 pb-[2rem] pt-[3rem] dark:bg-darkbg xs:mx-auto xs:max-w-[21.5rem] ss:max-w-[25rem] sm:max-w-[38rem] md:max-w-[63rem] md:flex-row lg:max-w-[75rem] xl:max-w-[100rem]">
       <div className="mx-auto flex flex-col xs:w-full md:w-1/2">
         <h4 className="title mb-[1.25rem] text-blue dark:text-blue1 md:mb-[1.69rem]">
           HI, I AM AUSTIN
