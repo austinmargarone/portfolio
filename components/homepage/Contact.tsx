@@ -30,7 +30,7 @@ const Contact = () => {
         </div>
       </div>
       {/* MD */}
-      <div className="mx-auto hidden w-[32rem] sm:block md:hidden md:max-w-[60rem] xl:max-w-[80rem]">
+      <div className="mx-auto hidden w-[30rem] sm:block md:hidden md:max-w-[60rem] xl:max-w-[80rem]">
         <div className="contact relative flex h-[330px] shrink-0">
           <Image
             src="/Group1.svg"

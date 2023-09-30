@@ -10,7 +10,7 @@ export default async function sanity() {
   const cases = await getCases();
 
   return (
-    <div className="mx-auto xs:max-w-[28rem] ss:max-w-[25rem] sm:max-w-[50rem] md:max-w-[50rem] lg:max-w-[90rem] ">
+    <div className="mx-auto xs:max-w-[21.5rem] ss:max-w-[25rem] sm:max-w-[50rem] md:max-w-[50rem] lg:max-w-[90rem] ">
       <div>
         <Heading />
       </div>
