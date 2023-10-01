@@ -2,6 +2,7 @@ import { createClient, groq } from "next-sanity";
 import { apiVersion, dataset, projectId } from "./env";
 import { Cases } from "@/types/Cases";
 import { Project } from "@/types/Project";
+import { Testimonials } from "@/types/Testimonials";
 
 export async function getCases(): Promise<Cases[]> {
   const client = createClient({
@@ -18,6 +19,24 @@ export async function getCases(): Promise<Cases[]> {
         "image": image.asset->url,
         case_study,
         bg
+    }`
+  );
+}
+
+export async function getTestimonials(): Promise<Testimonials> {
+  const client = createClient({
+    projectId,
+    dataset,
+    apiVersion,
+  });
+  return client.fetch(
+    groq`*[_type == "testimonials" ]{
+        _id,
+        name,
+        title,
+        "slug": slug.current,
+        content,
+        "image": image.asset->url,
     }`
   );
 }

@@ -1,8 +1,19 @@
 import Image from "next/image";
-import React from "react";
 import { ArrowLeft, ArrowRight } from "@/components/svg";
+import React from "react";
+type Props = {
+  title: string;
+  name: string;
+  content: string;
+  _id: string;
+  image: string;
+};
 
-const About = () => {
+export default async function About(props: Props) {
+  // const [testimonials, setTestimonials] = useState(testimonials[0]);
+  // const handleClick = (index: string) => {
+  //   setTestimonials(testimonials[index]);
+  // };
   return (
     <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 dark:bg-darkbg xs:max-w-[25rem] sm:max-w-[42rem] md:w-fit md:max-w-[75rem] xl:max-w-[80rem]">
       <div className="flex w-full">
@@ -10,17 +21,19 @@ const About = () => {
           <span className="underline-magic w-fit">Testimonials</span>
         </h2>
       </div>
+
       <div className="sm:hidden">
         <div className="flex gap-[2rem]">
           <div>
             <Image
               className="shrink-0 rounded-[1rem]"
-              src="/Adrian.svg"
+              src={props.image}
               width={328}
               height={328}
-              alt="Headshit"
+              alt={props.name}
             />
           </div>
+          <div></div>
           <div className="flex gap-[1rem]">
             <div className="circle dark:border-darkbg dark:bg-darkbg2">
               <div className="shrink-0">
@@ -56,19 +69,15 @@ const About = () => {
           </div>
           <div>
             <p className="regbody mb-[1.5rem] self-stretch text-black dark:text-white">
-              I have had the pleasure of working with Adrian as a Software
-              Developer and can confidently say that he is a valuable asset to
-              any team. He is highly skilled in ReactJS, NextJS, Javascript,
-              Material UI, Tailwind CSS, Redux, and GitHub, and consistently
-              delivers high-quality code.
+              {props.content}
             </p>
           </div>
           <div>
             <p className="boldbody self-stretch text-black dark:text-white1">
-              — Adrian Hajdin
+              {props.name}
             </p>
             <p className="regbody self-stretch text-slate	dark:text-white">
-              Founder & CEO at JS Mastery
+              {props.title}
             </p>
           </div>
         </div>
@@ -89,10 +98,10 @@ const About = () => {
             <div className="mx-[1.62rem]">
               <Image
                 className="rounded-[1rem]"
-                src="/Adrian.svg"
+                src={props.image}
                 width={1450}
                 height={1450}
-                alt="Headshot"
+                alt={props.name}
               />
             </div>
             <div>
@@ -107,19 +116,15 @@ const About = () => {
               </div>
               <div>
                 <p className="regbase mb-[2rem] text-slate dark:text-white">
-                  I have had the pleasure of working with Austin as a Software
-                  Developer and can confidently say that he is a valuable asset
-                  to any team. He is highly skilled in ReactJS, NextJS,
-                  Javascript, Material UI, Tailwind CSS, Redux, and GitHub, and
-                  consistently delivers high-quality code.
+                  {props.content}
                 </p>
               </div>
               <div>
                 <p className="boldbody mb-[.25rem] self-stretch text-black dark:text-white1">
-                  — Adrian Hajdin
+                  {props.name}
                 </p>
                 <p className="regbody self-stretch text-slate	dark:text-white">
-                  Founder & CEO at JS Mastery
+                  {props.title}
                 </p>
               </div>
             </div>
@@ -138,6 +143,4 @@ const About = () => {
       </div>
     </div>
   );
-};
-
-export default About;
+}
