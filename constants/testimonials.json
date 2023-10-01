@@ -1,14 +1,16 @@
 [
   {
     "id": 0,
-    "name": "Billy",
-    "content": "I like austin wow much job do good",
-    "image": "/images/billy.jpg"
+    "name": "Adrian Hajdin",
+    "title": "Founder & CEO at JS Mastery",
+    "content": "I have had the pleasure of working with Austin as a Software Developer and can confidently say that he is a valuable asset to any team. He is highly skilled in ReactJS, NextJS, Javascript, Material UI, Tailwind CSS, Redux, and GitHub, and consistently delivers high-quality code.",
+    "image": "/Adrian.svg"
   },
   {
-    "id": 0,
-    "name": "Billy",
-    "content": "I like austin wow much job do good",
-    "image": "/images/billy.jpg"
+    "id": 1,
+    "name": "Brandon Etter",
+    "title": "Full Stack Developer",
+    "content": "I had the pleasure of working alongside Austin for several projects. He was always incredibly reliable and and professional.  Austin was always very fun to work with and I wouldn't hesitate to work alongside him again in any capacity.",
+    "image": "/Brandon.png"
   }
 ]

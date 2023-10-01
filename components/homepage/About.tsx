@@ -2,21 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { ArrowLeft, ArrowRight } from "@/components/svg";
-
-const testimonials = [
-  {
-    id: 0,
-    name: "Billy",
-    content: "I like austin wow much job do good",
-    image: "/images/billy.jpg",
-  },
-  {
-    id: 0,
-    name: "Billy",
-    content: "I like austin wow much job do good",
-    image: "/images/billy.jpg",
-  },
-];
+import testimonials from "@/constants/testimonials.json";
 
 const About = () => {
   const [currentReview, setCurrentReview] = useState(0);
@@ -47,10 +33,10 @@ const About = () => {
           <div>
             <Image
               className="shrink-0 rounded-[1rem]"
-              src="/Adrian.svg"
+              src={testimonials[currentReview].image}
               width={328}
               height={328}
-              alt="Headshit"
+              alt={testimonials[currentReview].name}
             />
           </div>
           <div className="flex gap-[1rem]">
@@ -92,19 +78,15 @@ const About = () => {
           </div>
           <div>
             <p className="regbody mb-[1.5rem] self-stretch text-black dark:text-white">
-              I have had the pleasure of working with Adrian as a Software
-              Developer and can confidently say that he is a valuable asset to
-              any team. He is highly skilled in ReactJS, NextJS, Javascript,
-              Material UI, Tailwind CSS, Redux, and GitHub, and consistently
-              delivers high-quality code.
+              {testimonials[currentReview].content}
             </p>
           </div>
           <div>
             <p className="boldbody self-stretch text-black dark:text-white1">
-              — Adrian Hajdin
+              {testimonials[currentReview].name}
             </p>
             <p className="regbody self-stretch text-slate	dark:text-white">
-              Founder & CEO at JS Mastery
+              {testimonials[currentReview].title}
             </p>
           </div>
         </div>
@@ -127,10 +109,10 @@ const About = () => {
             <div className="mx-[1.62rem]">
               <Image
                 className="rounded-[1rem]"
-                src="/Adrian.svg"
+                src={testimonials[currentReview].image}
                 width={1450}
                 height={1450}
-                alt="Headshot"
+                alt={testimonials[currentReview].name}
               />
             </div>
             <div>
@@ -145,19 +127,15 @@ const About = () => {
               </div>
               <div>
                 <p className="regbase mb-[2rem] text-slate dark:text-white">
-                  I have had the pleasure of working with Austin as a Software
-                  Developer and can confidently say that he is a valuable asset
-                  to any team. He is highly skilled in ReactJS, NextJS,
-                  Javascript, Material UI, Tailwind CSS, Redux, and GitHub, and
-                  consistently delivers high-quality code.
+                  {testimonials[currentReview].content}
                 </p>
               </div>
               <div>
                 <p className="boldbody mb-[.25rem] self-stretch text-black dark:text-white1">
-                  — Adrian Hajdin
+                  {testimonials[currentReview].name}
                 </p>
                 <p className="regbody self-stretch text-slate	dark:text-white">
-                  Founder & CEO at JS Mastery
+                  {testimonials[currentReview].title}
                 </p>
               </div>
             </div>
