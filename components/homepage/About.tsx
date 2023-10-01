@@ -1,8 +1,40 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { ArrowLeft, ArrowRight } from "@/components/svg";
 
+const testimonials = [
+  {
+    id: 0,
+    name: "Billy",
+    content: "I like austin wow much job do good",
+    image: "/images/billy.jpg",
+  },
+  {
+    id: 0,
+    name: "Billy",
+    content: "I like austin wow much job do good",
+    image: "/images/billy.jpg",
+  },
+];
+
 const About = () => {
+  const [currentReview, setCurrentReview] = useState(0);
+  const maxLength = testimonials.length - 1;
+  const next = () => {
+    if (currentReview === maxLength) {
+      setCurrentReview(0);
+    } else {
+      setCurrentReview((c) => c + 1);
+    }
+  };
+  const prev = () => {
+    if (currentReview === 0) {
+      setCurrentReview(maxLength);
+    } else {
+      setCurrentReview((c) => c - 1);
+    }
+  };
   return (
     <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 dark:bg-darkbg xs:max-w-[25rem] sm:max-w-[42rem] md:w-fit md:max-w-[75rem] xl:max-w-[80rem]">
       <div className="flex w-full">
@@ -22,26 +54,30 @@ const About = () => {
             />
           </div>
           <div className="flex gap-[1rem]">
-            <div className="circle dark:border-darkbg dark:bg-darkbg2">
-              <div className="shrink-0">
-                <ArrowLeft
-                  className="stroke-black dark:stroke-white"
-                  width={20}
-                  height={20}
-                  alt="Arrow Left"
-                />
+            <button onClick={prev}>
+              <div className="circle dark:border-darkbg dark:bg-darkbg2">
+                <div className="shrink-0">
+                  <ArrowLeft
+                    className="stroke-black dark:stroke-white"
+                    width={20}
+                    height={20}
+                    alt="Arrow Left"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="circle dark:border-darkbg dark:bg-darkbg2">
-              <div className="shrink-0 ">
-                <ArrowRight
-                  className="stroke-black dark:stroke-white"
-                  width={20}
-                  height={20}
-                  alt="Arrow Right"
-                />
+            </button>
+            <button onClick={next}>
+              <div className="circle dark:border-darkbg dark:bg-darkbg2">
+                <div className="shrink-0 ">
+                  <ArrowRight
+                    className="stroke-black dark:stroke-white"
+                    width={20}
+                    height={20}
+                    alt="Arrow Right"
+                  />
+                </div>
               </div>
-            </div>
+            </button>
           </div>
         </div>
         <div>
@@ -75,16 +111,18 @@ const About = () => {
       </div>
       <div className="mt-[4rem] hidden sm:block">
         <div className="flex">
-          <div className="circlelg mt-[6rem] flex dark:border-darkbg dark:bg-darkbg2">
-            <div className="shrink-0 ">
-              <ArrowLeft
-                className="stroke-black dark:stroke-white"
-                width={20}
-                height={20}
-                alt="Arrow Left"
-              />
+          <button onClick={prev}>
+            <div className="circlelg mt-[6rem] flex dark:border-darkbg dark:bg-darkbg2">
+              <div className="shrink-0 ">
+                <ArrowLeft
+                  className="stroke-black dark:stroke-white"
+                  width={20}
+                  height={20}
+                  alt="Arrow Left"
+                />
+              </div>
             </div>
-          </div>
+          </button>
           <div className="flex ">
             <div className="mx-[1.62rem]">
               <Image
@@ -124,16 +162,18 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="circlelg mt-[6rem] dark:border-darkbg dark:bg-darkbg2">
-            <div className="shrink-0 ">
-              <ArrowRight
-                className="stroke-black dark:stroke-white"
-                width={20}
-                height={20}
-                alt="Arrow Right"
-              />
+          <button onClick={next}>
+            <div className="circlelg mt-[6rem] dark:border-darkbg dark:bg-darkbg2">
+              <div className="shrink-0 ">
+                <ArrowRight
+                  className="stroke-black dark:stroke-white"
+                  width={20}
+                  height={20}
+                  alt="Arrow Right"
+                />
+              </div>
             </div>
-          </div>
+          </button>
         </div>
       </div>
     </div>
