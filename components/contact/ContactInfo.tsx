@@ -61,9 +61,7 @@ const ContactInfo = () => {
             <div className="hidden md:block">
               <Image src="/Call.svg" width={30} height={30} alt="Phone" />
             </div>
-            <p className="boldp md:boldbase text-grey dark:text-white1">
-              1-585-545-1757
-            </p>
+            <p className="boldp md:boldbase text-grey ">1-585-545-1757</p>
           </div>
         </div>
         <div>
@@ -85,9 +83,7 @@ const ContactInfo = () => {
                 alt="<Message>"
               />
             </div>
-            <p className="boldp md:boldbase text-grey dark:text-white1">
-              contact@fcvt.dev
-            </p>
+            <p className="boldp md:boldbase text-grey">contact@fcvt.dev</p>
           </div>
         </div>
       </section>

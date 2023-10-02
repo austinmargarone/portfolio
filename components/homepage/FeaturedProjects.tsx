@@ -14,24 +14,24 @@ const FeaturedProjects = () => {
         <div className="flex flex-col gap-[2.25rem] md:gap-[3rem]">
           <FeatProjectsCard
             title={"Morrent - A Car Rental Application"}
-            tech={"ReactJS, Next.js"}
-            tech1={"Nodejs, MongoDB"}
+            tech={"Next.js"}
+            tech1={"MongoDB"}
             link={"/casestudies/morrent"}
             bg={"bg-blue1"}
             featuredImage={"/Morrent.png"}
           />
           <FeatProjectsCard
             title={"JobIT - A Job Finding Application"}
-            tech={"ReactJS, Next.js"}
-            tech1={"TypeScript, Nodejs"}
+            tech={"Next.js"}
+            tech1={"TypeScript"}
             link={"/casestudies/jobit"}
             bg={"bg-darkbg"}
             featuredImage={"/JobIt.png"}
           />
           <FeatProjectsCard
             title={"Filmpire - A Movie Search Application"}
-            tech={"ReactJS, Tailwind"}
-            tech1={"JavaScript, Nodejs"}
+            tech={"ReactJS"}
+            tech1={"Tailwind"}
             link={"/casestudies/filmpire"}
             bg={"bg-red"}
             featuredImage={"/Filmpire.png"}

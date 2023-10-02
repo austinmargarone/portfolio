@@ -4,9 +4,11 @@ import Link from "next/link";
 import React, { useState } from "react";
 import useThemeState from "@/store/themeStore";
 import { Resume, Nav, Moon, Union } from "@/components/svg";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const { theme, toggleTheme } = useThemeState();
+  const pathname = usePathname();
 
   const toggleMenu = () => {
     setExpanded(!expanded);
@@ -160,17 +162,35 @@ const Navbar = () => {
         {/* Mobile Nav End */}
         <div className="mr-[1.5rem] hidden items-center md:mr-[5.31rem] md:block">
           <ul className="flex gap-[2.25rem] dark:text-white1">
-            <li>
+            <li
+              className={`text-[1rem] font-semibold not-italic ${
+                pathname === "/"
+                  ? "text-blue dark:text-blue1"
+                  : "text-slate dark:text-white1"
+              }`}
+            >
               <button>
                 <Link href="/">Home</Link>
               </button>
             </li>
-            <li>
+            <li
+              className={`text-[1rem] font-semibold not-italic ${
+                pathname === "/casestudies"
+                  ? "text-blue dark:text-blue1"
+                  : "text-slate dark:text-white1"
+              }`}
+            >
               <button>
                 <Link href="/casestudies">Case Studies</Link>
               </button>
             </li>
-            <li>
+            <li
+              className={`text-[1rem] font-semibold not-italic  ${
+                pathname === "/contact"
+                  ? "text-blue dark:text-blue1"
+                  : "text-slate dark:text-white1"
+              }`}
+            >
               <button>
                 <Link href="/contact">Contact</Link>
               </button>
@@ -182,12 +202,14 @@ const Navbar = () => {
               >
                 <button className="flex content-center gap-[.1875rem]">
                   <Resume
-                    className="fill-black dark:fill-white"
+                    className="fill-slate dark:fill-white1"
                     width={20}
                     height={20}
                     alt="Download"
                   />
-                  <p>Resume</p>
+                  <p className="text-[1rem] font-semibold not-italic text-slate dark:text-white1">
+                    Resume
+                  </p>
                 </button>
               </Link>
             </li>
