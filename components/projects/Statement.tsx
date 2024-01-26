@@ -23,8 +23,8 @@ const Statement = (props: Props) => {
         <Image
           className="w-[348px] md:w-[879px]"
           src={props.accent}
-          width={348}
-          height={363}
+          width={800}
+          height={800}
           alt="Computer"
           quality={100}
         />

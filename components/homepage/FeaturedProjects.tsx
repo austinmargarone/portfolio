@@ -13,28 +13,28 @@ const FeaturedProjects = () => {
         </h2>
         <div className="flex flex-col gap-[2.25rem] md:gap-[3rem]">
           <FeatProjectsCard
+            title={"HipNode - A Social Media Application"}
+            tech={"Next.js"}
+            tech1={"MongoDB"}
+            link={"/casestudies/hipnode"}
+            bg={"bg-darkbg"}
+            featuredImage={"/Hipnode.png"}
+          />
+          <FeatProjectsCard
+            title={"Realtor Profile - A Real Estate Profile"}
+            tech={"NextJS"}
+            tech1={"Sanity"}
+            link={"/casestudies/realtor-profile"}
+            bg={"bg-red"}
+            featuredImage={"/realtor.png"}
+          />
+          <FeatProjectsCard
             title={"Morrent - A Car Rental Application"}
             tech={"Next.js"}
             tech1={"MongoDB"}
             link={"/casestudies/morrent"}
             bg={"bg-blue1"}
             featuredImage={"/Morrent.png"}
-          />
-          <FeatProjectsCard
-            title={"JobIT - A Job Finding Application"}
-            tech={"Next.js"}
-            tech1={"TypeScript"}
-            link={"/casestudies/jobit"}
-            bg={"bg-darkbg"}
-            featuredImage={"/JobIt.png"}
-          />
-          <FeatProjectsCard
-            title={"Filmpire - A Movie Search Application"}
-            tech={"ReactJS"}
-            tech1={"Tailwind"}
-            link={"/casestudies/filmpire"}
-            bg={"bg-red"}
-            featuredImage={"/Filmpire.png"}
           />
         </div>
         <div>
