@@ -45,7 +45,7 @@ const cases = {
     {
       name: "id",
       title: "id",
-      type: "string",
+      type: "number",
     },
   ],
 };

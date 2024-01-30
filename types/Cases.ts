@@ -7,5 +7,5 @@ export type Cases = {
   image: string;
   case_study: string;
   bg: string;
-  id: string;
+  id: number;
 };
