@@ -13,7 +13,7 @@ const Email = () => {
         className="herocopy md:herocopylg mb-[1.69rem] flex bg-white dark:bg-darkbg2 md:mb-0 md:w-fit"
       >
         <p className="herocopytext text-slate dark:text-white1">
-          contact@fcvt.dev
+          austin@margarone.dev
         </p>
         <Image
           className="shrink-0"

@@ -17,7 +17,7 @@ const Hero = () => {
           Based in USA
         </h1>
         <h4 className="regbody mb-[1.25rem] mt-[.87rem] w-fit dark:text-white1 md:mb-[2.25rem] md:mt-[.62rem] md:w-[31.9375rem]">
-          Transforming the web one line of code at a time: Crafting cutting-edge
+          Transforming the web one line of code at a time; Crafting cutting-edge
           digital experiences with precision, passion, and a profound commitment
           to excellence
         </h4>
