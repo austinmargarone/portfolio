@@ -8,7 +8,7 @@ import Phone from "./Phone";
 const ContactInfo = () => {
   return (
     <>
-      <section className="contactinfo mx-auto flex flex-col gap-[2.25rem] md:mx-0">
+      <section className="contactinfo mx-auto flex flex-col gap-[2.25rem] pl-[1.25rem] md:mx-0">
         <div className="flex flex-col">
           <p className="regp md:regbase flex dark:text-white">My Socials</p>
           <div className="flex gap-[2.25rem] pl-[2.5rem] pt-[.88rem] md:hidden">
