@@ -33,6 +33,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.46.1",
+    "react-toastify": "^10.0.4",
     "sanity": "^3.16.7",
     "sharp": "^0.32.6",
     "styled-components": "5.2",
