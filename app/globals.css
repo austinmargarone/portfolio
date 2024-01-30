@@ -695,7 +695,7 @@
 
   .p8 {
     display: flex;
-    padding: 2.25rem 1.5rem;
+    padding: 2.25rem 0rem;
     flex-direction: column;
     gap: 2.25rem;
   }
