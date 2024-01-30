@@ -28,7 +28,7 @@ const Services = () => {
           <ServiceCard
             title={"Back-End Dev"}
             body={
-              "Front-end includes creating the user interface and interactive elements of websites and apps."
+              "Backend development powers websites and apps by building server-side logic and databases."
             }
             ServiceImage={Code}
           />
