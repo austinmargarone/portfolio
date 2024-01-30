@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import { GitHubIcon2 } from "../svg";
 import Link from "next/link";
+import Email from "./Email";
+import Phone from "./Phone";
 
 const ContactInfo = () => {
   return (
@@ -54,36 +56,14 @@ const ContactInfo = () => {
         </div>
         <div>
           <p className="regp md:regbase dark:text-white">Phone Number</p>
-          <div className="flex gap-[.82rem] pt-[.88rem]">
-            <div className="flex md:hidden">
-              <Image src="/Call.svg" width={24} height={24} alt="Phone" />
-            </div>
-            <div className="hidden md:block">
-              <Image src="/Call.svg" width={30} height={30} alt="Phone" />
-            </div>
-            <p className="boldp md:boldbase text-grey ">1-585-545-1757</p>
+          <div>
+            <Phone />
           </div>
         </div>
         <div>
           <p className="regp md:regbase dark:text-white">Email Address</p>
-          <div className="flex gap-[.82rem] pt-[.88rem]">
-            <div className="flex md:hidden">
-              <Image
-                src="/Message.svg"
-                width={24}
-                height={24}
-                alt="<Message>"
-              />
-            </div>
-            <div className="hidden md:block">
-              <Image
-                src="/Message.svg"
-                width={30}
-                height={30}
-                alt="<Message>"
-              />
-            </div>
-            <p className="boldp md:boldbase text-grey">contact@fcvt.dev</p>
+          <div>
+            <Email />
           </div>
         </div>
       </section>
