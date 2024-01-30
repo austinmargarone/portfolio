@@ -74,7 +74,7 @@ const Contact = () => {
             </h4>
             <div className=" mt-[10.69rem] flex">
               <Link href="/contact">
-                <button className="contactbtnlg flex dark:bg-blue1">
+                <button className="contactbtnlg flex hover:shadow-lg dark:bg-blue1">
                   <p className="boldbody text-white">Get In Touch With Me</p>
                   <Image
                     src="/Arrow1.svg"

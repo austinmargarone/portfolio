@@ -10,7 +10,7 @@ const Email = () => {
     <>
       <button
         onClick={() => copyText("austin@fcvt.dev")}
-        className="herocopy md:herocopylg mb-[1.69rem] flex bg-white dark:bg-darkbg2 md:mb-0 md:w-fit"
+        className="herocopy md:herocopylg mb-[1.69rem] flex bg-white hover:shadow-lg dark:bg-darkbg2 md:mb-0 md:w-fit"
       >
         <p className="herocopytext text-slate dark:text-white1">
           austin@margarone.dev

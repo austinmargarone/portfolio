@@ -23,7 +23,7 @@ const Hero = () => {
         </h4>
         <div className="flex flex-col md:flex-row md:gap-[1.13rem]">
           <Link href="/casestudies">
-            <button className="herobtn md:herobtnlg mb-[.88rem] flex w-full rounded-[379.77006rem] bg-blue dark:bg-blue1 md:mb-0">
+            <button className="herobtn md:herobtnlg mb-[.88rem] flex w-full rounded-[379.77006rem] bg-blue hover:shadow-lg dark:bg-blue1 md:mb-0">
               <p className="herotext text-white md:text-[1.125rem]">My Work</p>
             </button>
           </Link>
