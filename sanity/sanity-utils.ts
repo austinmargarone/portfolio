@@ -17,7 +17,8 @@ export async function getCases(): Promise<Cases[]> {
         description,
         "image": image.asset->url,
         case_study,
-        bg
+        bg,
+        id,
     }`
   );
 }

@@ -10,7 +10,7 @@ const WorkExpCard = (props: Props) => {
         <Image src={props.image} width={62} height={62} alt="Service Image" />
       </div>
       <div className="mb-[2.25rem] ml-[2.25rem] flex flex-col md:my-[1.87rem] md:ml-0">
-        <h4 className="mb-[.56rem] mt-[1.13rem] dark:text-white md:mt-0">
+        <h4 className="mb-[.56rem] mt-[1.13rem] font-bold dark:text-white md:mt-0">
           {props.title}
         </h4>
         <p className="dark:text-white1">{props.body}</p>

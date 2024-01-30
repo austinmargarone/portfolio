@@ -40,7 +40,7 @@ const FeaturedProjects = () => {
         <div>
           <div className="hidden justify-center md:flex">
             <Link href="/casestudies">
-              <button className="projectbutton1 flex dark:bg-blue1">
+              <button className="projectbutton1 flex hover:shadow-lg dark:bg-blue1">
                 <p className="boldbody flex text-white">
                   See More Case Studies
                 </p>

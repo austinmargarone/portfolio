@@ -17,13 +17,13 @@ const Hero = () => {
           Based in USA
         </h1>
         <h4 className="regbody mb-[1.25rem] mt-[.87rem] w-fit dark:text-white1 md:mb-[2.25rem] md:mt-[.62rem] md:w-[31.9375rem]">
-          Transforming the web one line of code at a time: Crafting cutting-edge
+          Transforming the web one line of code at a time; Crafting cutting-edge
           digital experiences with precision, passion, and a profound commitment
           to excellence
         </h4>
         <div className="flex flex-col md:flex-row md:gap-[1.13rem]">
           <Link href="/casestudies">
-            <button className="herobtn md:herobtnlg mb-[.88rem] flex w-full rounded-[379.77006rem] bg-blue dark:bg-blue1 md:mb-0">
+            <button className="herobtn md:herobtnlg mb-[.88rem] flex w-full rounded-[379.77006rem] bg-blue hover:shadow-lg dark:bg-blue1 md:mb-0">
               <p className="herotext text-white md:text-[1.125rem]">My Work</p>
             </button>
           </Link>

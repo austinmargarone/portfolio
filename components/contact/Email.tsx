@@ -16,21 +16,13 @@ const Email = () => {
       <ToastContainer />
       <button
         onClick={() => {
-          copyText("austin@fcvt.dev");
+          copyText("austin@margarone.dev");
           notify();
         }}
-        className="herocopy md:herocopylg mb-[1.69rem] flex bg-white hover:shadow-lg dark:bg-darkbg2 md:mb-0 md:w-fit"
+        className="flex items-center gap-[.82rem] pt-[.88rem]"
       >
-        <p className="herocopytext text-slate dark:text-white1">
-          austin@margarone.dev
-        </p>
-        <Image
-          className="shrink-0"
-          src="/Frame.svg"
-          width={16}
-          height={16}
-          alt="Copy"
-        />
+        <Image src="/Message.svg" width={30} height={30} alt="<Message>" />
+        <p className="boldp md:boldbase text-grey"> austin@margarone.dev</p>
       </button>
     </>
   );

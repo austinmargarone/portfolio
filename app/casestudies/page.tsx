@@ -15,9 +15,11 @@ export default async function sanity() {
         <Heading />
       </div>
       <div className="mx-auto mb-[3rem] flex flex-col gap-[1.25rem] sm:mb-[4.5rem] sm:flex-row sm:flex-wrap sm:gap-[2.25rem]">
-        {cases.map((cases, index) => (
-          <Projects {...cases} key={cases._id} />
-        ))}
+        {cases
+          .sort((a, b) => parseInt(a.id.toString()) - parseInt(b.id.toString()))
+          .map((item, index) => (
+            <Projects {...item} key={item._id} />
+          ))}
       </div>
       <section>
         <div className="mt-[3rem] sm:mt-[4.5rem]">

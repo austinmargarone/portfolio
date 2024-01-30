@@ -55,7 +55,7 @@ export default function ContactForm() {
           <input
             {...register("name")}
             type="name"
-            className="textbox h-[3.5rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox h-[3.5rem] min-w-[21.5625rem] pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="name"
             required
           />
@@ -68,7 +68,7 @@ export default function ContactForm() {
           <input
             {...register("email")}
             type="email"
-            className="textbox h-[3.75rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox h-[3.75rem] min-w-[21.5625rem] pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="email"
           />
         </div>
@@ -77,7 +77,7 @@ export default function ContactForm() {
           <input
             {...register("phone")}
             type="phone"
-            className="textbox h-[3.75rem] min-w-[21.5625rem] pl-3 md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox h-[3.75rem] min-w-[21.5625rem] pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="phone"
           />
         </div>
@@ -88,7 +88,7 @@ export default function ContactForm() {
           <input
             {...register("description")}
             type="description"
-            className="textbox min-h-[11.875rem] min-w-[21.5625rem] pl-3 md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox min-h-[11.875rem] min-w-[21.5625rem] pl-3 shadow-md md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="description"
           />
         </div>
@@ -96,7 +96,7 @@ export default function ContactForm() {
           <button
             disabled={isSubmitting}
             type="submit"
-            className="md:send flex h-[3.75rem] w-full justify-center gap-[.42194rem] rounded-[379.77006rem] bg-blue px-[0.50638rem] py-[0.84394rem] disabled:bg-blue1"
+            className="md:send flex h-[3.75rem] w-full justify-center gap-[.42194rem] rounded-[379.77006rem] bg-blue px-[0.50638rem] py-[0.84394rem] shadow-sm hover:shadow-lg disabled:bg-blue1"
             value="Send"
           >
             <p className="smallbold my-auto flex	text-white">Send</p>
