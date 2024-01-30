@@ -31,9 +31,7 @@ export default function Home() {
         </div>
         {/* Projects */}
         <div>
-          <div>
-            <FeaturedProjects />
-          </div>
+          <FeaturedProjects />
         </div>
         {/* About */}
         <div className="bg-white1 dark:bg-darkbg">

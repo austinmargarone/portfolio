@@ -8,7 +8,7 @@ const WorkExp = (props: Props) => {
   return (
     <section className="mx-[.33rem] flex justify-center pb-[3rem] xs:mx-auto xs:max-w-[21.5rem] ss:max-w-[28rem] sm:max-w-[40rem] md:max-w-[60rem] xl:max-w-[80rem]">
       <div className="flex flex-col justify-center gap-[1rem] lg:flex-row">
-        <div className="flex w-fit flex-col content-center justify-center rounded-[1rem] bg-black px-[2.38rem] pb-[2.39rem] pt-[3.68rem] dark:bg-white1 dark:hover:shadow-[-25px_47px_66px_0px_rgba(224,236,255)] md:w-auto md:pb-[6.5625rem] md:pl-[6.56rem] md:pr-[8.94rem] md:pt-[9.5rem]">
+        <div className="flex w-fit flex-col content-center justify-center rounded-[1rem] bg-black px-[2.38rem] pb-[2.39rem] pt-[3.68rem] dark:bg-white1 md:w-auto md:pb-[6.5625rem] md:pl-[6.56rem] md:pr-[8.94rem] md:pt-[9.5rem]">
           <h2 className="mb-[1.49rem] flex h-[5.9rem] w-[12.625rem] shrink-0 flex-col text-left text-white dark:text-black md:h-[7.31rem] md:w-[20rem]">
             Work <span className="underline-magicexp w-fit">Experience</span>
           </h2>
@@ -65,25 +65,24 @@ const WorkExp = (props: Props) => {
         </div>
         <div className="flex flex-col gap-[1rem] md:ml-[1.62rem] md:gap-[2.19rem]">
           <WorkExpCard
-            title={"Flower City Virtual Tours"}
+            title={"Freelance Developer"}
             body={"React Developer / Software Engineer"}
             image={"/FCVT.svg"}
           />
           <WorkExpCard
-            title={"Flower City Virtual Tours"}
-            body={"Managing-Member"}
-            image={"/FCVT.svg"}
-          />
-
-          <WorkExpCard
             title={"JS Mastery"}
-            body={"Enrolled In The JSM Masterclass"}
+            body={"Completed: The JSM Masterclass"}
             image={"/jsm-logo.svg"}
           />
           <WorkExpCard
             title={"CodeCademy"}
-            body={"Completed Front-End Engineer Career Path"}
+            body={"Completed: Front-End Engineer Career Path"}
             image={"/codecademy.svg"}
+          />
+          <WorkExpCard
+            title={"Patrick Collins"}
+            body={"Completed: Solidity and Blockchain Course"}
+            image={"/blockchain.png"}
           />
         </div>
       </div>
