@@ -42,6 +42,11 @@ const cases = {
       title: "bg",
       type: "string",
     },
+    {
+      name: "id",
+      title: "id",
+      type: "string",
+    },
   ],
 };
 
