@@ -47,7 +47,7 @@ export default function ContactForm() {
     <>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="mx-auto flex max-w-[22rem] flex-col gap-[1.25rem] px-[1.5rem] py-[3rem] md:mx-0 lg:w-[37.5rem] xl:w-[50.3rem]"
+        className="mx-auto flex max-w-[22rem] flex-col gap-[1.25rem] px-[1.5rem] py-[3rem] sm:max-w-full md:mx-0 lg:w-[37.5rem] xl:w-[50.3rem]"
         ref={form}
       >
         <div>
@@ -55,7 +55,7 @@ export default function ContactForm() {
           <input
             {...register("name")}
             type="name"
-            className="textbox h-[3.5rem] max-w-[18rem] pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox h-[3.5rem] max-w-[18rem] pl-3 shadow-md sm:max-w-full md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="name"
             required
           />
@@ -68,7 +68,7 @@ export default function ContactForm() {
           <input
             {...register("email")}
             type="email"
-            className="textbox h-[3.75rem] max-w-[18rem] pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox h-[3.75rem] max-w-[18rem] pl-3 shadow-md sm:max-w-full md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="email"
           />
         </div>
@@ -77,7 +77,7 @@ export default function ContactForm() {
           <input
             {...register("phone")}
             type="phone"
-            className="textbox h-[3.75rem] max-w-[18rem] pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox h-[3.75rem] max-w-[18rem] pl-3 shadow-md sm:max-w-full md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="phone"
           />
         </div>
@@ -88,7 +88,7 @@ export default function ContactForm() {
           <input
             {...register("description")}
             type="description"
-            className="textbox min-h-[11.875rem] max-w-[18rem] pl-3 shadow-md md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox min-h-[11.875rem] max-w-[18rem] pl-3 shadow-md sm:max-w-full md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="description"
           />
         </div>
@@ -96,7 +96,7 @@ export default function ContactForm() {
           <button
             disabled={isSubmitting}
             type="submit"
-            className="md:send flex h-[3.75rem] w-full justify-center gap-[.42194rem] rounded-[379.77006rem] bg-blue px-[0.50638rem] py-[0.84394rem] shadow-sm hover:shadow-lg disabled:bg-blue1"
+            className="md:send flex h-[3.75rem] w-full justify-center gap-[.42194rem] rounded-[379.77006rem] bg-blue px-[0.50638rem] py-[0.84394rem] shadow-sm hover:shadow-lg disabled:bg-blue1 sm:max-w-full"
             value="Send"
           >
             <p className="smallbold my-auto flex	text-white">Send</p>
