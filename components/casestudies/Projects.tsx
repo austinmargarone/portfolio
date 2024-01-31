@@ -11,7 +11,7 @@ export default async function Projects(cases: any) {
       >
         <div
           style={{ backgroundColor: cases.bg }}
-          className=" mx-auto flex w-[21rem] shrink-0 flex-col rounded-[.62725rem] border border-black bg-blue1 pb-[.32rem] pt-[2.83rem] hover:shadow-lg sm:h-[20.8rem] sm:w-[34.375rem] sm:pt-[4.25rem]"
+          className=" mx-auto flex w-[20rem] shrink-0 flex-col rounded-[.62725rem] border border-black bg-blue1 pb-[.32rem] pt-[2.83rem] hover:shadow-lg xs:w-[23rem] ss:w-[25rem] sm:h-[20.8rem] sm:w-[34.375rem] sm:pt-[4.25rem]"
         >
           <Link href={cases.case_study} className="mx-auto">
             <div className="mx-auto flex sm:hidden">
