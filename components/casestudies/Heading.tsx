@@ -9,7 +9,7 @@ const Heading = () => {
             Recent Case Studies
           </span>
         </h1>
-        <p className="sm:projectdescriptionlg smallreg flex px-[.5rem] pt-[1.25rem] text-center text-slate dark:text-white1 sm:px-[2rem] sm:pt-[1.8rem]">
+        <p className="sm:projectdescriptionlg smallreg mx-auto flex w-[300px] pt-[1.25rem] text-center text-slate dark:text-white1 xs:w-full sm:px-[2rem] sm:pt-[1.8rem]">
           Dive into my recent success stories and discover how I have helped
           clients overcome challenges, innovate, and achieve their goals
         </p>
