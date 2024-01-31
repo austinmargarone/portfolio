@@ -6,9 +6,9 @@ type Props = {};
 
 const WorkExp = (props: Props) => {
   return (
-    <section className="mx-auto flex w-[325px] justify-center pb-[3rem] xs:w-[450px] ss:w-[33rem]  sm:max-w-[40rem] md:max-w-[60rem] xl:max-w-[80rem]">
+    <section className="mx-auto flex w-[18rem] justify-center pb-[3rem] xs:w-[450px] ss:w-[33rem]  sm:max-w-[40rem] md:max-w-[60rem] xl:max-w-[80rem]">
       <div className="flex flex-col justify-center gap-[1rem] lg:flex-row">
-        <div className="flex w-fit flex-col content-center justify-center rounded-[1rem] bg-black px-[2.38rem] pb-[2.39rem] pt-[3.68rem] shadow-lg dark:bg-white1 md:w-auto md:pb-[6.5625rem] md:pl-[6.56rem] md:pr-[8.94rem] md:pt-[9.5rem]">
+        <div className="flex w-fit flex-col content-center justify-center rounded-[1rem] bg-black px-[.5rem] pb-[2.39rem] pt-[3.68rem] shadow-lg dark:bg-white1 xs:px-[2.38rem] md:w-auto md:pb-[6.5625rem] md:pl-[6.56rem] md:pr-[8.94rem] md:pt-[9.5rem]">
           <h2 className="mb-[1.49rem] flex h-[5.9rem] w-[12.625rem] shrink-0 flex-col text-left text-white dark:text-black md:h-[7.31rem] md:w-[20rem]">
             Work <span className="underline-magicexp w-fit">Experience</span>
           </h2>

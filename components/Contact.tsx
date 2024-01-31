@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="flex">
       {/* Mobile */}
-      <div className="contact relative mx-auto mb-[3rem] flex h-[19.4375rem] w-[21.5625rem] sm:hidden">
+      <div className="contact relative mx-auto mb-[3rem] flex h-[19.4375rem] w-[20rem] xs:w-[21rem] sm:hidden">
         <div>
           <div className="absolute shrink-0">
             <Image
