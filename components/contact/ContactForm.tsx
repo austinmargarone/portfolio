@@ -55,7 +55,7 @@ export default function ContactForm() {
           <input
             {...register("name")}
             type="name"
-            className="textbox h-[3.5rem] max-w-[19rem] pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox h-[3.5rem] max-w-[18rem] pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="name"
             required
           />
@@ -68,7 +68,7 @@ export default function ContactForm() {
           <input
             {...register("email")}
             type="email"
-            className="textbox h-[3.75rem] max-w-[19rem] pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox h-[3.75rem] max-w-[18rem] pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="email"
           />
         </div>
@@ -77,18 +77,18 @@ export default function ContactForm() {
           <input
             {...register("phone")}
             type="phone"
-            className="textbox h-[3.75rem] max-w-[19rem] pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox h-[3.75rem] max-w-[18rem] pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="phone"
           />
         </div>
         <div>
-          <p className="regp max-w-[19rem] dark:text-white md:w-[47.6875rem]">
+          <p className="regp max-w-[18rem] dark:text-white md:w-[47.6875rem]">
             Write something about your project goals and timeframe
           </p>
           <input
             {...register("description")}
             type="description"
-            className="textbox min-h-[11.875rem] max-w-[19rem] pl-3 shadow-md md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox min-h-[11.875rem] max-w-[18rem] pl-3 shadow-md md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="description"
           />
         </div>
