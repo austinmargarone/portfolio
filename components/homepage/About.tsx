@@ -24,8 +24,11 @@ const About = () => {
   return (
     <div className="about md:aboutlg mx-auto my-[3rem] bg-white1 dark:bg-darkbg xs:max-w-[25rem] sm:max-w-[42rem] md:w-fit md:max-w-[75rem] xl:max-w-[80rem]">
       <div className="flex w-fit sm:w-full">
-        <h2 className="mx-auto w-full dark:text-white">
-          <span className="underline-magic w-fit">Testimonials</span>
+        <h2 className="mx-auto w-fit dark:text-white">
+          <span className="underline-magic flex w-fit text-[40px] xs:hidden">
+            Testimonials
+          </span>
+          <span className="underline-magic hidden xs:flex">Testimonials</span>
         </h2>
       </div>
       <div className="sm:hidden">

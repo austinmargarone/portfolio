@@ -5,7 +5,7 @@ type Props = { title: string; body: string; image: string };
 
 const WorkExpCard = (props: Props) => {
   return (
-    <section className="expcard md:expcardlg mx-auto flex h-[13.125rem] w-[350px] flex-col shadow-[-25px_47px_66px_0px_rgba(0,0,0,0.08)] hover:shadow-[-25px_47px_66px_0px_rgba(0,0,0,0.08)] dark:border-white1 dark:bg-grey dark:hover:shadow-[-25px_47px_66px_0px_rgba(224,236,255)] xs:w-full sm:w-full md:h-[7.625rem] md:w-[37.9375rem] md:flex-row md:shadow-none md:hover:translate-x-6 lg:max-w-[32rem] xl:max-w-full">
+    <section className="expcard md:expcardlg mx-auto flex h-[13.125rem] w-[345px] flex-col shadow-[-25px_47px_66px_0px_rgba(0,0,0,0.08)] hover:shadow-[-25px_47px_66px_0px_rgba(0,0,0,0.08)] dark:border-white1 dark:bg-grey dark:hover:shadow-[-25px_47px_66px_0px_rgba(224,236,255)] xs:w-full sm:w-full md:h-[7.625rem] md:w-[37.9375rem] md:flex-row md:shadow-none md:hover:translate-x-6 lg:max-w-[32rem] xl:max-w-full">
       <div className="ml-[2.25rem] mt-[2.25rem] flex h-[3.625rem] w-[3.625rem] shrink md:m-[2rem]">
         <Image src={props.image} width={62} height={62} alt="Service Image" />
       </div>
