@@ -11,7 +11,7 @@ export default function Home() {
     <>
       {/*  left right top gaps */}
       <main>
-        <div className="mx-auto w-full bg-white1 dark:bg-darkbg md:pb-[6.01rem]">
+        <div className="mx-auto w-full overflow-x-hidden bg-white1 dark:bg-darkbg md:pb-[6.01rem]">
           <Hero />
         </div>
       </main>
