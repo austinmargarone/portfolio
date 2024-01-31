@@ -6,7 +6,7 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <div className="mx-auto overflow-x-hidden md:max-w-[50rem] lg:max-w-[60rem] xl:max-w-[75rem]">
+      <div className="mx-auto overflow-x-hidden md:max-w-[50rem] lg:max-w-[65rem] xl:max-w-[75rem]">
         <section>
           <ContactHeading />
         </section>
