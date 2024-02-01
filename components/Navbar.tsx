@@ -3,8 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import useThemeState from "@/store/themeStore";
-import { Resume, Nav, Moon, Union } from "@/components/svg";
+import { Nav, Moon, Union, GitHubIcon2 } from "@/components/svg";
 import { usePathname } from "next/navigation";
+import Download from "./Download";
+import MobileDownload from "./MobileDownload";
 
 const Navbar = () => {
   const { theme, toggleTheme } = useThemeState();
@@ -132,26 +134,36 @@ const Navbar = () => {
                       </button>
                     </li>
                     <li>
-                      <Link
-                        href="https://www.linkedin.com/in/austin-margarone/"
-                        target="_blank"
-                      >
-                        <button
-                          onClick={toggleMenu}
-                          className="flex w-[10rem] content-center justify-center gap-[.1875rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]"
+                      <MobileDownload />
+                    </li>
+                    <li>
+                      <div className="flex content-center justify-center gap-[1.5rem]  md:pt-[2rem]">
+                        <Link
+                          href="https://www.linkedin.com/in/austin-margarone/"
+                          target="_blank"
                         >
-                          <Resume
-                            className="my-auto fill-white"
-                            width={20}
-                            height={20}
-                            alt="Download"
-                          />
-
-                          <p className="boldbody sm:boldp text-white1 underline">
-                            Resume
-                          </p>
-                        </button>
-                      </Link>
+                          <div>
+                            <Image
+                              src="/Social.svg"
+                              width={24}
+                              height={4}
+                              alt="Social Link"
+                            />
+                          </div>
+                        </Link>
+                        <Link
+                          href="https://github.com/austinmargarone"
+                          target="_blank"
+                        >
+                          <div>
+                            <GitHubIcon2
+                              width={24}
+                              height={24}
+                              alt="Github Link"
+                            />
+                          </div>
+                        </Link>
+                      </div>
                     </li>
                   </ul>
                 </div>
@@ -196,22 +208,7 @@ const Navbar = () => {
               </button>
             </li>
             <li>
-              <Link
-                href="https://www.linkedin.com/in/austin-margarone/"
-                target="_blank"
-              >
-                <button className="flex content-center gap-[.1875rem]">
-                  <Resume
-                    className="fill-slate dark:fill-white1"
-                    width={20}
-                    height={20}
-                    alt="Download"
-                  />
-                  <p className="text-[1rem] font-semibold not-italic text-slate dark:text-white1">
-                    Resume
-                  </p>
-                </button>
-              </Link>
+              <Download />
             </li>
             <li>
               <Image src="/Line.svg" width={2} height={0} alt="Divider" />
