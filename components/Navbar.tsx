@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import useThemeState from "@/store/themeStore";
-import { Nav, Moon, Union } from "@/components/svg";
+import { Nav, Moon, Union, GitHubIcon2 } from "@/components/svg";
 import { usePathname } from "next/navigation";
 import Download from "./Download";
 import MobileDownload from "./MobileDownload";
@@ -135,6 +135,35 @@ const Navbar = () => {
                     </li>
                     <li>
                       <MobileDownload />
+                    </li>
+                    <li>
+                      <div className="flex content-center justify-center gap-[1.5rem]  md:pt-[2rem]">
+                        <Link
+                          href="https://www.linkedin.com/in/austin-margarone/"
+                          target="_blank"
+                        >
+                          <div>
+                            <Image
+                              src="/Social.svg"
+                              width={24}
+                              height={4}
+                              alt="Social Link"
+                            />
+                          </div>
+                        </Link>
+                        <Link
+                          href="https://github.com/austinmargarone"
+                          target="_blank"
+                        >
+                          <div>
+                            <GitHubIcon2
+                              width={24}
+                              height={24}
+                              alt="Github Link"
+                            />
+                          </div>
+                        </Link>
+                      </div>
                     </li>
                   </ul>
                 </div>
