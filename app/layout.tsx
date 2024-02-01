@@ -14,8 +14,22 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Austin Margarone's Portfolio",
-  description: "Austin Margarone Web Development Portfolio",
+  metadataBase: new URL("https://austinmargarone.com"),
+  title: "Full Stack Developer | NextJS | React",
+  description:
+    "Welcome to my Full Stack Developer porfolio, showcasing my work. I specialize in building NextJS and React web applications.",
+  keywords:
+    "Full Stack Developer, NextJS, React, TypeScript, TailwindCSS, GraphQl, MongoDB, NodeJS, Web Development, Frontend",
+  openGraph: {
+    images: [
+      {
+        url: `https://austinmargarone.com/meta.png`,
+        width: 1200,
+        height: 630,
+        alt: "Full Stack Developer",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
