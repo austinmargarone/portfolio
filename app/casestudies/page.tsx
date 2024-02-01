@@ -2,9 +2,28 @@ import Heading from "@/components/casestudies/Heading";
 import Projects from "@/components/casestudies/Projects";
 import Contact from "@/components/Contact";
 import { getCases } from "@/sanity/sanity-utils";
+import { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 1;
+
+export const metadata: Metadata = {
+  title: "Case Studies | Full Stack Developer | NextJS | React",
+  description:
+    "View my case studies to see my work. I specialize in building NextJS and React web applications.",
+  keywords:
+    "Full Stack Developer, NextJS, React, TypeScript, TailwindCSS, GraphQl, MongoDB, NodeJS, Web Development, Frontend",
+  openGraph: {
+    images: [
+      {
+        url: `https://austinmargarone.com/meta.png`,
+        width: 1200,
+        height: 630,
+        alt: "Full Stack Developer",
+      },
+    ],
+  },
+};
 
 export default async function sanity() {
   const cases = await getCases();

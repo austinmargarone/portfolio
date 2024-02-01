@@ -10,11 +10,30 @@ import MyProcess from "@/components/projects/MyProcess";
 import Challenges from "@/components/projects/Challenges";
 import OtherCases from "@/components/projects/OtherCases";
 import TechStack from "@/components/projects/TechStack";
+import { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 1;
 type Props = {
   params: { project: string };
+};
+
+export const metadata: Metadata = {
+  title: "Projects | Full Stack Developer | NextJS | React",
+  description:
+    "View my projects and see what I can do for you. I specialize in building NextJS and React web applications.",
+  keywords:
+    "Full Stack Developer, NextJS, React, TypeScript, TailwindCSS, GraphQl, MongoDB, NodeJS, Web Development, Frontend",
+  openGraph: {
+    images: [
+      {
+        url: `https://austinmargarone.com/meta.png`,
+        width: 1200,
+        height: 630,
+        alt: "Full Stack Developer",
+      },
+    ],
+  },
 };
 
 export default async function Project({ params }: Props) {
