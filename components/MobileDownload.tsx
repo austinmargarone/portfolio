@@ -1,7 +1,7 @@
 import React from "react";
 import { Resume } from "./svg";
 
-const Download: React.FC = () => {
+const MobileDownload: React.FC = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href = `${window.location.origin}/AustinsResume.pdf`;
@@ -18,19 +18,17 @@ const Download: React.FC = () => {
   return (
     <button
       onClick={downloadResume}
-      className="flex content-center gap-[.1875rem]"
+      className="flex w-[10rem] content-center justify-center gap-[.1875rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]"
     >
       <Resume
-        className="fill-slate dark:fill-white1"
+        className="my-auto fill-white"
         width={20}
         height={20}
         alt="Download"
       />
-      <p className="text-[1rem] font-semibold not-italic text-slate dark:text-white1">
-        Resume
-      </p>
+      <p className="boldbody sm:boldp text-white1 underline">Resume</p>
     </button>
   );
 };
 
-export default Download;
+export default MobileDownload;
