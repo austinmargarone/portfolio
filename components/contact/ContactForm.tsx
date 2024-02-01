@@ -47,7 +47,7 @@ export default function ContactForm() {
     <>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="mx-auto flex max-w-[22rem] flex-col gap-[1.25rem] px-[1.5rem] py-[3rem] sm:max-w-full md:mx-0 lg:w-[37.5rem] xl:w-[50.3rem]"
+        className="mx-auto flex max-w-[22rem] flex-col gap-[1.25rem] py-[3rem] sm:max-w-full md:mx-0 lg:w-[37.5rem] xl:w-[50.3rem]"
         ref={form}
       >
         <div>

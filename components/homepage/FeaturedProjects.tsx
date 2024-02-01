@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const FeaturedProjects = () => {
   return (
-    <section className="mx-[.33rem] flex w-fit flex-col justify-center pt-[3rem] xs:mx-auto xs:max-w-[21.5rem] ss:max-w-[25rem] sm:max-w-[40rem] md:max-w-[60rem] xl:max-w-[80rem]">
+    <section className="flex w-fit max-w-[21.5rem] flex-col justify-center pt-[3rem] ss:max-w-[25rem] sm:max-w-[40rem] md:max-w-[60rem] xl:max-w-[80rem]">
       <div className="my-[3rem] flex flex-col gap-[2.25rem] md:my-[4.5rem] md:gap-[3rem]">
         <h2 className="dark:text-white">
           Featured <span className="underline-magic w-fit">Projects</span>
