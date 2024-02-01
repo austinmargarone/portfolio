@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import useThemeState from "@/store/themeStore";
 import { Resume, Nav, Moon, Union } from "@/components/svg";
 import { usePathname } from "next/navigation";
+import Download from "./Download";
 
 const Navbar = () => {
   const { theme, toggleTheme } = useThemeState();
@@ -132,26 +133,7 @@ const Navbar = () => {
                       </button>
                     </li>
                     <li>
-                      <Link
-                        href="https://www.linkedin.com/in/austin-margarone/"
-                        target="_blank"
-                      >
-                        <button
-                          onClick={toggleMenu}
-                          className="flex w-[10rem] content-center justify-center gap-[.1875rem] rounded-[.33rem] bg-blue p-[.25rem] dark:bg-blue1 sm:w-[15rem] sm:p-[.5rem]"
-                        >
-                          <Resume
-                            className="my-auto fill-white"
-                            width={20}
-                            height={20}
-                            alt="Download"
-                          />
-
-                          <p className="boldbody sm:boldp text-white1 underline">
-                            Resume
-                          </p>
-                        </button>
-                      </Link>
+                      <Download />
                     </li>
                   </ul>
                 </div>
