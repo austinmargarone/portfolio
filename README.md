@@ -2,6 +2,9 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+![Preview Image](preview.png)
+
+
 ## Description
 
 Welcome to My Developer Profile! This repository contains the codebase for my developer profile application. This serves as a portfolio website to showcase my developer portfolio, featuring the technologies that I use and the projects taht i've built. Whether you're looking to hire a developer or just browse my work, My application provides a comprehensive overview of my expereience and expertise.
