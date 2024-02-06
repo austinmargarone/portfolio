@@ -1,6 +1,6 @@
-# Contributing to Digital_Rain
+# Contributing to my Portfolio
 
-Welcome to Digital_Rain! We're thrilled that you'd like to contribute to our project. 
+Welcome to My Portfolio! We're thrilled that you'd like to contribute to our project. 
 
 Before getting started, please take a moment to review the guidelines below.
 
@@ -30,10 +30,8 @@ Before getting started, please take a moment to review the guidelines below.
 
 ## Reporting Issues
 
-If you encounter any issues or bugs while using [Project Name], please report them by creating a new issue in the GitHub repository. Provide detailed information about the problem, including steps to reproduce it if possible.
+If you encounter any issues or bugs while using My Portfolio, please report them by creating a new issue in the GitHub repository. Provide detailed information about the problem, including steps to reproduce it if possible.
 
 ## Contact
 
-If you have any questions or need further assistance, feel free to reach out to [Your Name] at [your@email.com].
-
-W
+If you have any questions or need further assistance, feel free to reach out to Austin Margarone at austin@margarone.dev.
