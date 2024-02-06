@@ -46,7 +46,7 @@ To set up the project locally, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone github.com/austinmargarone/portfolio.git)
+   git clone github.com/austinmargarone/portfolio.git
    ```
 2. Navigate to the project directory:
 
