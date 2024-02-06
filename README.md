@@ -1,8 +1,8 @@
-# Realtor Profile
+# Developer Profile
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-![Preview Image](preview.png)
+![Preview Image](devpreview.png)
 
 
 ## Description
