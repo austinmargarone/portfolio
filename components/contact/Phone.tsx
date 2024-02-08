@@ -16,13 +16,13 @@ const Email = () => {
       <ToastContainer />
       <button
         onClick={() => {
-          copyText("15855451757");
+          copyText("15855015690");
           notify();
         }}
         className="flex items-center gap-[.82rem] pt-[.88rem]"
       >
         <Image src="/Call.svg" width={30} height={30} alt="Phone" />
-        <p className="boldp md:boldbase text-grey">1-585-545-1757</p>
+        <p className="boldp md:boldbase text-grey">1-585-501-5690</p>
       </button>
     </>
   );
