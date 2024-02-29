@@ -21,20 +21,20 @@ const FeaturedProjects = () => {
             featuredImage={"/Hipnode.png"}
           />
           <FeatProjectsCard
-            title={"Realtor Profile - A Real Estate Profile"}
-            tech={"NextJS"}
-            tech1={"Sanity"}
-            link={"/casestudies/realtor-profile"}
-            bg={"bg-red"}
-            featuredImage={"/realtor.png"}
-          />
-          <FeatProjectsCard
             title={"Morrent - A Car Rental Application"}
             tech={"Next.js"}
             tech1={"MongoDB"}
             link={"/casestudies/morrent"}
             bg={"bg-blue1"}
             featuredImage={"/Morrent.png"}
+          />
+          <FeatProjectsCard
+            title={"Filmpire - Effortlessly Discover Movies"}
+            tech={"NextJS"}
+            tech1={"Material UI"}
+            link={"/casestudies/filmpire"}
+            bg={"bg-red"}
+            featuredImage={"/Filmpire.png"}
           />
         </div>
         <div>
