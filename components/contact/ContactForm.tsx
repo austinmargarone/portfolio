@@ -5,6 +5,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function ContactForm() {
   const {
@@ -17,6 +19,23 @@ export default function ContactForm() {
   });
 
   const form = useRef(null);
+
+  const notify = () =>
+    toast("Form submitted successfully!", {
+      position: "top-center",
+      autoClose: 4200,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      style: {
+        backgroundColor: "#FFFFFF",
+        color: "#151E2C",
+        borderRadius: "10px",
+        border: "2px solid #151E2C",
+      },
+    });
 
   const sendEmail = () => {
     emailjs
@@ -41,6 +60,7 @@ export default function ContactForm() {
   const onSubmit = async (data: SignUpSchema) => {
     sendEmail();
     reset();
+    notify();
   };
 
   return (
@@ -93,6 +113,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="justify-end md:flex">
+          <ToastContainer />
           <button
             disabled={isSubmitting}
             type="submit"
