@@ -1,5 +1,12 @@
 [
   {
+    "id": 2,
+    "name": "Christopher Soltis",
+    "title": "Software Engineer",
+    "content": "Austin has rapidly proven himself to be an exceptional software developer showing a remarkable aptitude for quickly mastering new challenges and an inventive approach to problem-solving. His ability to work collaboratively and offer support to teammates not only highlights his technical skills but also underscores his value as a phenomenal team player. Austin's dedication and passion for learning makes him a standout developer who I am confident will make significant contributions to the tech industry.",
+    "image": "/Chris.jpeg"
+  },
+  {
     "id": 1,
     "name": "Brandon Etter",
     "title": "Full Stack Developer",
