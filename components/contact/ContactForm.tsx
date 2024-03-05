@@ -34,6 +34,7 @@ export default function ContactForm() {
         color: "#151E2C",
         borderRadius: "10px",
         border: "2px solid #151E2C",
+        boxShadow: "0px 0px 10px 0px #151E2C",
       },
     });
 
