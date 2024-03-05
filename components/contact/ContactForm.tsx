@@ -75,7 +75,7 @@ export default function ContactForm() {
           <input
             {...register("name")}
             type="name"
-            className="textbox h-[3.5rem] max-w-[18rem] pl-3 shadow-md sm:max-w-full md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox h-[3.5rem] w-full pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="name"
             required
           />
@@ -88,7 +88,7 @@ export default function ContactForm() {
           <input
             {...register("email")}
             type="email"
-            className="textbox h-[3.75rem] max-w-[18rem] pl-3 shadow-md sm:max-w-full md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox h-[3.5rem] w-full pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="email"
           />
         </div>
@@ -97,7 +97,7 @@ export default function ContactForm() {
           <input
             {...register("phone")}
             type="phone"
-            className="textbox h-[3.75rem] max-w-[18rem] pl-3 shadow-md sm:max-w-full md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox h-[3.5rem] w-full pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="phone"
           />
         </div>
@@ -108,7 +108,7 @@ export default function ContactForm() {
           <input
             {...register("description")}
             type="description"
-            className="textbox min-h-[11.875rem] max-w-[18rem] pl-3 shadow-md sm:max-w-full md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
+            className="textbox h-[3.5rem] w-full pl-3 shadow-md md:h-[5rem] md:w-[47.6875rem] lg:w-[35rem] xl:w-[47.6875rem]"
             name="description"
           />
         </div>
