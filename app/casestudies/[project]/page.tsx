@@ -41,7 +41,7 @@ export default async function Project({ params }: Props) {
   const project = await getProject(slug);
   return (
     <>
-      <div className="overflow-x-hidden [&>section]:xs:max-w-[35rem] [&>section]:ss:max-w-[45rem] [&>section]:sm:max-w-[60rem] [&>section]:md:max-w-[80rem] [&>section]:lg:max-w-[100rem] [&>section]:xl:max-w-[115rem]">
+      <div className="overflow-x-hidden [&>section]:xs:max-w-[35rem] [&>section]:ss:max-w-[45rem] [&>section]:sm:max-w-[60rem] [&>section]:md:max-w-[80rem] [&>section]:lg:max-w-[100rem] [&>section]:xl:max-w-[150rem]">
         <section>
           <Hero
             title={project.title}
