@@ -16,7 +16,7 @@ const ContactInfo = () => {
               href="https://www.linkedin.com/in/austin-margarone/"
               target="_blank"
             >
-              <div>
+              <div className="transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                 <Image
                   src="/Social.svg"
                   width={24}
@@ -26,7 +26,7 @@ const ContactInfo = () => {
               </div>
             </Link>
             <Link href="https://github.com/austinmargarone" target="_blank">
-              <div>
+              <div className="transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                 <GitHubIcon2 width={24} height={24} alt="Github Link" />
               </div>
             </Link>
@@ -37,7 +37,7 @@ const ContactInfo = () => {
                 href="https://www.linkedin.com/in/austin-margarone/"
                 target="_blank"
               >
-                <div>
+                <div className="transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                   <Image
                     src="/Social.svg"
                     width={30}
@@ -47,7 +47,7 @@ const ContactInfo = () => {
                 </div>
               </Link>
               <Link href="https://github.com/austinmargarone" target="_blank">
-                <div>
+                <div className="transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                   <GitHubIcon2 width={30} height={30} alt="Github Link" />
                 </div>
               </Link>
