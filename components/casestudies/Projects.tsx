@@ -11,7 +11,7 @@ export default async function Projects(cases: any) {
       >
         <div
           style={{ backgroundColor: cases.bg }}
-          className=" mx-auto flex w-[20rem] shrink-0 flex-col rounded-[.62725rem] border border-black bg-blue1 pb-[.32rem] pt-[2.83rem] hover:shadow-lg xs:w-[23rem] ss:w-[25rem] sm:h-[20.8rem] sm:w-[34.375rem] sm:pt-[4.25rem]"
+          className=" mx-auto flex w-[20rem] shrink-0 flex-col rounded-[.62725rem] border border-black bg-blue1 pb-[.32rem] pt-[2.83rem] hover:shadow-lg xs:w-[21.5rem] ss:w-[25rem] sm:h-[20.8rem] sm:w-[34.375rem] sm:pt-[4.25rem]"
         >
           <Link href={cases.case_study} className="mx-auto">
             <div className="mx-auto flex sm:hidden">
@@ -26,9 +26,10 @@ export default async function Projects(cases: any) {
               <div className="absolute pl-[1.45rem] pt-[.5rem]">
                 <Image
                   src={cases.image}
-                  width={239}
-                  height={134}
+                  width={249}
+                  height={150}
                   alt="Project Image"
+                  className="h-[150px] w-[240px]"
                 />
               </div>
             </div>
@@ -49,12 +50,13 @@ export default async function Projects(cases: any) {
                   width={355}
                   height={206}
                   alt="Project Image"
+                  className="h-[220px] w-[355px]"
                 />
               </div>
             </div>
           </Link>
         </div>
-        <div className="mx-auto flex justify-between pl-[1.5rem] pt-[1.22rem] sm:pl-[3.6rem] sm:pt-[1.95rem]">
+        <div className="mx-auto flex justify-between pl-[1.25rem] pt-[1.22rem] sm:pl-[3.6rem] sm:pt-[1.95rem]">
           <Link href={cases.case_study}>
             <div className="flex-col">
               <h4 className="boldp sm:projectstitlelg flex dark:text-white">
