@@ -17,38 +17,22 @@ export default async function Projects(cases: any) {
             <div className="mx-auto flex sm:hidden">
               <div>
                 <Image
-                  src="/Computer.svg"
+                  src={cases.image}
                   width={290}
                   height={165}
                   alt="Computer"
-                />
-              </div>
-              <div className="absolute pl-[1.45rem] pt-[.5rem]">
-                <Image
-                  src={cases.image}
-                  width={249}
-                  height={150}
-                  alt="Project Image"
-                  className="h-[150px] w-[240px]"
+                  className="h-[165px] w-[290px]"
                 />
               </div>
             </div>
             <div className="mx-auto hidden sm:flex">
               <div>
                 <Image
-                  src="/Computer.svg"
+                  src={cases.image}
                   width={430}
                   height={255}
                   alt="Computer"
-                />
-              </div>
-              <div className="absolute pl-[2.15rem] pt-[1rem]">
-                <Image
-                  src={cases.image}
-                  width={355}
-                  height={206}
-                  alt="Project Image"
-                  className="h-[220px] w-[355px]"
+                  className="h-[255px] w-[430px]"
                 />
               </div>
             </div>
