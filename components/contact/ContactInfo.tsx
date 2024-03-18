@@ -32,7 +32,7 @@ const ContactInfo = () => {
             </Link>
           </div>
           <div className="hidden  md:block">
-            <div className="flex gap-[2.25rem] pl-[2.5rem] pt-[.88rem]">
+            <div className="flex gap-[2.25rem] pt-[.88rem]">
               <Link
                 href="https://www.linkedin.com/in/austin-margarone/"
                 target="_blank"
