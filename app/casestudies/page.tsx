@@ -33,7 +33,7 @@ export default async function sanity() {
       <div>
         <Heading />
       </div>
-      <div className="mx-auto mb-[3rem] flex flex-col gap-[1.25rem] sm:mb-[4.5rem] sm:flex-row sm:flex-wrap sm:gap-[2.25rem]">
+      <div className="mx-auto mb-[3rem] flex flex-col gap-[1.25rem] sm:mb-[4.5rem] sm:flex-row sm:flex-wrap">
         {cases
           .sort((a, b) => parseInt(a.id.toString()) - parseInt(b.id.toString()))
           .map((item, index) => (

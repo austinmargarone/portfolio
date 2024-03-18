@@ -7,20 +7,20 @@ export default async function Projects(cases: any) {
     <div className="p8shadow dark:p8shadowdark sm:[365px] mt-[1.5rem] w-[325px] pb-[1.5rem] lg:w-[429px]">
       <div className="flex lg:hidden">
         <Image
-          className="rounded-t-[1.25rem]"
+          className="h-[106px] w-[365px] rounded-t-[1.25rem]"
           src={cases.image}
           width={365}
           height={186}
-          alt="Jobit"
+          alt={cases.title}
         />
       </div>
       <div className="hidden lg:block">
         <Image
-          className="rounded-t-[1.25rem]"
+          className="mt-[.33rem] h-[232px] w-[429px] rounded-t-[1.25rem]"
           src={cases.image}
           width={429}
           height={232}
-          alt="Jobit"
+          alt={cases.title}
         />
       </div>
       <div className="mt-[1.5rem]">
