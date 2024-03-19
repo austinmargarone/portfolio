@@ -23,8 +23,8 @@ const Hero = (props: Props) => {
         <div className="my-[1.5rem] hidden sm:block">
           <Image
             src={props.desktop}
-            width={1000}
-            height={800}
+            width={900}
+            height={424}
             alt="Desktop View"
             quality={100}
           />
