@@ -1,6 +1,6 @@
 import React from "react";
 import WorkExpCard from "./WorkExpCard";
-import { EcIn, LineExp, EcOut } from "@/components/svg";
+import Image from "next/image";
 
 type Props = {};
 
@@ -18,46 +18,22 @@ const WorkExp = (props: Props) => {
           </p>
           <div className="flex shrink-0 md:hidden">
             <div className="flex pt-[1.25rem]">
-              <LineExp
-                className="w-[211px] stroke-white dark:stroke-black"
-                alt="Line"
-              />
-            </div>
-            <div className="flex">
-              <EcIn
-                className="stroke-white stroke-1 dark:stroke-black"
-                width={58}
+              <Image
+                src={"/Line&Ball.png"}
+                alt={"Line & Ball"}
+                width={269}
                 height={58}
-                alt="Eclipesout"
-              />
-              <EcOut
-                className="absolute ml-3 mt-3 flex fill-white dark:fill-black"
-                width={34}
-                height={34}
-                alt="Eclipesin"
               />
             </div>
           </div>
           <div className="hidden md:flex">
             <div className="flex shrink-0 content-center">
-              <div className="flex pt-[1.52rem]">
-                <LineExp
-                  className="w-[286px] stroke-white dark:stroke-black"
-                  alt="Line"
-                />
-              </div>
               <div className="flex">
-                <EcIn
-                  className="stroke-white dark:stroke-black"
-                  width={70}
+                <Image
+                  src={"/Line&Ball.png"}
+                  alt={"Line & Ball"}
+                  width={356}
                   height={70}
-                  alt="Eclipesout"
-                />
-                <EcOut
-                  className="absolute ml-3 mt-3 flex fill-white dark:fill-black"
-                  width={44}
-                  height={44}
-                  alt="Eclipesin"
                 />
               </div>
             </div>
