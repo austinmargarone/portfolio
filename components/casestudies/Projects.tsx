@@ -12,7 +12,7 @@ export default async function Projects(cases: any) {
         <Link href={cases.case_study} className="mx-auto">
           <div
             style={{ backgroundColor: cases.bg }}
-            className=" mx-auto flex w-[20rem] shrink-0 flex-col rounded-[.62725rem] border border-black bg-blue1 pb-[.32rem] pt-[2.83rem] hover:shadow-lg xs:w-[21.5rem] ss:w-[25rem] sm:h-[20.8rem] sm:w-[34.375rem] sm:pt-[4.25rem]"
+            className=" mx-auto flex w-[20rem] shrink-0 flex-col rounded-[.62725rem] bg-blue1 pb-[.32rem] pt-[2.83rem] hover:shadow-lg xs:w-[21.5rem] ss:w-[25rem] sm:h-[20.8rem] sm:w-[34.375rem] sm:pt-[4.25rem]"
           >
             <div className="mx-auto flex sm:hidden">
               <div>
@@ -26,7 +26,7 @@ export default async function Projects(cases: any) {
               </div>
             </div>
             <div className="mx-auto hidden sm:flex">
-              <div>
+              <div className="pt-[1rem]">
                 <Image
                   src={cases.image}
                   width={430}

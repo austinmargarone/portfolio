@@ -29,7 +29,7 @@ export default async function sanity() {
   const cases = await getCases();
 
   return (
-    <div className="mx-auto max-w-[21.5rem] overflow-x-hidden ss:max-w-[25rem] sm:max-w-[50rem] md:max-w-[50rem] lg:max-w-[90rem] ">
+    <div className="mx-auto max-w-[21.5rem] overflow-x-hidden ss:max-w-[25rem] sm:max-w-[50rem] md:max-w-[55rem] lg:max-w-[84rem]">
       <div>
         <Heading />
       </div>
