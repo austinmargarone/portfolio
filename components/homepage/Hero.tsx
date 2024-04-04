@@ -5,8 +5,8 @@ import Email from "./Email";
 
 const Hero = () => {
   return (
-    <div className="mx-auto flex w-fit max-w-[21.5rem] flex-col justify-center bg-white1 px-[.33rem] pb-[2rem] pt-[3rem] dark:bg-darkbg ss:max-w-[25rem] sm:max-w-[38rem] md:max-w-[63rem] md:flex-row lg:max-w-[75rem] xl:max-w-[100rem]">
-      <div className="mx-auto flex flex-col xs:w-full md:w-1/2">
+    <div className="mx-auto flex w-fit max-w-[21.5rem] flex-col justify-center bg-white1 px-[.33rem] pb-[2rem] pt-[3rem] dark:bg-darkbg ss:max-w-[25rem] sm:max-w-[38rem] md:max-w-[63rem] md:flex-row lg:h-screen lg:max-w-[75rem] lg:pb-[12rem] lg:pt-0 xl:max-w-[100rem]">
+      <div className="mx-auto flex flex-col xs:w-full md:w-1/2 lg:m-auto">
         <h4 className="title mb-[1.25rem] text-blue dark:text-blue1 md:mb-[1.69rem]">
           HI, I AM AUSTIN
         </h4>
