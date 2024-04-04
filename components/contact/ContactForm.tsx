@@ -113,7 +113,7 @@ export default function ContactForm() {
             name="description"
           />
         </div>
-        <div className="justify-end md:flex">
+        <div className="justify-end md:flex md:w-[47.6875rem] md:pt-[1rem] lg:w-[35rem] xl:w-[47.6875rem]">
           <ToastContainer />
           <button
             disabled={isSubmitting}
