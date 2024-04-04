@@ -4,9 +4,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="flex">
+    <div className="flex py-[48px] lg:py-[72px]">
       {/* Mobile */}
-      <div className="contact relative mx-auto mb-[3rem] flex h-[19.4375rem] w-[20rem] xs:w-[21rem] sm:hidden">
+      <div className="contact relative mx-auto flex h-[19.4375rem] w-[20rem] xs:w-[21rem] sm:hidden">
         <div>
           <div className="absolute shrink-0">
             <Image
