@@ -172,7 +172,7 @@ const Navbar = () => {
           </div>
         )}
         {/* Mobile Nav End */}
-        <div className="my-auto mr-[1.5rem] hidden items-center md:mr-[5.31rem] md:block">
+        <div className="mr-[1.5rem] hidden items-center md:mr-[5.31rem] md:block">
           <ul className="flex gap-[2.25rem] dark:text-white1">
             <li
               className={`text-[1rem] font-semibold not-italic ${
