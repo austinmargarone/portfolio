@@ -33,7 +33,7 @@ const cases = {
       ],
     },
     {
-      name: "caseStudy",
+      name: "case_study",
       title: "Case Study",
       type: "string",
     },
